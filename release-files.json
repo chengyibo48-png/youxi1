@@ -1,0 +1,12 @@
+{
+  "runtime": [
+    "index.html", "icon.svg", "style.css", "lore.js", "journey81.js",
+    "systems.js", "chapters.js", "balance.js", "item-pool.js", "rooms.js",
+    "audio.js", "progression.js", "room-content.js", "game.js"
+  ],
+  "development": [
+    "smoke-test.js", "room-test.js", "browser-test.js", "package.json",
+    ".gitignore", "README.md", "LICENSE", "更新说明-1.9.md", "REVIEW.md",
+    "release-files.json", "check-release.js", "pack-release.ps1"
+  ]
+}

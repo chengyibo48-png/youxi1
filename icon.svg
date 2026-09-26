@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="重生之我也要取经：金箍棒与经卷">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#293b49"/><stop offset="1" stop-color="#12232c"/></linearGradient>
+    <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#fff1b9"/><stop offset=".48" stop-color="#e4bb64"/><stop offset="1" stop-color="#9b623f"/></linearGradient>
+    <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#fff3d7"/><stop offset="1" stop-color="#cba879"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="94" fill="#0c1820"/>
+  <rect x="22" y="22" width="468" height="468" rx="74" fill="url(#sky)" stroke="#d4a760" stroke-width="16"/>
+  <circle cx="331" cy="177" r="96" fill="#d8875c"/>
+  <path d="M68 312 168 194l65 67 66-104 139 155v108H68Z" fill="#314b4a"/>
+  <path d="m68 346 101-73 82 56 84-73 109 86v74H68Z" fill="#4b6859"/>
+  <path d="M74 390c46-17 83-16 119 1 42 20 74 19 121-2 47-21 81-15 128 2" fill="none" stroke="#7aa49a" stroke-width="12" stroke-linecap="round"/>
+  <g transform="rotate(34 256 256)">
+    <rect x="236" y="56" width="40" height="389" rx="14" fill="url(#gold)" stroke="#6f4531" stroke-width="8"/>
+    <rect x="226" y="64" width="60" height="35" rx="11" fill="#f7d98d" stroke="#754831" stroke-width="7"/>
+    <rect x="226" y="402" width="60" height="35" rx="11" fill="#f7d98d" stroke="#754831" stroke-width="7"/>
+    <path d="M252 119v264" stroke="#fff2b9" stroke-width="8" opacity=".62"/>
+  </g>
+  <g transform="rotate(-8 178 379)">
+    <rect x="87" y="338" width="180" height="100" rx="17" fill="url(#paper)" stroke="#714b37" stroke-width="9"/>
+    <path d="M110 365h129M110 386h107M110 408h126" stroke="#9c7961" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="206" cy="388" r="31" fill="#b44c3f" stroke="#f5d6a0" stroke-width="5"/>
+    <path d="m195 382 10 10 15-20" fill="none" stroke="#ffe8b5" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <path d="M100 141c11-15 28-18 43-7 10-17 36-18 47 1h26M307 83c13-18 39-18 51-1 11-13 30-12 40 1" fill="none" stroke="#e9d8b9" stroke-width="10" stroke-linecap="round" opacity=".9"/>
+</svg>

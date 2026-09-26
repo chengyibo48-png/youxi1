@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#101b24" />
+  <title>重生之我也要取经 | 西游像素肉鸽</title>
+  <link rel="icon" type="image/svg+xml" href="./icon.svg" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="page">
+    <div class="game-shell" id="game-shell" aria-label="重生之我也要取经游戏区域">
+      <canvas id="game" width="720" height="720" aria-label="正方形战斗场地"></canvas>
+      <div id="screen" class="screen" role="dialog" aria-live="polite"></div>
+      <div id="touch-controls" class="touch-controls" aria-label="触屏操作">
+        <button id="touch-pause" class="touch-pause" type="button" aria-label="暂停游戏">暂停</button>
+        <div id="joystick" class="joystick"><div id="joystick-knob" class="joystick-knob"></div></div>
+        <div class="touch-actions">
+          <button id="touch-relic" type="button" aria-label="使用法宝"><span>法宝</span><small id="touch-relic-name">空</small></button>
+          <button id="touch-dash" type="button" aria-label="闪避"><span>闪避</span><small id="touch-dash-cd">就绪</small></button>
+          <button id="touch-skill" type="button" aria-label="施放技能"><span>技能</span><small id="touch-skill-cd">就绪</small></button>
+        </div>
+      </div>
+    </div>
+    <p class="footer-note">重生之我也要取经 · 1.9 <span>原创像素风单人幸存者游戏</span></p>
+  </main>
+  <script src="./lore.js"></script>
+  <script src="./journey81.js"></script>
+  <script src="./systems.js"></script>
+  <script src="./chapters.js"></script>
+  <script src="./balance.js"></script>
+  <script src="./item-pool.js"></script>
+  <script src="./rooms.js"></script>
+  <script src="./audio.js"></script>
+  <script src="./progression.js"></script>
+  <script src="./room-content.js"></script>
+  <script src="./game.js"></script>
+</body>
+</html>

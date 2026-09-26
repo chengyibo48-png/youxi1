@@ -1,0 +1,27 @@
+# Generated files and local dependencies
+node_modules/
+dist/
+qa-*/
+*.zip
+*.log
+.DS_Store
+Thumbs.db
+
+# Local credentials and hosting state
+.env
+.env.*
+.npmrc
+*.pem
+*.key
+*.pfx
+.netlify/
+.vercel/
+.wrangler/
+.openai/
+.codex/
+.publisher/
+.publish-tmp/
+.npm-cache/
+.pnpm-store/
+*私用*
+*认领*

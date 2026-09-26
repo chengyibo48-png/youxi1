@@ -1,0 +1,14 @@
+{
+  "name": "youxi1",
+  "version": "1.9.0",
+  "private": true,
+  "description": "重生之我也要取经：西游像素肉鸽小游戏",
+  "license": "GPL-3.0",
+  "scripts": {
+    "test": "node room-test.js",
+    "test:browser": "node browser-test.js",
+    "check:release": "node check-release.js"
+  },
+  "engines": { "node": ">=20" },
+  "devDependencies": { "playwright": "1.62.1" }
+}

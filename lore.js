@@ -1,0 +1,52 @@
+// 关卡与地名按《西游记》原著回目先后编排；剧情和台词是原创转述。
+// 原著目录：https://zh.wikisource.org/zh-hans/西游記
+window.XIYOU_LORE = {
+  stages: [
+    {ch:13,place:"双叉岭",boss:"寅将军",type:"tiger",pattern:"charge",biome:"wild",accent:"#db9e66",mobs:["jackal","wolf","tiger"],story:"唐三藏初离长安，夜宿双叉岭。虎穴中妖气深重，太白金星将他从险境救出；伯钦随后护送他走向两界山。",bridge:"再往西，五行山下的石猴归正，鹰愁涧收得白龙马。",intro:"唐朝来的和尚，入了我这虎穴，还往何处走？",attack:["山林是我的地盘！","让你见识双叉岭的爪牙！"],defeat:"长路未尽，虎穴先破。"},
+    {ch:16,place:"黑风山",boss:"黑熊精",type:"bear",pattern:"charge",biome:"forest",accent:"#a9b987",mobs:["wolf","bearling","bat"],story:"观音禅院的一场火后，锦襕袈裟不翼而飞。线索指向黑风山，黑熊精正筹办佛衣会。",bridge:"高老庄的风波在前，悟空将收服猪悟能，再行黄风岭。",intro:"好一领锦襕袈裟，既到了黑风山，便由我保管！",attack:["黑风起，莫要近身！","袈裟在此，有本事来取！"],defeat:"黑风散去，袈裟重归。"},
+    {ch:20,place:"黄风岭",boss:"黄风怪",type:"wind",pattern:"fan",biome:"desert",accent:"#e0c178",mobs:["jackal","wolf","windling"],story:"岭上黄沙遮天，虎先锋掳走唐僧。黄风洞中三昧神风待发，灵吉菩萨的定风之法是破局关键。",bridge:"渡过黄风岭，流沙河畔又有旧将归队，沙悟净自此同行。",intro:"三昧神风一吹，任你火眼金睛也辨不清方向！",attack:["起风！","黄沙万里，遮你双目！"],defeat:"风停沙落，流沙河在前。"},
+    {ch:27,place:"白虎岭",boss:"白骨精",type:"bone",pattern:"illusion",biome:"grave",accent:"#ded9cf",mobs:["leopard","bonelet","bat"],story:"白虎岭上，尸魔三次变幻人形，试图离间师徒。真正的敌人藏在表象之后。",bridge:"误会未解，队伍行至宝象国，黄袍怪的旧缘渐露端倪。",intro:"你们看见的，未必就是你们相信的。",attack:["再换一副皮相如何？","真假难辨，正合我意。"],defeat:"幻形尽散，白骨现身。"},
+    {ch:28,place:"碗子山·宝象国",boss:"黄袍怪",type:"robe",pattern:"fan",biome:"night",accent:"#a8a4d4",mobs:["wolf","leopard","shade"],story:"黑松林与波月洞之间，百花羞公主被困多年。黄袍怪的星宿前缘，牵动宝象国的命运。",bridge:"向西越过平顶山，莲花洞中另有两位魔王。",intro:"波月洞里，轮不到旁人评说我的旧缘！",attack:["星光落下！","你们走不出这片黑松林。"],defeat:"公主得救，宝象国重见天日。"},
+    {ch:32,place:"平顶山·莲花洞",boss:"金角大王",type:"horn",pattern:"trap",biome:"cave",accent:"#e1bc73",mobs:["stone","jackal","shade"],story:"平顶山上，金角银角凭借数件宝贝设伏。紫金葫芦与羊脂玉净瓶，令取经人步步受制。",bridge:"关外道路继续西行，乌鸡国的冤案过后，号山火云洞的烈焰渐近。",intro:"叫得出你的名字，便有法宝应声！",attack:["银角，随我布阵！","看我的紫金葫芦！"],defeat:"宝贝归原主，莲花洞的迷局终破。"},
+    {ch:40,place:"号山·火云洞",boss:"红孩儿",type:"fire",pattern:"fire",biome:"ember",accent:"#ef8865",mobs:["fireling","jackal","wolf"],story:"红孩儿假作求救孩童，将唐僧掳入火云洞。三昧真火灼得山路通红，取经人须熬过烈焰。",bridge:"向西经历黑水河、车迟国，斗法之约已在前方。",intro:"我乃圣婴大王！尝尝这三昧真火！",attack:["火尖枪，起！","真火不灭，休想过去！"],defeat:"烈火熄下，火云洞重归平静。",unlock:"wukong-hidden"},
+    {ch:44,place:"车迟国",boss:"虎力大仙",type:"tiger",pattern:"trap",biome:"city",accent:"#d6b574",mobs:["tiger","jackal","guard"],story:"车迟国中道士受宠、僧人服役。虎力大仙与同伴设下斗法，胜负关乎满城众生。",bridge:"过了车迟国，通天河的寒水挡住去路。",intro:"在车迟国，求雨斗法便见真章！",attack:["开坛！","此局由我定规矩。"],defeat:"斗法既定，僧众得释。"},
+    {ch:47,place:"通天河",boss:"灵感大王",type:"fish",pattern:"wave",biome:"river",accent:"#8ecdd4",mobs:["fishling","shade","stone"],story:"通天河畔陈家庄年年祭童。河中妖怪借灵感大王之名兴风作浪，冰封河面又藏陷阱。",bridge:"出河西行，金兜山上青牛精持圈等候。",intro:"河水漫天，谁能过我的通天河？",attack:["水势涨了！","冰下也有我的路。"],defeat:"鱼篮收妖，河水复归安宁。",unlock:"shaseng-hidden"},
+    {ch:50,place:"金兜山",boss:"青牛精",type:"bull",pattern:"trap",biome:"cave",accent:"#a3c2c3",mobs:["stone","bulllet","guard"],story:"金兜洞前独角兕大王以金刚琢套走兵器。蛮力难破此圈，必须看清法宝来历。",bridge:"取经人过子母河与西梁女国，毒敌山的琵琶洞又挡在前方。",intro:"再好的兵器，遇我金刚琢也留不住！",attack:["收！","空手又如何与我斗？"],defeat:"宝圈收回，兵刃复得。"},
+    {ch:55,place:"毒敌山·琵琶洞",boss:"蝎子精",type:"scorpion",pattern:"trap",biome:"web",accent:"#bc93a8",mobs:["scorpionlet","spiderlet","shade"],story:"离开西梁女国，毒敌山中又有琵琶洞。蝎子精尾钩剧毒，连神佛也不肯轻易近身。",bridge:"真假美猴王之难后，火焰山八百里热浪横在西行路上。",intro:"进了琵琶洞，便尝一尝我的倒马毒桩！",attack:["尾钩落！","毒敌山可不是好走的路。"],defeat:"尾钩折下，毒敌山终得安宁。"},
+    {ch:59,place:"火焰山",boss:"牛魔王",type:"bull",pattern:"charge",biome:"ember",accent:"#df826b",mobs:["fireling","bulllet","jackal"],story:"火焰山八百里不熄，芭蕉扇一借再借。牛魔王变幻本相挡住去路，热浪如潮。",bridge:"火退以后，师徒继续西行，终于远望一座似真似假的雷音寺。",intro:"平天大圣在此，芭蕉扇岂由你拿走！",attack:["看我原身！","火焰山的路，还没开！"],defeat:"三调芭蕉扇，烈焰终得消退。"},
+    {ch:65,place:"小雷音寺",boss:"黄眉怪",type:"brow",pattern:"trap",biome:"temple",accent:"#e6cc84",mobs:["guard","shade","stone"],story:"寺院金光灿然，却是黄眉怪假设的小雷音。金铙与人种袋接连困住众人，佛殿幻象不可信。",bridge:"离开假雷音，朱紫国的失后之痛等待解答。",intro:"进了我的小雷音，便别急着找真佛！",attack:["金铙合！","入袋来！"],defeat:"假佛殿散，西行重见真路。",unlock:"tangseng-hidden"},
+    {ch:70,place:"朱紫国·麒麟山",boss:"赛太岁",type:"beast",pattern:"fire",biome:"forest",accent:"#caac80",mobs:["leopard","wolf","fireling"],story:"朱紫国王思念金圣宫，麒麟山上的赛太岁却持紫金铃阻人。烟、沙、火三种威势轮番袭来。",bridge:"前方盘丝岭，蛛丝与毒目连成一难。",intro:"三只紫金铃响起，你们还能近身么？",attack:["放烟！","放沙！再放火！"],defeat:"金铃息声，故人得以团聚。"},
+    {ch:72,place:"盘丝岭·黄花观",boss:"百眼魔君",type:"spider",pattern:"illusion",biome:"web",accent:"#b6a6cc",mobs:["spiderlet","bat","shade"],story:"盘丝洞七妖结网，黄花观主百眼魔君又以毒光设局。山路看似安静，步步暗藏丝线。",bridge:"走出盘丝岭，狮驼岭三魔的声势远远传来。",intro:"我这千眼金光，照得你无处遁形！",attack:["毒光开！","蛛丝早已布好。"],defeat:"毒眼闭合，盘丝之困已解。"},
+    {ch:74,place:"狮驼岭",boss:"大鹏金翅雕",type:"bird",pattern:"fan",biome:"wild",accent:"#c5b4df",mobs:["lionlet","leopard","guard"],story:"狮驼岭妖众成群，三魔盘踞。青狮、白象之后，大鹏展翼，遮住了取经的天空。",bridge:"过了狮驼岭，比丘国的宫中又生祸端。",intro:"我一展翅，便是九万里；你们往哪里逃？",attack:["展翼！","狮驼岭可不是小山头。"],defeat:"鹏影远去，群妖散尽。"},
+    {ch:78,place:"比丘国",boss:"白鹿精",type:"deer",pattern:"illusion",biome:"city",accent:"#b6c99b",mobs:["deerlet","shade","guard"],story:"比丘国中，妖妃与国丈觊觎孩童心肝。白鹿精的伪装被识破，宫城中的阴谋显形。",bridge:"再经数国，师徒行至玉华州，九曲盘桓的狮妖之难近了。",intro:"国丈的话，你们也敢不听？",attack:["真身岂容轻看！","宫门一闭，谁来救你们？"],defeat:"伪国丈退去，孩童平安。"},
+    {ch:89,place:"豹头山",boss:"黄狮精",type:"lion",pattern:"charge",biome:"forest",accent:"#d7b577",mobs:["lionlet","jackal","wolf"],story:"玉华州师徒传艺，兵器却被黄狮精盗去，竟摆下钉钯宴。追至豹头山，先要夺回法器。",bridge:"黄狮败后，其祖九灵元圣自竹节山出面。",intro:"钉钯宴已摆好，你们来得正是时候！",attack:["把兵器留下！","豹头山的小妖，随我上！"],defeat:"兵器寻回，更强的狮王尚在后头。"},
+    {ch:90,place:"竹节山",boss:"九灵元圣",type:"lion",pattern:"roar",biome:"forest",accent:"#eccb89",mobs:["lionlet","guard","leopard"],story:"九灵元圣九口擒人，声势远胜诸狮。竹节山一役，太乙救苦天尊的坐骑终于被领回。",bridge:"金平府观灯后，师徒抵达天竺国，最后的假公主正待揭破。",intro:"老夫九口一张，任你有几般变化！",attack:["九灵齐啸！","小狮们，守住竹节山！"],defeat:"九灵归位，西天已不远。",unlock:"bajie-hidden"},
+    {ch:95,place:"天竺国",boss:"玉兔精",type:"rabbit",pattern:"illusion",biome:"moon",accent:"#e0c5dd",mobs:["rabbitlet","shade","guard"],story:"天竺国公主容貌依旧，身份却已调换。月宫玉兔借绣球招亲，嫦娥终来揭开真相。",bridge:"再往西，灵山在望，师徒终取得真经。",intro:"一枚绣球，便把你们的路改了方向。",attack:["月影分身！","谁能认出真正的公主？"],defeat:"玉兔归月，取经之路终见圆满。"}
+  ],
+  mobs: {
+    jackal:{name:"山豺",color:"#b59672",hp:31,speed:108,damage:9,xp:5,radius:14,type:"jackal"},
+    wolf:{name:"苍狼",color:"#84939b",hp:36,speed:105,damage:10,xp:5,radius:16,type:"wolf"},
+    tiger:{name:"虎妖",color:"#d89b62",hp:67,speed:94,damage:15,xp:9,radius:19,type:"tiger"},
+    leopard:{name:"斑豹",color:"#d3b275",hp:45,speed:141,damage:12,xp:7,radius:16,type:"leopard"},
+    bat:{name:"夜蝠",color:"#a891b7",hp:28,speed:148,damage:8,xp:5,radius:13,type:"bat"},
+    bearling:{name:"黑风山熊妖",color:"#626963",hp:66,speed:75,damage:14,xp:9,radius:19,type:"bearling"},
+    windling:{name:"黄风洞鼠妖",color:"#c9ba81",hp:38,speed:122,damage:10,xp:6,radius:15,type:"windling"},
+    bee:{name:"黄蜂小妖",color:"#d5b958",hp:28,speed:149,damage:8,xp:5,radius:12,type:"bee"},
+    tigerScout:{name:"虎先锋亲兵",color:"#cf9564",hp:52,speed:112,damage:12,xp:8,radius:17,type:"tiger"},
+    disguised:{name:"白骨幻化行人",color:"#d7cbb8",hp:40,speed:101,damage:10,xp:7,radius:16,type:"disguised"},
+    lotusling:{name:"莲花洞巡妖",color:"#bda673",hp:49,speed:98,damage:12,xp:7,radius:17,type:"lotusling"},
+    fireguard:{name:"火云洞亲卫",color:"#c96e4d",hp:57,speed:106,damage:14,xp:8,radius:17,type:"fireling"},
+    bonelet:{name:"白骨傀",color:"#d6d2c7",hp:47,speed:83,damage:11,xp:7,radius:16,type:"bonelet"},
+    shade:{name:"山精",color:"#9694aa",hp:39,speed:103,damage:10,xp:6,radius:15,type:"shade"},
+    stone:{name:"石甲小妖",color:"#899596",hp:78,speed:63,damage:16,xp:10,radius:20,type:"stone"},
+    fireling:{name:"火云童妖",color:"#de8256",hp:38,speed:94,damage:11,xp:7,radius:15,type:"fireling"},
+    guard:{name:"洞府巡妖",color:"#949c78",hp:52,speed:90,damage:12,xp:7,radius:17,type:"guard"},
+    fishling:{name:"水府鱼妖",color:"#86b7bd",hp:42,speed:113,damage:11,xp:7,radius:16,type:"fishling"},
+    bulllet:{name:"牛头小妖",color:"#9e7770",hp:75,speed:78,damage:15,xp:10,radius:19,type:"bulllet"},
+    spiderlet:{name:"盘丝蛛妖",color:"#b39bb5",hp:36,speed:130,damage:10,xp:7,radius:15,type:"spiderlet"},
+    scorpionlet:{name:"毒敌山蝎妖",color:"#bb92a3",hp:43,speed:118,damage:12,xp:8,radius:16,type:"scorpionlet"},
+    lionlet:{name:"狮驼岭小狮",color:"#c6a16c",hp:59,speed:105,damage:14,xp:9,radius:18,type:"lionlet"},
+    deerlet:{name:"白鹿随从",color:"#b4c39b",hp:41,speed:118,damage:10,xp:7,radius:16,type:"deerlet"},
+    rabbitlet:{name:"月影兔妖",color:"#dbcede",hp:37,speed:145,damage:11,xp:8,radius:15,type:"rabbitlet"}
+  }
+};
