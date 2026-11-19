@@ -1,0 +1,455 @@
+[gd_resource type="AnimationLibrary" load_steps=51 format=3]
+
+[sub_resource type="Animation" id="wukong_sweep1"]
+resource_name = "wukong_sweep1"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.08, 0.23, 0.32, 0.42, 0.57, 0.74, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.046, 1.15, -0.092), Vector3(-0.207, 2.3, -0.345), Vector3(-0.1725, 1.15, -0.207), Vector3(0.253, -2.3, 0.276), Vector3(0.115, 2.3, 0.115), Vector3(-0.046, 1.15, -0.046), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="wukong_sweep2"]
+resource_name = "wukong_sweep2"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.25, 0.32, 0.43, 0.57, 0.78, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(0.092, 1.15, 0.115), Vector3(0.23, 2.3, 0.322), Vector3(0.138, 0.0, 0.138), Vector3(-0.2645, -1.15, -0.276), Vector3(-0.115, 2.3, -0.115), Vector3(0.0345, 1.15, 0.0345), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="wukong_sweep3"]
+resource_name = "wukong_sweep3"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.24, 0.32, 0.4, 0.57, 0.76, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.0575, 2.3, -0.115), Vector3(-0.253, -4.6, -0.345), Vector3(-0.207, -3.45, -0.23), Vector3(0.322, 5.75, 0.2875), Vector3(0.1725, 4.6, 0.1725), Vector3(-0.0345, 1.15, -0.046), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="wukong_heavy"]
+resource_name = "wukong_heavy"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.08, 0.2, 0.32, 0.39, 0.57, 0.76, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.023, 2.3, -0.069), Vector3(-0.253, 4.6, -0.345), Vector3(-0.3105, 2.3, -0.2875), Vector3(0.345, 8.05, 0.345), Vector3(0.253, 6.9, 0.253), Vector3(-0.046, 2.3, -0.069), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="wukong_thrust"]
+resource_name = "wukong_thrust"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.25, 0.32, 0.4, 0.57, 0.8, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.069, 1.15, -0.115), Vector3(-0.207, 2.3, -0.2875), Vector3(-0.092, 1.15, -0.092), Vector3(0.2875, -2.3, 0.1725), Vector3(0.207, 0.0, 0.23), Vector3(-0.0345, 1.15, -0.092), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="wukong_throw"]
+resource_name = "wukong_throw"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.12, 0.25, 0.32, 0.4, 0.57, 0.8, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.0575, 1.15, -0.115), Vector3(-0.2645, 1.15, -0.368), Vector3(-0.1495, 0.0, -0.1725), Vector3(0.23, -1.15, 0.345), Vector3(0.115, 1.15, 0.23), Vector3(-0.023, 0.0, 0.0575), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="wukong_cast"]
+resource_name = "wukong_cast"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.25, 0.32, 0.45, 0.57, 0.82, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.023, 0.0, -0.092), Vector3(-0.0575, -2.3, -0.2875), Vector3(0.0, -3.45, -0.207), Vector3(0.0805, -4.6, 0.207), Vector3(0.046, -2.3, 0.138), Vector3(0.0, -1.15, 0.023), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="wukong_bow"]
+resource_name = "wukong_bow"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.26, 0.32, 0.36, 0.57, 0.8, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.0345, 1.15, -0.115), Vector3(-0.1725, 1.15, -0.4025), Vector3(-0.184, 1.15, -0.437), Vector3(0.069, -1.15, 0.23), Vector3(0.0345, 0.0, 0.069), Vector3(-0.0115, 0.0, 0.0), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="wukong_walk"]
+resource_name = "wukong_walk"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.125, 0.25, 0.375, 0.5, 0.625, 0.75, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(0.0287, -1.15, 0.092), Vector3(0.046, -2.3, 0.115), Vector3(0.023, -1.15, 0.0575), Vector3(0.0, 0.0, 0.0), Vector3(-0.0287, -1.15, -0.092), Vector3(-0.046, -2.3, -0.115), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="wukong_dash"]
+resource_name = "wukong_dash"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.08, 0.2, 0.32, 0.45, 0.57, 0.8, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.0345, 1.15, -0.092), Vector3(0.069, -2.3, 0.115), Vector3(0.138, -4.6, 0.23), Vector3(0.161, -4.6, 0.2875), Vector3(0.1035, -2.3, 0.207), Vector3(0.0345, 1.15, 0.092), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="tangseng_sweep1"]
+resource_name = "tangseng_sweep1"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.08, 0.23, 0.32, 0.42, 0.57, 0.74, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.022, 0.55, -0.044), Vector3(-0.099, 1.1, -0.165), Vector3(-0.0825, 0.55, -0.099), Vector3(0.121, -1.1, 0.132), Vector3(0.055, 1.1, 0.055), Vector3(-0.022, 0.55, -0.022), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="tangseng_sweep2"]
+resource_name = "tangseng_sweep2"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.25, 0.32, 0.43, 0.57, 0.78, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(0.044, 0.55, 0.055), Vector3(0.11, 1.1, 0.154), Vector3(0.066, 0.0, 0.066), Vector3(-0.1265, -0.55, -0.132), Vector3(-0.055, 1.1, -0.055), Vector3(0.0165, 0.55, 0.0165), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="tangseng_sweep3"]
+resource_name = "tangseng_sweep3"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.24, 0.32, 0.4, 0.57, 0.76, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.0275, 1.1, -0.055), Vector3(-0.121, -2.2, -0.165), Vector3(-0.099, -1.65, -0.11), Vector3(0.154, 2.75, 0.1375), Vector3(0.0825, 2.2, 0.0825), Vector3(-0.0165, 0.55, -0.022), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="tangseng_heavy"]
+resource_name = "tangseng_heavy"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.08, 0.2, 0.32, 0.39, 0.57, 0.76, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.011, 1.1, -0.033), Vector3(-0.121, 2.2, -0.165), Vector3(-0.1485, 1.1, -0.1375), Vector3(0.165, 3.85, 0.165), Vector3(0.121, 3.3, 0.121), Vector3(-0.022, 1.1, -0.033), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="tangseng_thrust"]
+resource_name = "tangseng_thrust"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.25, 0.32, 0.4, 0.57, 0.8, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.033, 0.55, -0.055), Vector3(-0.099, 1.1, -0.1375), Vector3(-0.044, 0.55, -0.044), Vector3(0.1375, -1.1, 0.0825), Vector3(0.099, 0.0, 0.11), Vector3(-0.0165, 0.55, -0.044), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="tangseng_throw"]
+resource_name = "tangseng_throw"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.12, 0.25, 0.32, 0.4, 0.57, 0.8, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.0275, 0.55, -0.055), Vector3(-0.1265, 0.55, -0.176), Vector3(-0.0715, 0.0, -0.0825), Vector3(0.11, -0.55, 0.165), Vector3(0.055, 0.55, 0.11), Vector3(-0.011, 0.0, 0.0275), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="tangseng_cast"]
+resource_name = "tangseng_cast"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.25, 0.32, 0.45, 0.57, 0.82, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.011, 0.0, -0.044), Vector3(-0.0275, -1.1, -0.1375), Vector3(0.0, -1.65, -0.099), Vector3(0.0385, -2.2, 0.099), Vector3(0.022, -1.1, 0.066), Vector3(0.0, -0.55, 0.011), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="tangseng_bow"]
+resource_name = "tangseng_bow"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.26, 0.32, 0.36, 0.57, 0.8, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.0165, 0.55, -0.055), Vector3(-0.0825, 0.55, -0.1925), Vector3(-0.088, 0.55, -0.209), Vector3(0.033, -0.55, 0.11), Vector3(0.0165, 0.0, 0.033), Vector3(-0.0055, 0.0, 0.0), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="tangseng_walk"]
+resource_name = "tangseng_walk"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.125, 0.25, 0.375, 0.5, 0.625, 0.75, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(0.0138, -0.55, 0.044), Vector3(0.022, -1.1, 0.055), Vector3(0.011, -0.55, 0.0275), Vector3(0.0, 0.0, 0.0), Vector3(-0.0138, -0.55, -0.044), Vector3(-0.022, -1.1, -0.055), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="tangseng_dash"]
+resource_name = "tangseng_dash"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.08, 0.2, 0.32, 0.45, 0.57, 0.8, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.0165, 0.55, -0.044), Vector3(0.033, -1.1, 0.055), Vector3(0.066, -2.2, 0.11), Vector3(0.077, -2.2, 0.1375), Vector3(0.0495, -1.1, 0.099), Vector3(0.0165, 0.55, 0.044), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="bajie_sweep1"]
+resource_name = "bajie_sweep1"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.08, 0.23, 0.32, 0.42, 0.57, 0.74, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.052, 1.3, -0.104), Vector3(-0.234, 2.6, -0.39), Vector3(-0.195, 1.3, -0.234), Vector3(0.286, -2.6, 0.312), Vector3(0.13, 2.6, 0.13), Vector3(-0.052, 1.3, -0.052), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="bajie_sweep2"]
+resource_name = "bajie_sweep2"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.25, 0.32, 0.43, 0.57, 0.78, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(0.104, 1.3, 0.13), Vector3(0.26, 2.6, 0.364), Vector3(0.156, 0.0, 0.156), Vector3(-0.299, -1.3, -0.312), Vector3(-0.13, 2.6, -0.13), Vector3(0.039, 1.3, 0.039), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="bajie_sweep3"]
+resource_name = "bajie_sweep3"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.24, 0.32, 0.4, 0.57, 0.76, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.065, 2.6, -0.13), Vector3(-0.286, -5.2, -0.39), Vector3(-0.234, -3.9, -0.26), Vector3(0.364, 6.5, 0.325), Vector3(0.195, 5.2, 0.195), Vector3(-0.039, 1.3, -0.052), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="bajie_heavy"]
+resource_name = "bajie_heavy"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.08, 0.2, 0.32, 0.39, 0.57, 0.76, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.026, 2.6, -0.078), Vector3(-0.286, 5.2, -0.39), Vector3(-0.351, 2.6, -0.325), Vector3(0.39, 9.1, 0.39), Vector3(0.286, 7.8, 0.286), Vector3(-0.052, 2.6, -0.078), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="bajie_thrust"]
+resource_name = "bajie_thrust"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.25, 0.32, 0.4, 0.57, 0.8, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.078, 1.3, -0.13), Vector3(-0.234, 2.6, -0.325), Vector3(-0.104, 1.3, -0.104), Vector3(0.325, -2.6, 0.195), Vector3(0.234, 0.0, 0.26), Vector3(-0.039, 1.3, -0.104), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="bajie_throw"]
+resource_name = "bajie_throw"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.12, 0.25, 0.32, 0.4, 0.57, 0.8, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.065, 1.3, -0.13), Vector3(-0.299, 1.3, -0.416), Vector3(-0.169, 0.0, -0.195), Vector3(0.26, -1.3, 0.39), Vector3(0.13, 1.3, 0.26), Vector3(-0.026, 0.0, 0.065), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="bajie_cast"]
+resource_name = "bajie_cast"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.25, 0.32, 0.45, 0.57, 0.82, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.026, 0.0, -0.104), Vector3(-0.065, -2.6, -0.325), Vector3(0.0, -3.9, -0.234), Vector3(0.091, -5.2, 0.234), Vector3(0.052, -2.6, 0.156), Vector3(0.0, -1.3, 0.026), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="bajie_bow"]
+resource_name = "bajie_bow"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.26, 0.32, 0.36, 0.57, 0.8, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.039, 1.3, -0.13), Vector3(-0.195, 1.3, -0.455), Vector3(-0.208, 1.3, -0.494), Vector3(0.078, -1.3, 0.26), Vector3(0.039, 0.0, 0.078), Vector3(-0.013, 0.0, 0.0), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="bajie_walk"]
+resource_name = "bajie_walk"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.125, 0.25, 0.375, 0.5, 0.625, 0.75, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(0.0325, -1.3, 0.104), Vector3(0.052, -2.6, 0.13), Vector3(0.026, -1.3, 0.065), Vector3(0.0, 0.0, 0.0), Vector3(-0.0325, -1.3, -0.104), Vector3(-0.052, -2.6, -0.13), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="bajie_dash"]
+resource_name = "bajie_dash"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.08, 0.2, 0.32, 0.45, 0.57, 0.8, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.039, 1.3, -0.104), Vector3(0.078, -2.6, 0.13), Vector3(0.156, -5.2, 0.26), Vector3(0.182, -5.2, 0.325), Vector3(0.117, -2.6, 0.234), Vector3(0.039, 1.3, 0.104), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="shaseng_sweep1"]
+resource_name = "shaseng_sweep1"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.08, 0.23, 0.32, 0.42, 0.57, 0.74, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.034, 0.85, -0.068), Vector3(-0.153, 1.7, -0.255), Vector3(-0.1275, 0.85, -0.153), Vector3(0.187, -1.7, 0.204), Vector3(0.085, 1.7, 0.085), Vector3(-0.034, 0.85, -0.034), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="shaseng_sweep2"]
+resource_name = "shaseng_sweep2"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.25, 0.32, 0.43, 0.57, 0.78, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(0.068, 0.85, 0.085), Vector3(0.17, 1.7, 0.238), Vector3(0.102, 0.0, 0.102), Vector3(-0.1955, -0.85, -0.204), Vector3(-0.085, 1.7, -0.085), Vector3(0.0255, 0.85, 0.0255), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="shaseng_sweep3"]
+resource_name = "shaseng_sweep3"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.24, 0.32, 0.4, 0.57, 0.76, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.0425, 1.7, -0.085), Vector3(-0.187, -3.4, -0.255), Vector3(-0.153, -2.55, -0.17), Vector3(0.238, 4.25, 0.2125), Vector3(0.1275, 3.4, 0.1275), Vector3(-0.0255, 0.85, -0.034), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="shaseng_heavy"]
+resource_name = "shaseng_heavy"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.08, 0.2, 0.32, 0.39, 0.57, 0.76, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.017, 1.7, -0.051), Vector3(-0.187, 3.4, -0.255), Vector3(-0.2295, 1.7, -0.2125), Vector3(0.255, 5.95, 0.255), Vector3(0.187, 5.1, 0.187), Vector3(-0.034, 1.7, -0.051), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="shaseng_thrust"]
+resource_name = "shaseng_thrust"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.25, 0.32, 0.4, 0.57, 0.8, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.051, 0.85, -0.085), Vector3(-0.153, 1.7, -0.2125), Vector3(-0.068, 0.85, -0.068), Vector3(0.2125, -1.7, 0.1275), Vector3(0.153, 0.0, 0.17), Vector3(-0.0255, 0.85, -0.068), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="shaseng_throw"]
+resource_name = "shaseng_throw"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.12, 0.25, 0.32, 0.4, 0.57, 0.8, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.0425, 0.85, -0.085), Vector3(-0.1955, 0.85, -0.272), Vector3(-0.1105, 0.0, -0.1275), Vector3(0.17, -0.85, 0.255), Vector3(0.085, 0.85, 0.17), Vector3(-0.017, 0.0, 0.0425), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="shaseng_cast"]
+resource_name = "shaseng_cast"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.25, 0.32, 0.45, 0.57, 0.82, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.017, 0.0, -0.068), Vector3(-0.0425, -1.7, -0.2125), Vector3(0.0, -2.55, -0.153), Vector3(0.0595, -3.4, 0.153), Vector3(0.034, -1.7, 0.102), Vector3(0.0, -0.85, 0.017), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="shaseng_bow"]
+resource_name = "shaseng_bow"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.26, 0.32, 0.36, 0.57, 0.8, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.0255, 0.85, -0.085), Vector3(-0.1275, 0.85, -0.2975), Vector3(-0.136, 0.85, -0.323), Vector3(0.051, -0.85, 0.17), Vector3(0.0255, 0.0, 0.051), Vector3(-0.0085, 0.0, 0.0), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="shaseng_walk"]
+resource_name = "shaseng_walk"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.125, 0.25, 0.375, 0.5, 0.625, 0.75, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(0.0213, -0.85, 0.068), Vector3(0.034, -1.7, 0.085), Vector3(0.017, -0.85, 0.0425), Vector3(0.0, 0.0, 0.0), Vector3(-0.0213, -0.85, -0.068), Vector3(-0.034, -1.7, -0.085), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="shaseng_dash"]
+resource_name = "shaseng_dash"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.08, 0.2, 0.32, 0.45, 0.57, 0.8, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.0255, 0.85, -0.068), Vector3(0.051, -1.7, 0.085), Vector3(0.102, -3.4, 0.17), Vector3(0.119, -3.4, 0.2125), Vector3(0.0765, -1.7, 0.153), Vector3(0.0255, 0.85, 0.068), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="bailongma_sweep1"]
+resource_name = "bailongma_sweep1"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.08, 0.23, 0.32, 0.42, 0.57, 0.74, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.04, 1.0, -0.08), Vector3(-0.18, 2.0, -0.3), Vector3(-0.15, 1.0, -0.18), Vector3(0.22, -2.0, 0.24), Vector3(0.1, 2.0, 0.1), Vector3(-0.04, 1.0, -0.04), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="bailongma_sweep2"]
+resource_name = "bailongma_sweep2"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.25, 0.32, 0.43, 0.57, 0.78, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(0.08, 1.0, 0.1), Vector3(0.2, 2.0, 0.28), Vector3(0.12, 0.0, 0.12), Vector3(-0.23, -1.0, -0.24), Vector3(-0.1, 2.0, -0.1), Vector3(0.03, 1.0, 0.03), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="bailongma_sweep3"]
+resource_name = "bailongma_sweep3"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.24, 0.32, 0.4, 0.57, 0.76, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.05, 2.0, -0.1), Vector3(-0.22, -4.0, -0.3), Vector3(-0.18, -3.0, -0.2), Vector3(0.28, 5.0, 0.25), Vector3(0.15, 4.0, 0.15), Vector3(-0.03, 1.0, -0.04), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="bailongma_heavy"]
+resource_name = "bailongma_heavy"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.08, 0.2, 0.32, 0.39, 0.57, 0.76, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.02, 2.0, -0.06), Vector3(-0.22, 4.0, -0.3), Vector3(-0.27, 2.0, -0.25), Vector3(0.3, 7.0, 0.3), Vector3(0.22, 6.0, 0.22), Vector3(-0.04, 2.0, -0.06), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="bailongma_thrust"]
+resource_name = "bailongma_thrust"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.25, 0.32, 0.4, 0.57, 0.8, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.06, 1.0, -0.1), Vector3(-0.18, 2.0, -0.25), Vector3(-0.08, 1.0, -0.08), Vector3(0.25, -2.0, 0.15), Vector3(0.18, 0.0, 0.2), Vector3(-0.03, 1.0, -0.08), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="bailongma_throw"]
+resource_name = "bailongma_throw"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.12, 0.25, 0.32, 0.4, 0.57, 0.8, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.05, 1.0, -0.1), Vector3(-0.23, 1.0, -0.32), Vector3(-0.13, 0.0, -0.15), Vector3(0.2, -1.0, 0.3), Vector3(0.1, 1.0, 0.2), Vector3(-0.02, 0.0, 0.05), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="bailongma_cast"]
+resource_name = "bailongma_cast"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.25, 0.32, 0.45, 0.57, 0.82, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.02, 0.0, -0.08), Vector3(-0.05, -2.0, -0.25), Vector3(0.0, -3.0, -0.18), Vector3(0.07, -4.0, 0.18), Vector3(0.04, -2.0, 0.12), Vector3(0.0, -1.0, 0.02), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="bailongma_bow"]
+resource_name = "bailongma_bow"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.1, 0.26, 0.32, 0.36, 0.57, 0.8, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.03, 1.0, -0.1), Vector3(-0.15, 1.0, -0.35), Vector3(-0.16, 1.0, -0.38), Vector3(0.06, -1.0, 0.2), Vector3(0.03, 0.0, 0.06), Vector3(-0.01, 0.0, 0.0), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="bailongma_walk"]
+resource_name = "bailongma_walk"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.125, 0.25, 0.375, 0.5, 0.625, 0.75, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(0.025, -1.0, 0.08), Vector3(0.04, -2.0, 0.1), Vector3(0.02, -1.0, 0.05), Vector3(0.0, 0.0, 0.0), Vector3(-0.025, -1.0, -0.08), Vector3(-0.04, -2.0, -0.1), Vector3(0.0, 0.0, 0.0)]}
+
+[sub_resource type="Animation" id="bailongma_dash"]
+resource_name = "bailongma_dash"
+length = 1.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Pose:pose")
+tracks/0/interp = 1
+tracks/0/keys = {"times": PackedFloat32Array(0, 0.08, 0.2, 0.32, 0.45, 0.57, 0.8, 1), "transitions": PackedFloat32Array(1,1,1,1,1,1,1,1), "update": 0, "values": [Vector3(0.0, 0.0, 0.0), Vector3(-0.03, 1.0, -0.08), Vector3(0.06, -2.0, 0.1), Vector3(0.12, -4.0, 0.2), Vector3(0.14, -4.0, 0.25), Vector3(0.09, -2.0, 0.18), Vector3(0.03, 1.0, 0.08), Vector3(0.0, 0.0, 0.0)]}
+
+[resource]
+_data = {
+&"wukong_sweep1": SubResource("wukong_sweep1"),
+&"wukong_sweep2": SubResource("wukong_sweep2"),
+&"wukong_sweep3": SubResource("wukong_sweep3"),
+&"wukong_heavy": SubResource("wukong_heavy"),
+&"wukong_thrust": SubResource("wukong_thrust"),
+&"wukong_throw": SubResource("wukong_throw"),
+&"wukong_cast": SubResource("wukong_cast"),
+&"wukong_bow": SubResource("wukong_bow"),
+&"wukong_walk": SubResource("wukong_walk"),
+&"wukong_dash": SubResource("wukong_dash"),
+&"tangseng_sweep1": SubResource("tangseng_sweep1"),
+&"tangseng_sweep2": SubResource("tangseng_sweep2"),
+&"tangseng_sweep3": SubResource("tangseng_sweep3"),
+&"tangseng_heavy": SubResource("tangseng_heavy"),
+&"tangseng_thrust": SubResource("tangseng_thrust"),
+&"tangseng_throw": SubResource("tangseng_throw"),
+&"tangseng_cast": SubResource("tangseng_cast"),
+&"tangseng_bow": SubResource("tangseng_bow"),
+&"tangseng_walk": SubResource("tangseng_walk"),
+&"tangseng_dash": SubResource("tangseng_dash"),
+&"bajie_sweep1": SubResource("bajie_sweep1"),
+&"bajie_sweep2": SubResource("bajie_sweep2"),
+&"bajie_sweep3": SubResource("bajie_sweep3"),
+&"bajie_heavy": SubResource("bajie_heavy"),
+&"bajie_thrust": SubResource("bajie_thrust"),
+&"bajie_throw": SubResource("bajie_throw"),
+&"bajie_cast": SubResource("bajie_cast"),
+&"bajie_bow": SubResource("bajie_bow"),
+&"bajie_walk": SubResource("bajie_walk"),
+&"bajie_dash": SubResource("bajie_dash"),
+&"shaseng_sweep1": SubResource("shaseng_sweep1"),
+&"shaseng_sweep2": SubResource("shaseng_sweep2"),
+&"shaseng_sweep3": SubResource("shaseng_sweep3"),
+&"shaseng_heavy": SubResource("shaseng_heavy"),
+&"shaseng_thrust": SubResource("shaseng_thrust"),
+&"shaseng_throw": SubResource("shaseng_throw"),
+&"shaseng_cast": SubResource("shaseng_cast"),
+&"shaseng_bow": SubResource("shaseng_bow"),
+&"shaseng_walk": SubResource("shaseng_walk"),
+&"shaseng_dash": SubResource("shaseng_dash"),
+&"bailongma_sweep1": SubResource("bailongma_sweep1"),
+&"bailongma_sweep2": SubResource("bailongma_sweep2"),
+&"bailongma_sweep3": SubResource("bailongma_sweep3"),
+&"bailongma_heavy": SubResource("bailongma_heavy"),
+&"bailongma_thrust": SubResource("bailongma_thrust"),
+&"bailongma_throw": SubResource("bailongma_throw"),
+&"bailongma_cast": SubResource("bailongma_cast"),
+&"bailongma_bow": SubResource("bailongma_bow"),
+&"bailongma_walk": SubResource("bailongma_walk"),
+&"bailongma_dash": SubResource("bailongma_dash")
+}

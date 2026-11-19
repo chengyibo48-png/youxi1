@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"converge"
+title = "收束法诀"
+description = "投射方向偏向瞄准轴，散角缩小65%；飞行与自动回返时间延长15%"
+category = &"shape"
+effect = &"converge"
+amount = 1
+max_level = 1
+tags = Array[String](["projectile"])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String]([])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

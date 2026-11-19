@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "combo_open"
+title = "探路直刺"
+description = "第一段转为直刺，距离增加25%，伤害降低10%"
+category = "shape"
+effect = "combo_open"
+amount = 1
+max_level = 1
+tags = Array[String](["melee"])
+requires_any = Array[String]([])

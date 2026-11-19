@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"purify"
+title = "净心佛纹"
+description = "神通命中阶段清除自身毒与灼烧，返还2/4/6资源；不降低技能消耗门槛"
+category = &"element"
+effect = &"purify"
+amount = 1
+max_level = 3
+tags = Array[String]([])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String]([])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

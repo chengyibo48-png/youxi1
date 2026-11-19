@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"steam"
+title = "水火蒸腾"
+description = "同时灼烧与减速的敌人，每半秒追加4/6/8基础伤害，不再次产生联动"
+category = &"element"
+effect = &"steam"
+amount = 1
+max_level = 3
+tags = Array[String]([])
+requires = Array[String](["burn", "frost"])
+requires_any = Array[String]([])
+source_tags_any = Array[String]([])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"domain"
+title = "阵法宗师"
+description = "领域强化并延长，普攻速度降低20%"
+category = &"core"
+effect = &"domain"
+amount = 1
+max_level = 1
+tags = Array[String]([])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String](["field", "field_source"])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"tangseng_t4"
+title = "禅心净域"
+description = "相邻法印形成可伤敌的连接线。角色专属：领域伤害提高20%"
+category = &"hero"
+effect = &"hero_field_power"
+amount = 0.2
+max_level = 3
+tags = Array[String]([])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String](["field", "field_source"])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

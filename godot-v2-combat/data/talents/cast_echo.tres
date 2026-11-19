@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"cast_echo"
+title = "余音回响"
+description = "神通释放后0.3秒追加80/90/100半径余响，造成20/26/32基础伤害；不触发命中联动"
+category = &"trigger"
+effect = &"cast_echo"
+amount = 1
+max_level = 3
+tags = Array[String]([])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String]([])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

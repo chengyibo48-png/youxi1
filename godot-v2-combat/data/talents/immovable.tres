@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"immovable"
+title = "不动如山"
+description = "重击伤害增加25%，受伤减免增加20个百分点（总上限55%），移动速度降低20%"
+category = &"core"
+effect = &"immovable"
+amount = 1
+max_level = 1
+tags = Array[String]([])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String]([])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

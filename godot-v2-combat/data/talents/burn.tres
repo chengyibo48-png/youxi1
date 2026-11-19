@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"burn"
+title = "朱焰附兵"
+description = "命中灼烧；等级1/2/3持续3/4/5秒，每半秒基础伤害3/4/5，可再受燃烧强化影响"
+category = &"element"
+effect = &"burn"
+amount = 1
+max_level = 3
+tags = Array[String]([])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String]([])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

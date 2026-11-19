@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"bailongma_t2"
+title = "水枪急流"
+description = "踏浪剑普攻多一柄回旋剑，分摊威力以免直接翻倍；神通投射物伤害每级提高20%（20/40/60%），其他兵器普攻不增加剑数"
+category = &"hero"
+effect = &"hero_projectile_power"
+amount = 0.2
+max_level = 3
+tags = Array[String]([])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String](["weapon_wave_sword", "effect_breath", "effect_arrow_rain"])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "w_combo_vault"
+title = "踏云落棍"
+description = "第三段前移35像素，落点0.18秒后追加25%伤害，不触发命中联动"
+category = "hero"
+effect = "w_combo_vault"
+amount = 1
+max_level = 1
+tags = Array[String](["melee", "journey_mid"])
+requires_any = Array[String]([])

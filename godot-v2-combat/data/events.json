@@ -1,0 +1,195 @@
+[
+  {
+    "id": "event_0",
+    "name": "山泉",
+    "effect": "heal",
+    "cost": 8,
+    "description": "清泉藏在乱石间。饮泉恢复伤势，或取泉水凝成护盾。",
+    "alternative": "shield"
+  },
+  {
+    "id": "event_1",
+    "name": "铁匠",
+    "effect": "forge",
+    "cost": 9,
+    "description": "旧炉只够锻一件兵器。付铜钱进化兵器，或替铁匠添柴换灵签。",
+    "alternative": "reroll"
+  },
+  {
+    "id": "event_2",
+    "name": "香客",
+    "effect": "coins",
+    "cost": 0,
+    "description": "香客愿以铜钱换一份经血。献出10点生命换25文，或帮他抄经换少量铜钱。",
+    "alternative": "coins",
+    "hp_cost": 10
+  },
+  {
+    "id": "event_3",
+    "name": "封匣",
+    "effect": "fight",
+    "cost": 0,
+    "description": "匣内传来叩击声。付代价开启额外战斗，或封住匣子获得护符。",
+    "alternative": "shield"
+  },
+  {
+    "id": "event_4",
+    "name": "僧人",
+    "effect": "talent",
+    "cost": 12,
+    "description": "行脚僧愿传一页经义。付铜钱参悟新修行，或请他指点换一次重抽。",
+    "alternative": "reroll"
+  },
+  {
+    "id": "event_5",
+    "name": "药童",
+    "effect": "maxhp",
+    "cost": 13,
+    "description": "药童只剩一株灵药。购买药材提高生命上限，或领取少量草药恢复伤势。",
+    "alternative": "heal"
+  },
+  {
+    "id": "event_6",
+    "name": "武师",
+    "effect": "damage",
+    "cost": 14,
+    "description": "武师邀你练武。付束修提高攻击，或借休息恢复角色资源。",
+    "alternative": "resource"
+  },
+  {
+    "id": "event_7",
+    "name": "残卷",
+    "effect": "reroll",
+    "cost": 15,
+    "description": "庙前灵签可改机缘。购签增加重抽，或收下护符应对下一战。",
+    "alternative": "shield"
+  },
+  {
+    "id": "event_8",
+    "name": "古井",
+    "effect": "shield",
+    "cost": 16,
+    "description": "井中宝光不散。祭铜钱换护盾，或打水净化自身异常。",
+    "alternative": "purify"
+  },
+  {
+    "id": "event_9",
+    "name": "山神",
+    "effect": "curse",
+    "cost": 0,
+    "description": "妖契写满朱字。牺牲生命上限获得天赋，或守住本心恢复资源。",
+    "alternative": "resource"
+  },
+  {
+    "id": "event_10",
+    "name": "迷途货郎",
+    "effect": "discount",
+    "cost": 18,
+    "description": "商队困在山路。付路费换以后商店折扣，或搬运货物赚少量铜钱。",
+    "alternative": "coins"
+  },
+  {
+    "id": "event_11",
+    "name": "断桥",
+    "effect": "trial",
+    "cost": 0,
+    "description": "断桥下妖气翻涌。接受试炼换高奖励，或扶正路碑获得护盾。",
+    "alternative": "shield"
+  },
+  {
+    "id": "event_12",
+    "name": "药圃",
+    "effect": "purify",
+    "cost": 20,
+    "description": "清心咒能除异常。付香火净化，或听经获得少量资源。",
+    "alternative": "resource"
+  },
+  {
+    "id": "event_13",
+    "name": "石碑",
+    "effect": "resource",
+    "cost": 21,
+    "description": "石碑记录往昔战意。献铜钱恢复资源，或抄录碑文获得灵签。",
+    "alternative": "reroll"
+  },
+  {
+    "id": "event_14",
+    "name": "商队",
+    "effect": "relic",
+    "cost": 22,
+    "description": "宝匣封着三道印。付铜钱打开法宝候选，或留下匣子领取铜钱。",
+    "alternative": "coins"
+  },
+  {
+    "id": "event_15",
+    "name": "妖契",
+    "effect": "risk",
+    "cost": 0,
+    "description": "山道藏着妖群。承担伤势进入奖励战斗，或守住阵脚获得护盾。",
+    "alternative": "shield"
+  },
+  {
+    "id": "event_16",
+    "name": "莲池",
+    "effect": "regen",
+    "cost": 24,
+    "description": "莲池生机充盈。付铜钱获得持续回复，或采莲立即恢复少量生命。",
+    "alternative": "heal"
+  },
+  {
+    "id": "event_17",
+    "name": "宝塔",
+    "effect": "ban",
+    "cost": 25,
+    "description": "假佛的谶语难辨。付铜钱获得额外禁止机会，或静坐恢复资源。",
+    "alternative": "resource"
+  },
+  {
+    "id": "event_18",
+    "name": "隐士",
+    "effect": "evolve",
+    "cost": 26,
+    "description": "淬锋炉映着两种未来。付铜钱进化兵器，或收下少量铜钱。",
+    "alternative": "coins"
+  },
+  {
+    "id": "event_19",
+    "name": "灵兽",
+    "effect": "summon",
+    "cost": 27,
+    "description": "灵兽被符箓困住。付铜钱救它获得下一战协助，或取符换护盾。",
+    "alternative": "shield"
+  },
+  {
+    "id": "event_20",
+    "name": "雷坛",
+    "effect": "chain",
+    "cost": 28,
+    "description": "雷坛闪着细光。付铜钱参悟雷链，或搬走贡石得到铜钱。",
+    "alternative": "coins"
+  },
+  {
+    "id": "event_21",
+    "name": "暮鼓",
+    "effect": "cooldown",
+    "cost": 29,
+    "description": "暮鼓能调神通气息。付铜钱降低技能冷却，或听鼓恢复资源。",
+    "alternative": "resource"
+  },
+  {
+    "id": "event_22",
+    "name": "墨画",
+    "effect": "echo",
+    "cost": 30,
+    "description": "墨画中的棍影稍迟一步。付铜钱习得延迟棍影，或收下画纸换重抽。",
+    "alternative": "reroll"
+  },
+  {
+    "id": "event_23",
+    "name": "秘境",
+    "effect": "secret",
+    "cost": 0,
+    "description": "山门背后是隐墨秘境。承担额外精英战斗换奖励，或在门外恢复少量生命。",
+    "alternative": "heal"
+  }
+]

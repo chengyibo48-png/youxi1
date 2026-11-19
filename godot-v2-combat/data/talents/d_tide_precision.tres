@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "d_tide_precision"
+title = "潮势穿心"
+description = "第三段资源至少50时消耗12资源，距离与伤害各增加20%"
+category = "hero"
+effect = "d_tide_precision"
+amount = 1
+max_level = 1
+tags = Array[String](["melee", "journey_late"])
+requires_any = Array[String]([])

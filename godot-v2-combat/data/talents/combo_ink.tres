@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "combo_ink"
+title = "收式迟影"
+description = "第三段落点延迟0.35秒追加25%攻击伤害，不触发命中联动"
+category = "shape"
+effect = "combo_ink"
+amount = 1
+max_level = 1
+tags = Array[String](["journey_mid"])
+requires_any = Array[String]([])

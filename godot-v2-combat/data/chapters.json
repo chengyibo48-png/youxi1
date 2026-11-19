@@ -1,0 +1,4555 @@
+[
+  {
+    "ch": 13,
+    "place": "双叉岭",
+    "boss": "寅将军",
+    "type": "tiger",
+    "pattern": "charge",
+    "biome": "wild",
+    "accent": "#db9e66",
+    "mobs": [
+      "jackal",
+      "wolf",
+      "tiger"
+    ],
+    "story": "金蝉子因轻慢佛法贬落凡尘。取经的因缘，从此种下。 江流儿出生便遇凶险，母亲护他随江漂去。 一叶木盆载着幼儿漂往金山寺，命数尚未写定。 玄奘寻亲昭雪旧冤，才得安心踏上西行路。 离了长安，山路初险。野虎在暮色中拦住行脚。 随从失散，猎户刘伯钦相救，玄奘看见此行的艰难。 虎穴妖宴在前，寅将军盘踞岭口。",
+    "bridge": "上一段路已过，师徒来到双叉岭。",
+    "intro": "唐朝来的和尚，入了我这虎穴，还往何处走？",
+    "attack": [
+      "山林是我的地盘！",
+      "让你见识双叉岭的爪牙！"
+    ],
+    "defeat": "长路未尽，虎穴先破。",
+    "trial": 1,
+    "trialName": "双叉岭",
+    "kind": "boss",
+    "legacyBossIndex": 0,
+    "powerTier": 0,
+    "chapterIndex": 1,
+    "firstTrial": 1,
+    "lastTrial": 7,
+    "sourceTrials": [
+      {
+        "ch": 1,
+        "place": "灵山旧事",
+        "boss": null,
+        "type": "tiger",
+        "pattern": "charge",
+        "biome": "wild",
+        "accent": "#db9e66",
+        "mobs": [
+          "jackal",
+          "wolf",
+          "tiger"
+        ],
+        "story": "金蝉子因轻慢佛法贬落凡尘。取经的因缘，从此种下。",
+        "bridge": "前一难已过，取经人行至灵山旧事。",
+        "intro": "",
+        "attack": [
+          "山林是我的地盘！",
+          "让你见识双叉岭的爪牙！"
+        ],
+        "defeat": "",
+        "trial": 1,
+        "trialName": "金蝉遭贬",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 0
+      },
+      {
+        "ch": 9,
+        "place": "江州",
+        "boss": null,
+        "type": "tiger",
+        "pattern": "charge",
+        "biome": "wild",
+        "accent": "#db9e66",
+        "mobs": [
+          "jackal",
+          "wolf",
+          "tiger"
+        ],
+        "story": "江流儿出生便遇凶险，母亲护他随江漂去。",
+        "bridge": "前一难已过，取经人行至江州。",
+        "intro": "",
+        "attack": [
+          "山林是我的地盘！",
+          "让你见识双叉岭的爪牙！"
+        ],
+        "defeat": "",
+        "trial": 2,
+        "trialName": "出胎几杀",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 0
+      },
+      {
+        "ch": 9,
+        "place": "江上浮舟",
+        "boss": null,
+        "type": "tiger",
+        "pattern": "charge",
+        "biome": "wild",
+        "accent": "#db9e66",
+        "mobs": [
+          "jackal",
+          "wolf",
+          "tiger"
+        ],
+        "story": "一叶木盆载着幼儿漂往金山寺，命数尚未写定。",
+        "bridge": "前一难已过，取经人行至江上浮舟。",
+        "intro": "",
+        "attack": [
+          "山林是我的地盘！",
+          "让你见识双叉岭的爪牙！"
+        ],
+        "defeat": "",
+        "trial": 3,
+        "trialName": "满月抛江",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 0
+      },
+      {
+        "ch": 9,
+        "place": "江州旧案",
+        "boss": null,
+        "type": "tiger",
+        "pattern": "charge",
+        "biome": "wild",
+        "accent": "#db9e66",
+        "mobs": [
+          "jackal",
+          "wolf",
+          "tiger"
+        ],
+        "story": "玄奘寻亲昭雪旧冤，才得安心踏上西行路。",
+        "bridge": "前一难已过，取经人行至江州旧案。",
+        "intro": "",
+        "attack": [
+          "山林是我的地盘！",
+          "让你见识双叉岭的爪牙！"
+        ],
+        "defeat": "",
+        "trial": 4,
+        "trialName": "寻亲报冤",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 0
+      },
+      {
+        "ch": 13,
+        "place": "长安西郊",
+        "boss": null,
+        "type": "tiger",
+        "pattern": "charge",
+        "biome": "wild",
+        "accent": "#db9e66",
+        "mobs": [
+          "jackal",
+          "wolf",
+          "tiger"
+        ],
+        "story": "离了长安，山路初险。野虎在暮色中拦住行脚。",
+        "bridge": "前一难已过，取经人行至长安西郊。",
+        "intro": "",
+        "attack": [
+          "山林是我的地盘！",
+          "让你见识双叉岭的爪牙！"
+        ],
+        "defeat": "",
+        "trial": 5,
+        "trialName": "出城逢虎",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 0
+      },
+      {
+        "ch": 13,
+        "place": "双叉岭山谷",
+        "boss": null,
+        "type": "tiger",
+        "pattern": "charge",
+        "biome": "wild",
+        "accent": "#db9e66",
+        "mobs": [
+          "jackal",
+          "wolf",
+          "tiger"
+        ],
+        "story": "随从失散，猎户刘伯钦相救，玄奘看见此行的艰难。",
+        "bridge": "前一难已过，取经人行至双叉岭山谷。",
+        "intro": "",
+        "attack": [
+          "山林是我的地盘！",
+          "让你见识双叉岭的爪牙！"
+        ],
+        "defeat": "",
+        "trial": 6,
+        "trialName": "折从落坑",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 0
+      },
+      {
+        "ch": 13,
+        "place": "双叉岭",
+        "boss": "寅将军",
+        "type": "tiger",
+        "pattern": "charge",
+        "biome": "wild",
+        "accent": "#db9e66",
+        "mobs": [
+          "jackal",
+          "wolf",
+          "tiger"
+        ],
+        "story": "虎穴妖宴在前，寅将军盘踞岭口。",
+        "bridge": "前一难已过，取经人行至双叉岭。",
+        "intro": "唐朝来的和尚，入了我这虎穴，还往何处走？",
+        "attack": [
+          "山林是我的地盘！",
+          "让你见识双叉岭的爪牙！"
+        ],
+        "defeat": "长路未尽，虎穴先破。",
+        "trial": 7,
+        "trialName": "双叉岭上",
+        "kind": "boss",
+        "legacyBossIndex": 0,
+        "powerTier": 0
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 13,
+        "place": "双叉岭",
+        "boss": "寅将军",
+        "type": "tiger",
+        "pattern": "charge",
+        "biome": "wild",
+        "accent": "#db9e66",
+        "mobs": [
+          "jackal",
+          "wolf",
+          "tiger"
+        ],
+        "story": "虎穴妖宴在前，寅将军盘踞岭口。",
+        "bridge": "前一难已过，取经人行至双叉岭。",
+        "intro": "唐朝来的和尚，入了我这虎穴，还往何处走？",
+        "attack": [
+          "山林是我的地盘！",
+          "让你见识双叉岭的爪牙！"
+        ],
+        "defeat": "长路未尽，虎穴先破。",
+        "trial": 7,
+        "trialName": "双叉岭上",
+        "kind": "boss",
+        "legacyBossIndex": 0,
+        "powerTier": 0
+      }
+    ],
+    "mobNames": {},
+    "element": "earth",
+    "ordeal": {
+      "name": "山重路险",
+      "cost": "小妖接触伤害 +12%",
+      "reward": "过关得 10 文",
+      "mobTouch": 1.12,
+      "coins": 10
+    }
+  },
+  {
+    "ch": 14,
+    "place": "两界山",
+    "boss": null,
+    "type": "tiger",
+    "pattern": "charge",
+    "biome": "wild",
+    "accent": "#db9e66",
+    "mobs": [
+      "jackal",
+      "wolf",
+      "bat"
+    ],
+    "story": "山下石猴拜师为徒，孙悟空从此护送取经人。",
+    "bridge": "上一段路已过，师徒来到两界山。",
+    "intro": "",
+    "attack": [
+      "山林是我的地盘！",
+      "让你见识双叉岭的爪牙！"
+    ],
+    "defeat": "",
+    "trial": 8,
+    "trialName": "两界山",
+    "kind": "combat",
+    "legacyBossIndex": -1,
+    "powerTier": 1,
+    "chapterIndex": 2,
+    "firstTrial": 8,
+    "lastTrial": 8,
+    "sourceTrials": [
+      {
+        "ch": 14,
+        "place": "五行山",
+        "boss": null,
+        "type": "tiger",
+        "pattern": "charge",
+        "biome": "wild",
+        "accent": "#db9e66",
+        "mobs": [
+          "jackal",
+          "wolf",
+          "tiger"
+        ],
+        "story": "山下石猴拜师为徒，孙悟空从此护送取经人。",
+        "bridge": "前一难已过，取经人行至五行山。",
+        "intro": "",
+        "attack": [
+          "山林是我的地盘！",
+          "让你见识双叉岭的爪牙！"
+        ],
+        "defeat": "",
+        "trial": 8,
+        "trialName": "两界山头",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 0
+      }
+    ],
+    "bossRefs": [],
+    "mobNames": {},
+    "element": "earth",
+    "ordeal": {
+      "name": "山重路险",
+      "cost": "小妖接触伤害 +12%",
+      "reward": "过关得 10 文",
+      "mobTouch": 1.12,
+      "coins": 10
+    }
+  },
+  {
+    "ch": 15,
+    "place": "鹰愁涧",
+    "boss": null,
+    "type": "tiger",
+    "pattern": "charge",
+    "biome": "wild",
+    "accent": "#db9e66",
+    "mobs": [
+      "jackal",
+      "wolf",
+      "bat"
+    ],
+    "story": "白龙吞马后受观音点化，化作脚力同行。",
+    "bridge": "上一段路已过，师徒来到鹰愁涧。",
+    "intro": "",
+    "attack": [
+      "山林是我的地盘！",
+      "让你见识双叉岭的爪牙！"
+    ],
+    "defeat": "",
+    "trial": 9,
+    "trialName": "鹰愁涧",
+    "kind": "combat",
+    "legacyBossIndex": -1,
+    "powerTier": 1,
+    "chapterIndex": 3,
+    "firstTrial": 9,
+    "lastTrial": 9,
+    "sourceTrials": [
+      {
+        "ch": 15,
+        "place": "鹰愁涧",
+        "boss": null,
+        "type": "tiger",
+        "pattern": "charge",
+        "biome": "wild",
+        "accent": "#db9e66",
+        "mobs": [
+          "jackal",
+          "wolf",
+          "tiger"
+        ],
+        "story": "白龙吞马后受观音点化，化作脚力同行。",
+        "bridge": "前一难已过，取经人行至鹰愁涧。",
+        "intro": "",
+        "attack": [
+          "山林是我的地盘！",
+          "让你见识双叉岭的爪牙！"
+        ],
+        "defeat": "",
+        "trial": 9,
+        "trialName": "陡涧换马",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 0
+      }
+    ],
+    "bossRefs": [],
+    "mobNames": {},
+    "element": "earth",
+    "ordeal": {
+      "name": "山重路险",
+      "cost": "小妖接触伤害 +12%",
+      "reward": "过关得 10 文",
+      "mobTouch": 1.12,
+      "coins": 10
+    }
+  },
+  {
+    "ch": 17,
+    "place": "观音禅院与黑风山",
+    "boss": "黑熊精",
+    "type": "bear",
+    "pattern": "charge",
+    "biome": "forest",
+    "accent": "#a9b987",
+    "mobs": [
+      "bearling",
+      "wolf",
+      "bat"
+    ],
+    "story": "禅院贪念起火，众人先护住经卷与袈裟。 黑熊精盗得袈裟，在黑风洞设下佛衣会。",
+    "bridge": "上一段路已过，师徒来到观音禅院与黑风山。",
+    "intro": "好一领锦襕袈裟，既到了黑风山，便由我保管！",
+    "attack": [
+      "黑风起，莫要近身！",
+      "袈裟在此，有本事来取！"
+    ],
+    "defeat": "黑风散去，袈裟重归。",
+    "trial": 10,
+    "trialName": "观音禅院与黑风山",
+    "kind": "boss",
+    "legacyBossIndex": 1,
+    "powerTier": 2,
+    "chapterIndex": 4,
+    "firstTrial": 10,
+    "lastTrial": 11,
+    "sourceTrials": [
+      {
+        "ch": 16,
+        "place": "观音禅院",
+        "boss": null,
+        "type": "bear",
+        "pattern": "charge",
+        "biome": "forest",
+        "accent": "#a9b987",
+        "mobs": [
+          "wolf",
+          "bearling",
+          "bat"
+        ],
+        "story": "禅院贪念起火，众人先护住经卷与袈裟。",
+        "bridge": "前一难已过，取经人行至观音禅院。",
+        "intro": "",
+        "attack": [
+          "黑风起，莫要近身！",
+          "袈裟在此，有本事来取！"
+        ],
+        "defeat": "",
+        "trial": 10,
+        "trialName": "夜被火烧",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 1
+      },
+      {
+        "ch": 17,
+        "place": "黑风山",
+        "boss": "黑熊精",
+        "type": "bear",
+        "pattern": "charge",
+        "biome": "forest",
+        "accent": "#a9b987",
+        "mobs": [
+          "wolf",
+          "bearling",
+          "bat"
+        ],
+        "story": "黑熊精盗得袈裟，在黑风洞设下佛衣会。",
+        "bridge": "前一难已过，取经人行至黑风山。",
+        "intro": "好一领锦襕袈裟，既到了黑风山，便由我保管！",
+        "attack": [
+          "黑风起，莫要近身！",
+          "袈裟在此，有本事来取！"
+        ],
+        "defeat": "黑风散去，袈裟重归。",
+        "trial": 11,
+        "trialName": "失却袈裟",
+        "kind": "boss",
+        "legacyBossIndex": 1,
+        "powerTier": 1
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 17,
+        "place": "黑风山",
+        "boss": "黑熊精",
+        "type": "bear",
+        "pattern": "charge",
+        "biome": "forest",
+        "accent": "#a9b987",
+        "mobs": [
+          "wolf",
+          "bearling",
+          "bat"
+        ],
+        "story": "黑熊精盗得袈裟，在黑风洞设下佛衣会。",
+        "bridge": "前一难已过，取经人行至黑风山。",
+        "intro": "好一领锦襕袈裟，既到了黑风山，便由我保管！",
+        "attack": [
+          "黑风起，莫要近身！",
+          "袈裟在此，有本事来取！"
+        ],
+        "defeat": "黑风散去，袈裟重归。",
+        "trial": 11,
+        "trialName": "失却袈裟",
+        "kind": "boss",
+        "legacyBossIndex": 1,
+        "powerTier": 1
+      }
+    ],
+    "mobNames": {
+      "bearling": "黑风洞熊兵",
+      "wolf": "黑风山狼妖"
+    },
+    "element": "wood",
+    "ordeal": {
+      "name": "藤瘴缠身",
+      "cost": "小妖生命 +12%",
+      "reward": "过关得 12 文",
+      "mobHp": 1.12,
+      "coins": 12
+    }
+  },
+  {
+    "ch": 19,
+    "place": "高老庄",
+    "boss": null,
+    "type": "bear",
+    "pattern": "charge",
+    "biome": "forest",
+    "accent": "#a9b987",
+    "mobs": [
+      "bulllet",
+      "jackal",
+      "guard"
+    ],
+    "story": "云栈洞旧天蓬归队，取经路上又添一员。",
+    "bridge": "上一段路已过，师徒来到高老庄。",
+    "intro": "",
+    "attack": [
+      "黑风起，莫要近身！",
+      "袈裟在此，有本事来取！"
+    ],
+    "defeat": "",
+    "trial": 12,
+    "trialName": "高老庄",
+    "kind": "combat",
+    "legacyBossIndex": -1,
+    "powerTier": 2,
+    "chapterIndex": 5,
+    "firstTrial": 12,
+    "lastTrial": 12,
+    "sourceTrials": [
+      {
+        "ch": 19,
+        "place": "高老庄",
+        "boss": null,
+        "type": "bear",
+        "pattern": "charge",
+        "biome": "forest",
+        "accent": "#a9b987",
+        "mobs": [
+          "wolf",
+          "bearling",
+          "bat"
+        ],
+        "story": "云栈洞旧天蓬归队，取经路上又添一员。",
+        "bridge": "前一难已过，取经人行至高老庄。",
+        "intro": "",
+        "attack": [
+          "黑风起，莫要近身！",
+          "袈裟在此，有本事来取！"
+        ],
+        "defeat": "",
+        "trial": 12,
+        "trialName": "收降八戒",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 1
+      }
+    ],
+    "bossRefs": [],
+    "mobNames": {},
+    "element": "earth",
+    "ordeal": {
+      "name": "山重路险",
+      "cost": "小妖接触伤害 +12%",
+      "reward": "过关得 10 文",
+      "mobTouch": 1.12,
+      "coins": 10
+    }
+  },
+  {
+    "ch": 20,
+    "place": "黄风岭",
+    "boss": "黄风怪",
+    "type": "wind",
+    "pattern": "fan",
+    "biome": "desert",
+    "accent": "#e0c178",
+    "mobs": [
+      "bee",
+      "tigerScout",
+      "windling"
+    ],
+    "story": "虎先锋掳人入洞，黄蜂小妖随三昧神风卷土而来。 灵吉菩萨授予定风之法，黄沙终于有了破绽。",
+    "bridge": "上一段路已过，师徒来到黄风岭。",
+    "intro": "三昧神风一吹，任你火眼金睛也辨不清方向！",
+    "attack": [
+      "起风！",
+      "黄沙万里，遮你双目！"
+    ],
+    "defeat": "风停沙落，流沙河在前。",
+    "trial": 13,
+    "trialName": "黄风岭",
+    "kind": "boss",
+    "legacyBossIndex": 2,
+    "powerTier": 3,
+    "chapterIndex": 6,
+    "firstTrial": 13,
+    "lastTrial": 14,
+    "sourceTrials": [
+      {
+        "ch": 20,
+        "place": "黄风岭",
+        "boss": "黄风怪",
+        "type": "wind",
+        "pattern": "fan",
+        "biome": "desert",
+        "accent": "#e0c178",
+        "mobs": [
+          "bee",
+          "tigerScout",
+          "windling"
+        ],
+        "story": "虎先锋掳人入洞，黄蜂小妖随三昧神风卷土而来。",
+        "bridge": "前一难已过，取经人行至黄风岭。",
+        "intro": "三昧神风一吹，任你火眼金睛也辨不清方向！",
+        "attack": [
+          "起风！",
+          "黄沙万里，遮你双目！"
+        ],
+        "defeat": "风停沙落，流沙河在前。",
+        "trial": 13,
+        "trialName": "黄风怪阻",
+        "kind": "boss",
+        "legacyBossIndex": 2,
+        "powerTier": 2
+      },
+      {
+        "ch": 21,
+        "place": "小须弥山",
+        "boss": null,
+        "type": "wind",
+        "pattern": "fan",
+        "biome": "desert",
+        "accent": "#e0c178",
+        "mobs": [
+          "jackal",
+          "wolf",
+          "windling"
+        ],
+        "story": "灵吉菩萨授予定风之法，黄沙终于有了破绽。",
+        "bridge": "前一难已过，取经人行至小须弥山。",
+        "intro": "",
+        "attack": [
+          "起风！",
+          "黄沙万里，遮你双目！"
+        ],
+        "defeat": "",
+        "trial": 14,
+        "trialName": "请求灵吉",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 2
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 20,
+        "place": "黄风岭",
+        "boss": "黄风怪",
+        "type": "wind",
+        "pattern": "fan",
+        "biome": "desert",
+        "accent": "#e0c178",
+        "mobs": [
+          "bee",
+          "tigerScout",
+          "windling"
+        ],
+        "story": "虎先锋掳人入洞，黄蜂小妖随三昧神风卷土而来。",
+        "bridge": "前一难已过，取经人行至黄风岭。",
+        "intro": "三昧神风一吹，任你火眼金睛也辨不清方向！",
+        "attack": [
+          "起风！",
+          "黄沙万里，遮你双目！"
+        ],
+        "defeat": "风停沙落，流沙河在前。",
+        "trial": 13,
+        "trialName": "黄风怪阻",
+        "kind": "boss",
+        "legacyBossIndex": 2,
+        "powerTier": 2
+      }
+    ],
+    "mobNames": {},
+    "element": "none",
+    "ordeal": {
+      "name": "风沙迷眼",
+      "cost": "远程妖弹伤害 +12%",
+      "reward": "过关得 10 文",
+      "enemyProjectile": 1.12,
+      "coins": 10
+    }
+  },
+  {
+    "ch": 22,
+    "place": "流沙河",
+    "boss": null,
+    "type": "wind",
+    "pattern": "fan",
+    "biome": "river",
+    "accent": "#e0c178",
+    "mobs": [
+      "fishling",
+      "stone",
+      "shade"
+    ],
+    "story": "流沙卷浪，水府小妖在急流边窥伺行人。 卷帘大将放下前愆，沙悟净护着行李加入师徒。",
+    "bridge": "上一段路已过，师徒来到流沙河。",
+    "intro": "",
+    "attack": [
+      "起风！",
+      "黄沙万里，遮你双目！"
+    ],
+    "defeat": "",
+    "trial": 15,
+    "trialName": "流沙河",
+    "kind": "combat",
+    "legacyBossIndex": -1,
+    "powerTier": 3,
+    "chapterIndex": 7,
+    "firstTrial": 15,
+    "lastTrial": 16,
+    "sourceTrials": [
+      {
+        "ch": 22,
+        "place": "流沙河",
+        "boss": null,
+        "type": "wind",
+        "pattern": "fan",
+        "biome": "desert",
+        "accent": "#e0c178",
+        "mobs": [
+          "jackal",
+          "wolf",
+          "windling"
+        ],
+        "story": "流沙卷浪，水府小妖在急流边窥伺行人。",
+        "bridge": "前一难已过，取经人行至流沙河。",
+        "intro": "",
+        "attack": [
+          "起风！",
+          "黄沙万里，遮你双目！"
+        ],
+        "defeat": "",
+        "trial": 15,
+        "trialName": "流沙难渡",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 2
+      },
+      {
+        "ch": 22,
+        "place": "流沙河岸",
+        "boss": null,
+        "type": "wind",
+        "pattern": "fan",
+        "biome": "desert",
+        "accent": "#e0c178",
+        "mobs": [
+          "jackal",
+          "wolf",
+          "windling"
+        ],
+        "story": "卷帘大将放下前愆，沙悟净护着行李加入师徒。",
+        "bridge": "前一难已过，取经人行至流沙河岸。",
+        "intro": "",
+        "attack": [
+          "起风！",
+          "黄沙万里，遮你双目！"
+        ],
+        "defeat": "",
+        "trial": 16,
+        "trialName": "收得沙僧",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 2
+      }
+    ],
+    "bossRefs": [],
+    "mobNames": {
+      "fishling": "流沙河水妖",
+      "stone": "河底龟卒"
+    },
+    "element": "water",
+    "ordeal": {
+      "name": "弱水牵衣",
+      "cost": "移动速度 -10%",
+      "reward": "过关得 10 文",
+      "move": 0.9,
+      "coins": 10
+    }
+  },
+  {
+    "ch": 26,
+    "place": "万寿山五庄观",
+    "boss": null,
+    "type": "wind",
+    "pattern": "fan",
+    "biome": "desert",
+    "accent": "#e0c178",
+    "mobs": [
+      "guard",
+      "shade",
+      "stone"
+    ],
+    "story": "四圣试探师徒心性，富贵与婚缘皆是考题。 镇元大仙的道观清幽，人参果的香气已在院墙外。 果树倾倒，须请观音甘露救活；贪果的代价也记在心里。",
+    "bridge": "上一段路已过，师徒来到万寿山五庄观。",
+    "intro": "",
+    "attack": [
+      "起风！",
+      "黄沙万里，遮你双目！"
+    ],
+    "defeat": "",
+    "trial": 17,
+    "trialName": "万寿山五庄观",
+    "kind": "combat",
+    "legacyBossIndex": -1,
+    "powerTier": 4,
+    "chapterIndex": 8,
+    "firstTrial": 17,
+    "lastTrial": 19,
+    "sourceTrials": [
+      {
+        "ch": 23,
+        "place": "莫家庄",
+        "boss": null,
+        "type": "wind",
+        "pattern": "fan",
+        "biome": "desert",
+        "accent": "#e0c178",
+        "mobs": [
+          "jackal",
+          "wolf",
+          "windling"
+        ],
+        "story": "四圣试探师徒心性，富贵与婚缘皆是考题。",
+        "bridge": "前一难已过，取经人行至莫家庄。",
+        "intro": "",
+        "attack": [
+          "起风！",
+          "黄沙万里，遮你双目！"
+        ],
+        "defeat": "",
+        "trial": 17,
+        "trialName": "四圣显化",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 2
+      },
+      {
+        "ch": 24,
+        "place": "万寿山",
+        "boss": null,
+        "type": "wind",
+        "pattern": "fan",
+        "biome": "desert",
+        "accent": "#e0c178",
+        "mobs": [
+          "jackal",
+          "wolf",
+          "windling"
+        ],
+        "story": "镇元大仙的道观清幽，人参果的香气已在院墙外。",
+        "bridge": "前一难已过，取经人行至万寿山。",
+        "intro": "",
+        "attack": [
+          "起风！",
+          "黄沙万里，遮你双目！"
+        ],
+        "defeat": "",
+        "trial": 18,
+        "trialName": "五庄观中",
+        "kind": "event",
+        "legacyBossIndex": -1,
+        "powerTier": 2
+      },
+      {
+        "ch": 26,
+        "place": "五庄观",
+        "boss": null,
+        "type": "wind",
+        "pattern": "fan",
+        "biome": "desert",
+        "accent": "#e0c178",
+        "mobs": [
+          "jackal",
+          "wolf",
+          "windling"
+        ],
+        "story": "果树倾倒，须请观音甘露救活；贪果的代价也记在心里。",
+        "bridge": "前一难已过，取经人行至五庄观。",
+        "intro": "",
+        "attack": [
+          "起风！",
+          "黄沙万里，遮你双目！"
+        ],
+        "defeat": "",
+        "trial": 19,
+        "trialName": "难活人参",
+        "kind": "event",
+        "legacyBossIndex": -1,
+        "powerTier": 2
+      }
+    ],
+    "bossRefs": [],
+    "mobNames": {},
+    "element": "wood",
+    "ordeal": {
+      "name": "藤瘴缠身",
+      "cost": "小妖生命 +12%",
+      "reward": "过关得 12 文",
+      "mobHp": 1.12,
+      "coins": 12
+    }
+  },
+  {
+    "ch": 27,
+    "place": "白虎岭",
+    "boss": "白骨精",
+    "type": "bone",
+    "pattern": "illusion",
+    "biome": "grave",
+    "accent": "#ded9cf",
+    "mobs": [
+      "disguised",
+      "bonelet",
+      "shade"
+    ],
+    "story": "白骨精连换三副人形，师徒眼见与心信彼此冲突。",
+    "bridge": "上一段路已过，师徒来到白虎岭。",
+    "intro": "你们看见的，未必就是你们相信的。",
+    "attack": [
+      "再换一副皮相如何？",
+      "真假难辨，正合我意。"
+    ],
+    "defeat": "幻形尽散，白骨现身。",
+    "trial": 20,
+    "trialName": "白虎岭",
+    "kind": "boss",
+    "legacyBossIndex": 3,
+    "powerTier": 4,
+    "chapterIndex": 9,
+    "firstTrial": 20,
+    "lastTrial": 20,
+    "sourceTrials": [
+      {
+        "ch": 27,
+        "place": "白虎岭",
+        "boss": "白骨精",
+        "type": "bone",
+        "pattern": "illusion",
+        "biome": "grave",
+        "accent": "#ded9cf",
+        "mobs": [
+          "disguised",
+          "bonelet",
+          "shade"
+        ],
+        "story": "白骨精连换三副人形，师徒眼见与心信彼此冲突。",
+        "bridge": "前一难已过，取经人行至白虎岭。",
+        "intro": "你们看见的，未必就是你们相信的。",
+        "attack": [
+          "再换一副皮相如何？",
+          "真假难辨，正合我意。"
+        ],
+        "defeat": "幻形尽散，白骨现身。",
+        "trial": 20,
+        "trialName": "贬退心猿",
+        "kind": "boss",
+        "legacyBossIndex": 3,
+        "powerTier": 3
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 27,
+        "place": "白虎岭",
+        "boss": "白骨精",
+        "type": "bone",
+        "pattern": "illusion",
+        "biome": "grave",
+        "accent": "#ded9cf",
+        "mobs": [
+          "disguised",
+          "bonelet",
+          "shade"
+        ],
+        "story": "白骨精连换三副人形，师徒眼见与心信彼此冲突。",
+        "bridge": "前一难已过，取经人行至白虎岭。",
+        "intro": "你们看见的，未必就是你们相信的。",
+        "attack": [
+          "再换一副皮相如何？",
+          "真假难辨，正合我意。"
+        ],
+        "defeat": "幻形尽散，白骨现身。",
+        "trial": 20,
+        "trialName": "贬退心猿",
+        "kind": "boss",
+        "legacyBossIndex": 3,
+        "powerTier": 3
+      }
+    ],
+    "mobNames": {},
+    "element": "none",
+    "ordeal": {
+      "name": "风餐露宿",
+      "cost": "小妖伤害 +8%",
+      "reward": "过关得 10 文",
+      "mobDamage": 1.08,
+      "coins": 10
+    }
+  },
+  {
+    "ch": 31,
+    "place": "黑松林与宝象国",
+    "boss": "黄袍怪",
+    "type": "robe",
+    "pattern": "fan",
+    "biome": "night",
+    "accent": "#a8a4d4",
+    "mobs": [
+      "wolf",
+      "leopard",
+      "shade"
+    ],
+    "story": "密林遮天，师父与徒弟走散，妖影随树影移动。 百花羞托书给国王，求援的消息终于送出黑松林。 黄袍怪施法改人形貌，金殿中须揭破真相。",
+    "bridge": "上一段路已过，师徒来到黑松林与宝象国。",
+    "intro": "波月洞里，轮不到旁人评说我的旧缘！",
+    "attack": [
+      "星光落下！",
+      "你们走不出这片黑松林。"
+    ],
+    "defeat": "公主得救，宝象国重见天日。",
+    "trial": 21,
+    "trialName": "黑松林与宝象国",
+    "kind": "boss",
+    "legacyBossIndex": 4,
+    "powerTier": 5,
+    "chapterIndex": 10,
+    "firstTrial": 21,
+    "lastTrial": 23,
+    "sourceTrials": [
+      {
+        "ch": 28,
+        "place": "黑松林",
+        "boss": null,
+        "type": "robe",
+        "pattern": "fan",
+        "biome": "night",
+        "accent": "#a8a4d4",
+        "mobs": [
+          "wolf",
+          "leopard",
+          "shade"
+        ],
+        "story": "密林遮天，师父与徒弟走散，妖影随树影移动。",
+        "bridge": "前一难已过，取经人行至黑松林。",
+        "intro": "",
+        "attack": [
+          "星光落下！",
+          "你们走不出这片黑松林。"
+        ],
+        "defeat": "",
+        "trial": 21,
+        "trialName": "黑松林失散",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 4
+      },
+      {
+        "ch": 29,
+        "place": "宝象国",
+        "boss": null,
+        "type": "robe",
+        "pattern": "fan",
+        "biome": "night",
+        "accent": "#a8a4d4",
+        "mobs": [
+          "wolf",
+          "leopard",
+          "shade"
+        ],
+        "story": "百花羞托书给国王，求援的消息终于送出黑松林。",
+        "bridge": "前一难已过，取经人行至宝象国。",
+        "intro": "",
+        "attack": [
+          "星光落下！",
+          "你们走不出这片黑松林。"
+        ],
+        "defeat": "",
+        "trial": 22,
+        "trialName": "宝象国捎书",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 4
+      },
+      {
+        "ch": 31,
+        "place": "宝象国金殿",
+        "boss": "黄袍怪",
+        "type": "robe",
+        "pattern": "fan",
+        "biome": "night",
+        "accent": "#a8a4d4",
+        "mobs": [
+          "wolf",
+          "leopard",
+          "shade"
+        ],
+        "story": "黄袍怪施法改人形貌，金殿中须揭破真相。",
+        "bridge": "前一难已过，取经人行至宝象国金殿。",
+        "intro": "波月洞里，轮不到旁人评说我的旧缘！",
+        "attack": [
+          "星光落下！",
+          "你们走不出这片黑松林。"
+        ],
+        "defeat": "公主得救，宝象国重见天日。",
+        "trial": 23,
+        "trialName": "金銮殿变虎",
+        "kind": "boss",
+        "legacyBossIndex": 4,
+        "powerTier": 4
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 31,
+        "place": "宝象国金殿",
+        "boss": "黄袍怪",
+        "type": "robe",
+        "pattern": "fan",
+        "biome": "night",
+        "accent": "#a8a4d4",
+        "mobs": [
+          "wolf",
+          "leopard",
+          "shade"
+        ],
+        "story": "黄袍怪施法改人形貌，金殿中须揭破真相。",
+        "bridge": "前一难已过，取经人行至宝象国金殿。",
+        "intro": "波月洞里，轮不到旁人评说我的旧缘！",
+        "attack": [
+          "星光落下！",
+          "你们走不出这片黑松林。"
+        ],
+        "defeat": "公主得救，宝象国重见天日。",
+        "trial": 23,
+        "trialName": "金銮殿变虎",
+        "kind": "boss",
+        "legacyBossIndex": 4,
+        "powerTier": 4
+      }
+    ],
+    "mobNames": {
+      "shade": "波月洞星侍"
+    },
+    "element": "wood",
+    "ordeal": {
+      "name": "藤瘴缠身",
+      "cost": "小妖生命 +12%",
+      "reward": "过关得 12 文",
+      "mobHp": 1.12,
+      "coins": 12
+    }
+  },
+  {
+    "ch": 34,
+    "place": "平顶山莲花洞",
+    "boss": "银角大王",
+    "type": "horn",
+    "pattern": "trap",
+    "biome": "cave",
+    "accent": "#c9d4db",
+    "mobs": [
+      "lotusling",
+      "stone",
+      "shade"
+    ],
+    "story": "莲花洞喽啰封山，金角持宝葫芦守住入口。 银角举净瓶点名，被叫住的人须速离原地。",
+    "bridge": "上一段路已过，师徒来到平顶山莲花洞。",
+    "intro": "你叫我一声，我便放你进葫芦！",
+    "attack": [
+      "净瓶在手，莫想走脱！"
+    ],
+    "defeat": "两件宝贝俱已失灵，莲花洞路开。",
+    "mechanic": "gourd",
+    "trial": 24,
+    "trialName": "平顶山莲花洞",
+    "kind": "boss",
+    "legacyBossIndex": -1,
+    "powerTier": 5,
+    "chapterIndex": 11,
+    "firstTrial": 24,
+    "lastTrial": 25,
+    "sourceTrials": [
+      {
+        "ch": 32,
+        "place": "平顶山",
+        "boss": "金角大王",
+        "type": "horn",
+        "pattern": "trap",
+        "biome": "cave",
+        "accent": "#e1bc73",
+        "mobs": [
+          "lotusling",
+          "stone",
+          "shade"
+        ],
+        "story": "莲花洞喽啰封山，金角持宝葫芦守住入口。",
+        "bridge": "前一难已过，取经人行至平顶山。",
+        "intro": "叫得出你的名字，便有法宝应声！",
+        "attack": [
+          "银角，随我布阵！",
+          "看我的紫金葫芦！"
+        ],
+        "defeat": "宝贝归原主，莲花洞的迷局终破。",
+        "trial": 24,
+        "trialName": "平顶山逢魔",
+        "kind": "boss",
+        "legacyBossIndex": 5,
+        "powerTier": 5
+      },
+      {
+        "ch": 34,
+        "place": "莲花洞",
+        "boss": "银角大王",
+        "type": "horn",
+        "pattern": "trap",
+        "biome": "cave",
+        "accent": "#c9d4db",
+        "mobs": [
+          "lotusling",
+          "stone",
+          "shade"
+        ],
+        "story": "银角举净瓶点名，被叫住的人须速离原地。",
+        "bridge": "前一难已过，取经人行至莲花洞。",
+        "intro": "你叫我一声，我便放你进葫芦！",
+        "attack": [
+          "净瓶在手，莫想走脱！"
+        ],
+        "defeat": "两件宝贝俱已失灵，莲花洞路开。",
+        "mechanic": "gourd",
+        "trial": 25,
+        "trialName": "莲花洞高悬",
+        "kind": "boss",
+        "legacyBossIndex": -1,
+        "powerTier": 5
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 32,
+        "place": "平顶山",
+        "boss": "金角大王",
+        "type": "horn",
+        "pattern": "trap",
+        "biome": "cave",
+        "accent": "#e1bc73",
+        "mobs": [
+          "lotusling",
+          "stone",
+          "shade"
+        ],
+        "story": "莲花洞喽啰封山，金角持宝葫芦守住入口。",
+        "bridge": "前一难已过，取经人行至平顶山。",
+        "intro": "叫得出你的名字，便有法宝应声！",
+        "attack": [
+          "银角，随我布阵！",
+          "看我的紫金葫芦！"
+        ],
+        "defeat": "宝贝归原主，莲花洞的迷局终破。",
+        "trial": 24,
+        "trialName": "平顶山逢魔",
+        "kind": "boss",
+        "legacyBossIndex": 5,
+        "powerTier": 5
+      },
+      {
+        "ch": 34,
+        "place": "莲花洞",
+        "boss": "银角大王",
+        "type": "horn",
+        "pattern": "trap",
+        "biome": "cave",
+        "accent": "#c9d4db",
+        "mobs": [
+          "lotusling",
+          "stone",
+          "shade"
+        ],
+        "story": "银角举净瓶点名，被叫住的人须速离原地。",
+        "bridge": "前一难已过，取经人行至莲花洞。",
+        "intro": "你叫我一声，我便放你进葫芦！",
+        "attack": [
+          "净瓶在手，莫想走脱！"
+        ],
+        "defeat": "两件宝贝俱已失灵，莲花洞路开。",
+        "mechanic": "gourd",
+        "trial": 25,
+        "trialName": "莲花洞高悬",
+        "kind": "boss",
+        "legacyBossIndex": -1,
+        "powerTier": 5
+      }
+    ],
+    "mobNames": {},
+    "element": "metal",
+    "ordeal": {
+      "name": "宝光压阵",
+      "cost": "妖王法术伤害 +10%",
+      "reward": "过关得 14 文",
+      "bossSpell": 1.1,
+      "coins": 14
+    }
+  },
+  {
+    "ch": 39,
+    "place": "乌鸡国",
+    "boss": null,
+    "type": "horn",
+    "pattern": "trap",
+    "biome": "city",
+    "accent": "#e1bc73",
+    "mobs": [
+      "guard",
+      "shade",
+      "stone"
+    ],
+    "story": "井中旧王托梦，真假国王之案待水落石出。 妖魔借人身藏在宫里，辨形之外也要护住无辜。",
+    "bridge": "上一段路已过，师徒来到乌鸡国。",
+    "intro": "",
+    "attack": [
+      "银角，随我布阵！",
+      "看我的紫金葫芦！"
+    ],
+    "defeat": "",
+    "trial": 26,
+    "trialName": "乌鸡国",
+    "kind": "combat",
+    "legacyBossIndex": -1,
+    "powerTier": 6,
+    "chapterIndex": 12,
+    "firstTrial": 26,
+    "lastTrial": 27,
+    "sourceTrials": [
+      {
+        "ch": 37,
+        "place": "乌鸡国",
+        "boss": null,
+        "type": "horn",
+        "pattern": "trap",
+        "biome": "cave",
+        "accent": "#e1bc73",
+        "mobs": [
+          "stone",
+          "jackal",
+          "shade"
+        ],
+        "story": "井中旧王托梦，真假国王之案待水落石出。",
+        "bridge": "前一难已过，取经人行至乌鸡国。",
+        "intro": "",
+        "attack": [
+          "银角，随我布阵！",
+          "看我的紫金葫芦！"
+        ],
+        "defeat": "",
+        "trial": 26,
+        "trialName": "乌鸡国救主",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 5
+      },
+      {
+        "ch": 39,
+        "place": "乌鸡国王宫",
+        "boss": null,
+        "type": "horn",
+        "pattern": "trap",
+        "biome": "cave",
+        "accent": "#e1bc73",
+        "mobs": [
+          "stone",
+          "jackal",
+          "shade"
+        ],
+        "story": "妖魔借人身藏在宫里，辨形之外也要护住无辜。",
+        "bridge": "前一难已过，取经人行至乌鸡国王宫。",
+        "intro": "",
+        "attack": [
+          "银角，随我布阵！",
+          "看我的紫金葫芦！"
+        ],
+        "defeat": "",
+        "trial": 27,
+        "trialName": "被魔化身",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 5
+      }
+    ],
+    "bossRefs": [],
+    "mobNames": {
+      "guard": "乌鸡国伪王亲兵",
+      "shade": "井底冤影"
+    },
+    "element": "earth",
+    "ordeal": {
+      "name": "山重路险",
+      "cost": "小妖接触伤害 +12%",
+      "reward": "过关得 10 文",
+      "mobTouch": 1.12,
+      "coins": 10
+    }
+  },
+  {
+    "ch": 42,
+    "place": "枯松涧火云洞",
+    "boss": "红孩儿",
+    "type": "fire",
+    "pattern": "fire",
+    "biome": "ember",
+    "accent": "#ef8865",
+    "mobs": [
+      "fireling",
+      "fireguard",
+      "jackal"
+    ],
+    "story": "红孩儿假扮受困童子，引众人向火云洞深处。 一阵妖风夺走师父，火云亲卫列阵守路。 三昧真火逼得悟空退却，须待援手寻破火之法。 观音前来收服圣婴大王，先撑过最后一阵真火。",
+    "bridge": "上一段路已过，师徒来到枯松涧火云洞。",
+    "intro": "我乃圣婴大王！尝尝这三昧真火！",
+    "attack": [
+      "火尖枪，起！",
+      "真火不灭，休想过去！"
+    ],
+    "defeat": "烈火熄下，火云洞重归平静。",
+    "unlock": "wukong-hidden",
+    "trial": 28,
+    "trialName": "枯松涧火云洞",
+    "kind": "boss",
+    "legacyBossIndex": 6,
+    "powerTier": 6,
+    "chapterIndex": 13,
+    "firstTrial": 28,
+    "lastTrial": 31,
+    "sourceTrials": [
+      {
+        "ch": 40,
+        "place": "号山",
+        "boss": null,
+        "type": "fire",
+        "pattern": "fire",
+        "biome": "ember",
+        "accent": "#ef8865",
+        "mobs": [
+          "fireling",
+          "fireguard",
+          "jackal"
+        ],
+        "story": "红孩儿假扮受困童子，引众人向火云洞深处。",
+        "bridge": "前一难已过，取经人行至号山。",
+        "intro": "",
+        "attack": [
+          "火尖枪，起！",
+          "真火不灭，休想过去！"
+        ],
+        "defeat": "",
+        "unlock": "wukong-hidden",
+        "trial": 28,
+        "trialName": "号山逢怪",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 6
+      },
+      {
+        "ch": 41,
+        "place": "火云洞前",
+        "boss": null,
+        "type": "fire",
+        "pattern": "fire",
+        "biome": "ember",
+        "accent": "#ef8865",
+        "mobs": [
+          "fireling",
+          "fireguard",
+          "jackal"
+        ],
+        "story": "一阵妖风夺走师父，火云亲卫列阵守路。",
+        "bridge": "前一难已过，取经人行至火云洞前。",
+        "intro": "",
+        "attack": [
+          "火尖枪，起！",
+          "真火不灭，休想过去！"
+        ],
+        "defeat": "",
+        "unlock": "wukong-hidden",
+        "trial": 29,
+        "trialName": "风摄圣僧",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 6
+      },
+      {
+        "ch": 41,
+        "place": "火云洞",
+        "boss": null,
+        "type": "fire",
+        "pattern": "fire",
+        "biome": "ember",
+        "accent": "#ef8865",
+        "mobs": [
+          "fireling",
+          "fireguard",
+          "jackal"
+        ],
+        "story": "三昧真火逼得悟空退却，须待援手寻破火之法。",
+        "bridge": "前一难已过，取经人行至火云洞。",
+        "intro": "",
+        "attack": [
+          "火尖枪，起！",
+          "真火不灭，休想过去！"
+        ],
+        "defeat": "",
+        "unlock": "wukong-hidden",
+        "trial": 30,
+        "trialName": "心猿遭害",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 6
+      },
+      {
+        "ch": 42,
+        "place": "火云洞正殿",
+        "boss": "红孩儿",
+        "type": "fire",
+        "pattern": "fire",
+        "biome": "ember",
+        "accent": "#ef8865",
+        "mobs": [
+          "fireling",
+          "fireguard",
+          "jackal"
+        ],
+        "story": "观音前来收服圣婴大王，先撑过最后一阵真火。",
+        "bridge": "前一难已过，取经人行至火云洞正殿。",
+        "intro": "我乃圣婴大王！尝尝这三昧真火！",
+        "attack": [
+          "火尖枪，起！",
+          "真火不灭，休想过去！"
+        ],
+        "defeat": "烈火熄下，火云洞重归平静。",
+        "unlock": "wukong-hidden",
+        "trial": 31,
+        "trialName": "请圣降妖",
+        "kind": "boss",
+        "legacyBossIndex": 6,
+        "powerTier": 6
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 42,
+        "place": "火云洞正殿",
+        "boss": "红孩儿",
+        "type": "fire",
+        "pattern": "fire",
+        "biome": "ember",
+        "accent": "#ef8865",
+        "mobs": [
+          "fireling",
+          "fireguard",
+          "jackal"
+        ],
+        "story": "观音前来收服圣婴大王，先撑过最后一阵真火。",
+        "bridge": "前一难已过，取经人行至火云洞正殿。",
+        "intro": "我乃圣婴大王！尝尝这三昧真火！",
+        "attack": [
+          "火尖枪，起！",
+          "真火不灭，休想过去！"
+        ],
+        "defeat": "烈火熄下，火云洞重归平静。",
+        "unlock": "wukong-hidden",
+        "trial": 31,
+        "trialName": "请圣降妖",
+        "kind": "boss",
+        "legacyBossIndex": 6,
+        "powerTier": 6
+      }
+    ],
+    "mobNames": {},
+    "element": "fire",
+    "ordeal": {
+      "name": "火路难行",
+      "cost": "受到的灼烧伤害 +20%",
+      "reward": "过关得 12 文",
+      "burn": 1.2,
+      "coins": 12
+    }
+  },
+  {
+    "ch": 43,
+    "place": "黑水河",
+    "boss": null,
+    "type": "fire",
+    "pattern": "fire",
+    "biome": "river",
+    "accent": "#ef8865",
+    "mobs": [
+      "fishling",
+      "stone",
+      "shade"
+    ],
+    "story": "黑水翻涌，鼍龙在水底伏击师徒。",
+    "bridge": "上一段路已过，师徒来到黑水河。",
+    "intro": "",
+    "attack": [
+      "火尖枪，起！",
+      "真火不灭，休想过去！"
+    ],
+    "defeat": "",
+    "unlock": "wukong-hidden",
+    "trial": 32,
+    "trialName": "黑水河",
+    "kind": "combat",
+    "legacyBossIndex": -1,
+    "powerTier": 7,
+    "chapterIndex": 14,
+    "firstTrial": 32,
+    "lastTrial": 32,
+    "sourceTrials": [
+      {
+        "ch": 43,
+        "place": "黑水河",
+        "boss": null,
+        "type": "fire",
+        "pattern": "fire",
+        "biome": "ember",
+        "accent": "#ef8865",
+        "mobs": [
+          "fireling",
+          "jackal",
+          "wolf"
+        ],
+        "story": "黑水翻涌，鼍龙在水底伏击师徒。",
+        "bridge": "前一难已过，取经人行至黑水河。",
+        "intro": "",
+        "attack": [
+          "火尖枪，起！",
+          "真火不灭，休想过去！"
+        ],
+        "defeat": "",
+        "unlock": "wukong-hidden",
+        "trial": 32,
+        "trialName": "黑河沉没",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 6
+      }
+    ],
+    "bossRefs": [],
+    "mobNames": {
+      "fishling": "黑水河虾兵",
+      "stone": "鼍龙河卫"
+    },
+    "element": "water",
+    "ordeal": {
+      "name": "弱水牵衣",
+      "cost": "移动速度 -10%",
+      "reward": "过关得 10 文",
+      "move": 0.9,
+      "coins": 10
+    }
+  },
+  {
+    "ch": 45,
+    "place": "车迟国",
+    "boss": "虎力大仙",
+    "type": "tiger",
+    "pattern": "trap",
+    "biome": "city",
+    "accent": "#d6b574",
+    "mobs": [
+      "tiger",
+      "guard",
+      "stone"
+    ],
+    "story": "僧众受役推车，国中道士把持法坛。 虎力大仙以求雨斗法定输赢，风雷与符箓交织。 胜负已明，受困僧众得释，继续西行。",
+    "bridge": "上一段路已过，师徒来到车迟国。",
+    "intro": "在车迟国，求雨斗法便见真章！",
+    "attack": [
+      "开坛！",
+      "此局由我定规矩。"
+    ],
+    "defeat": "斗法既定，僧众得释。",
+    "trial": 33,
+    "trialName": "车迟国",
+    "kind": "boss",
+    "legacyBossIndex": 7,
+    "powerTier": 7,
+    "chapterIndex": 15,
+    "firstTrial": 33,
+    "lastTrial": 35,
+    "sourceTrials": [
+      {
+        "ch": 44,
+        "place": "车迟国",
+        "boss": null,
+        "type": "tiger",
+        "pattern": "trap",
+        "biome": "city",
+        "accent": "#d6b574",
+        "mobs": [
+          "tiger",
+          "jackal",
+          "guard"
+        ],
+        "story": "僧众受役推车，国中道士把持法坛。",
+        "bridge": "前一难已过，取经人行至车迟国。",
+        "intro": "",
+        "attack": [
+          "开坛！",
+          "此局由我定规矩。"
+        ],
+        "defeat": "",
+        "trial": 33,
+        "trialName": "搬运车迟",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 7
+      },
+      {
+        "ch": 45,
+        "place": "车迟国法坛",
+        "boss": "虎力大仙",
+        "type": "tiger",
+        "pattern": "trap",
+        "biome": "city",
+        "accent": "#d6b574",
+        "mobs": [
+          "tiger",
+          "jackal",
+          "guard"
+        ],
+        "story": "虎力大仙以求雨斗法定输赢，风雷与符箓交织。",
+        "bridge": "前一难已过，取经人行至车迟国法坛。",
+        "intro": "在车迟国，求雨斗法便见真章！",
+        "attack": [
+          "开坛！",
+          "此局由我定规矩。"
+        ],
+        "defeat": "斗法既定，僧众得释。",
+        "trial": 34,
+        "trialName": "大赌输赢",
+        "kind": "boss",
+        "legacyBossIndex": 7,
+        "powerTier": 7
+      },
+      {
+        "ch": 46,
+        "place": "车迟国城门",
+        "boss": null,
+        "type": "tiger",
+        "pattern": "trap",
+        "biome": "city",
+        "accent": "#d6b574",
+        "mobs": [
+          "tiger",
+          "jackal",
+          "guard"
+        ],
+        "story": "胜负已明，受困僧众得释，继续西行。",
+        "bridge": "前一难已过，取经人行至车迟国城门。",
+        "intro": "",
+        "attack": [
+          "开坛！",
+          "此局由我定规矩。"
+        ],
+        "defeat": "",
+        "trial": 35,
+        "trialName": "祛道兴僧",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 7
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 45,
+        "place": "车迟国法坛",
+        "boss": "虎力大仙",
+        "type": "tiger",
+        "pattern": "trap",
+        "biome": "city",
+        "accent": "#d6b574",
+        "mobs": [
+          "tiger",
+          "jackal",
+          "guard"
+        ],
+        "story": "虎力大仙以求雨斗法定输赢，风雷与符箓交织。",
+        "bridge": "前一难已过，取经人行至车迟国法坛。",
+        "intro": "在车迟国，求雨斗法便见真章！",
+        "attack": [
+          "开坛！",
+          "此局由我定规矩。"
+        ],
+        "defeat": "斗法既定，僧众得释。",
+        "trial": 34,
+        "trialName": "大赌输赢",
+        "kind": "boss",
+        "legacyBossIndex": 7,
+        "powerTier": 7
+      }
+    ],
+    "mobNames": {
+      "guard": "车迟国道坛守卫"
+    },
+    "element": "earth",
+    "ordeal": {
+      "name": "山重路险",
+      "cost": "小妖接触伤害 +12%",
+      "reward": "过关得 10 文",
+      "mobTouch": 1.12,
+      "coins": 10
+    }
+  },
+  {
+    "ch": 49,
+    "place": "通天河",
+    "boss": "灵感大王",
+    "type": "fish",
+    "pattern": "wave",
+    "biome": "river",
+    "accent": "#8ecdd4",
+    "mobs": [
+      "fishling",
+      "shade",
+      "stone"
+    ],
+    "story": "陈家庄的孩子被当作祭品，夜里河浪异常。 冰面裂开，落水的危险近在脚下。 观音携鱼篮收妖，灵感大王最后掀起巨浪。",
+    "bridge": "上一段路已过，师徒来到通天河。",
+    "intro": "河水漫天，谁能过我的通天河？",
+    "attack": [
+      "水势涨了！",
+      "冰下也有我的路。"
+    ],
+    "defeat": "鱼篮收妖，河水复归安宁。",
+    "unlock": "bailongma-hidden",
+    "trial": 36,
+    "trialName": "通天河",
+    "kind": "boss",
+    "legacyBossIndex": 8,
+    "powerTier": 8,
+    "chapterIndex": 16,
+    "firstTrial": 36,
+    "lastTrial": 38,
+    "sourceTrials": [
+      {
+        "ch": 47,
+        "place": "通天河",
+        "boss": null,
+        "type": "fish",
+        "pattern": "wave",
+        "biome": "river",
+        "accent": "#8ecdd4",
+        "mobs": [
+          "fishling",
+          "shade",
+          "stone"
+        ],
+        "story": "陈家庄的孩子被当作祭品，夜里河浪异常。",
+        "bridge": "前一难已过，取经人行至通天河。",
+        "intro": "",
+        "attack": [
+          "水势涨了！",
+          "冰下也有我的路。"
+        ],
+        "defeat": "",
+        "unlock": "shaseng-hidden",
+        "trial": 36,
+        "trialName": "路逢大水",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 8
+      },
+      {
+        "ch": 48,
+        "place": "通天河冰面",
+        "boss": null,
+        "type": "fish",
+        "pattern": "wave",
+        "biome": "river",
+        "accent": "#8ecdd4",
+        "mobs": [
+          "fishling",
+          "shade",
+          "stone"
+        ],
+        "story": "冰面裂开，落水的危险近在脚下。",
+        "bridge": "前一难已过，取经人行至通天河冰面。",
+        "intro": "",
+        "attack": [
+          "水势涨了！",
+          "冰下也有我的路。"
+        ],
+        "defeat": "",
+        "unlock": "shaseng-hidden",
+        "trial": 37,
+        "trialName": "身落天河",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 8
+      },
+      {
+        "ch": 49,
+        "place": "通天河水府",
+        "boss": "灵感大王",
+        "type": "fish",
+        "pattern": "wave",
+        "biome": "river",
+        "accent": "#8ecdd4",
+        "mobs": [
+          "fishling",
+          "shade",
+          "stone"
+        ],
+        "story": "观音携鱼篮收妖，灵感大王最后掀起巨浪。",
+        "bridge": "前一难已过，取经人行至通天河水府。",
+        "intro": "河水漫天，谁能过我的通天河？",
+        "attack": [
+          "水势涨了！",
+          "冰下也有我的路。"
+        ],
+        "defeat": "鱼篮收妖，河水复归安宁。",
+        "unlock": "bailongma-hidden",
+        "trial": 38,
+        "trialName": "鱼篮现身",
+        "kind": "boss",
+        "legacyBossIndex": 8,
+        "powerTier": 8
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 49,
+        "place": "通天河水府",
+        "boss": "灵感大王",
+        "type": "fish",
+        "pattern": "wave",
+        "biome": "river",
+        "accent": "#8ecdd4",
+        "mobs": [
+          "fishling",
+          "shade",
+          "stone"
+        ],
+        "story": "观音携鱼篮收妖，灵感大王最后掀起巨浪。",
+        "bridge": "前一难已过，取经人行至通天河水府。",
+        "intro": "河水漫天，谁能过我的通天河？",
+        "attack": [
+          "水势涨了！",
+          "冰下也有我的路。"
+        ],
+        "defeat": "鱼篮收妖，河水复归安宁。",
+        "unlock": "bailongma-hidden",
+        "trial": 38,
+        "trialName": "鱼篮现身",
+        "kind": "boss",
+        "legacyBossIndex": 8,
+        "powerTier": 8
+      }
+    ],
+    "mobNames": {
+      "fishling": "灵感水府鱼兵",
+      "stone": "冰河甲卒"
+    },
+    "element": "water",
+    "ordeal": {
+      "name": "弱水牵衣",
+      "cost": "移动速度 -10%",
+      "reward": "过关得 10 文",
+      "move": 0.9,
+      "coins": 10
+    }
+  },
+  {
+    "ch": 51,
+    "place": "金兜山",
+    "boss": "青牛精",
+    "type": "bull",
+    "pattern": "trap",
+    "biome": "cave",
+    "accent": "#a3c2c3",
+    "mobs": [
+      "bulllet",
+      "stone",
+      "guard"
+    ],
+    "story": "青牛洞外兵器尽失，众人先探金刚琢的来路。 青牛精的金刚琢把兵器一一套走，硬拼难胜。 悟空请教如来，再到兜率宫请回青牛之主。",
+    "bridge": "上一段路已过，师徒来到金兜山。",
+    "intro": "再好的兵器，遇我金刚琢也留不住！",
+    "attack": [
+      "收！",
+      "空手又如何与我斗？"
+    ],
+    "defeat": "宝圈收回，兵刃复得。",
+    "trial": 39,
+    "trialName": "金兜山",
+    "kind": "boss",
+    "legacyBossIndex": 9,
+    "powerTier": 8,
+    "unlock": "shaseng-hidden",
+    "chapterIndex": 17,
+    "firstTrial": 39,
+    "lastTrial": 41,
+    "sourceTrials": [
+      {
+        "ch": 50,
+        "place": "金兜山",
+        "boss": null,
+        "type": "bull",
+        "pattern": "trap",
+        "biome": "cave",
+        "accent": "#a3c2c3",
+        "mobs": [
+          "stone",
+          "bulllet",
+          "guard"
+        ],
+        "story": "青牛洞外兵器尽失，众人先探金刚琢的来路。",
+        "bridge": "前一难已过，取经人行至金兜山。",
+        "intro": "",
+        "attack": [
+          "收！",
+          "空手又如何与我斗？"
+        ],
+        "defeat": "",
+        "trial": 39,
+        "trialName": "兜山遇怪",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 9
+      },
+      {
+        "ch": 51,
+        "place": "金兜洞",
+        "boss": "青牛精",
+        "type": "bull",
+        "pattern": "trap",
+        "biome": "cave",
+        "accent": "#a3c2c3",
+        "mobs": [
+          "stone",
+          "bulllet",
+          "guard"
+        ],
+        "story": "青牛精的金刚琢把兵器一一套走，硬拼难胜。",
+        "bridge": "前一难已过，取经人行至金兜洞。",
+        "intro": "再好的兵器，遇我金刚琢也留不住！",
+        "attack": [
+          "收！",
+          "空手又如何与我斗？"
+        ],
+        "defeat": "宝圈收回，兵刃复得。",
+        "trial": 40,
+        "trialName": "普天神难伏",
+        "kind": "boss",
+        "legacyBossIndex": 9,
+        "powerTier": 9,
+        "unlock": "shaseng-hidden"
+      },
+      {
+        "ch": 52,
+        "place": "灵山问计",
+        "boss": null,
+        "type": "bull",
+        "pattern": "trap",
+        "biome": "cave",
+        "accent": "#a3c2c3",
+        "mobs": [
+          "stone",
+          "bulllet",
+          "guard"
+        ],
+        "story": "悟空请教如来，再到兜率宫请回青牛之主。",
+        "bridge": "前一难已过，取经人行至灵山问计。",
+        "intro": "",
+        "attack": [
+          "收！",
+          "空手又如何与我斗？"
+        ],
+        "defeat": "",
+        "trial": 41,
+        "trialName": "问佛根源",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 9
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 51,
+        "place": "金兜洞",
+        "boss": "青牛精",
+        "type": "bull",
+        "pattern": "trap",
+        "biome": "cave",
+        "accent": "#a3c2c3",
+        "mobs": [
+          "stone",
+          "bulllet",
+          "guard"
+        ],
+        "story": "青牛精的金刚琢把兵器一一套走，硬拼难胜。",
+        "bridge": "前一难已过，取经人行至金兜洞。",
+        "intro": "再好的兵器，遇我金刚琢也留不住！",
+        "attack": [
+          "收！",
+          "空手又如何与我斗？"
+        ],
+        "defeat": "宝圈收回，兵刃复得。",
+        "trial": 40,
+        "trialName": "普天神难伏",
+        "kind": "boss",
+        "legacyBossIndex": 9,
+        "powerTier": 9,
+        "unlock": "shaseng-hidden"
+      }
+    ],
+    "mobNames": {
+      "bulllet": "金兜洞牛兵",
+      "guard": "独角兕亲卫"
+    },
+    "element": "metal",
+    "ordeal": {
+      "name": "宝光压阵",
+      "cost": "妖王法术伤害 +10%",
+      "reward": "过关得 14 文",
+      "bossSpell": 1.1,
+      "coins": 14
+    }
+  },
+  {
+    "ch": 55,
+    "place": "子母河与西梁国",
+    "boss": "蝎子精",
+    "type": "scorpion",
+    "pattern": "trap",
+    "biome": "web",
+    "accent": "#bc93a8",
+    "mobs": [
+      "scorpionlet",
+      "spiderlet",
+      "shade"
+    ],
+    "story": "河水清甜却有异变，泉水需细辨。 女王欲留唐僧成婚，取经之心与人情两难。 蝎子精尾钩如针，倒马毒桩不可硬接。",
+    "bridge": "上一段路已过，师徒来到子母河与西梁国。",
+    "intro": "进了琵琶洞，便尝一尝我的倒马毒桩！",
+    "attack": [
+      "尾钩落！",
+      "毒敌山可不是好走的路。"
+    ],
+    "defeat": "尾钩折下，毒敌山终得安宁。",
+    "trial": 42,
+    "trialName": "子母河与西梁国",
+    "kind": "boss",
+    "legacyBossIndex": 10,
+    "powerTier": 9,
+    "chapterIndex": 18,
+    "firstTrial": 42,
+    "lastTrial": 44,
+    "sourceTrials": [
+      {
+        "ch": 53,
+        "place": "子母河",
+        "boss": null,
+        "type": "scorpion",
+        "pattern": "trap",
+        "biome": "web",
+        "accent": "#bc93a8",
+        "mobs": [
+          "scorpionlet",
+          "spiderlet",
+          "shade"
+        ],
+        "story": "河水清甜却有异变，泉水需细辨。",
+        "bridge": "前一难已过，取经人行至子母河。",
+        "intro": "",
+        "attack": [
+          "尾钩落！",
+          "毒敌山可不是好走的路。"
+        ],
+        "defeat": "",
+        "trial": 42,
+        "trialName": "吃水遭毒",
+        "kind": "event",
+        "legacyBossIndex": -1,
+        "powerTier": 10
+      },
+      {
+        "ch": 54,
+        "place": "西梁女国",
+        "boss": null,
+        "type": "scorpion",
+        "pattern": "trap",
+        "biome": "web",
+        "accent": "#bc93a8",
+        "mobs": [
+          "scorpionlet",
+          "spiderlet",
+          "shade"
+        ],
+        "story": "女王欲留唐僧成婚，取经之心与人情两难。",
+        "bridge": "前一难已过，取经人行至西梁女国。",
+        "intro": "",
+        "attack": [
+          "尾钩落！",
+          "毒敌山可不是好走的路。"
+        ],
+        "defeat": "",
+        "trial": 43,
+        "trialName": "西梁国留婚",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 10
+      },
+      {
+        "ch": 55,
+        "place": "毒敌山",
+        "boss": "蝎子精",
+        "type": "scorpion",
+        "pattern": "trap",
+        "biome": "web",
+        "accent": "#bc93a8",
+        "mobs": [
+          "scorpionlet",
+          "spiderlet",
+          "shade"
+        ],
+        "story": "蝎子精尾钩如针，倒马毒桩不可硬接。",
+        "bridge": "前一难已过，取经人行至毒敌山。",
+        "intro": "进了琵琶洞，便尝一尝我的倒马毒桩！",
+        "attack": [
+          "尾钩落！",
+          "毒敌山可不是好走的路。"
+        ],
+        "defeat": "尾钩折下，毒敌山终得安宁。",
+        "trial": 44,
+        "trialName": "琵琶洞受苦",
+        "kind": "boss",
+        "legacyBossIndex": 10,
+        "powerTier": 10
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 55,
+        "place": "毒敌山",
+        "boss": "蝎子精",
+        "type": "scorpion",
+        "pattern": "trap",
+        "biome": "web",
+        "accent": "#bc93a8",
+        "mobs": [
+          "scorpionlet",
+          "spiderlet",
+          "shade"
+        ],
+        "story": "蝎子精尾钩如针，倒马毒桩不可硬接。",
+        "bridge": "前一难已过，取经人行至毒敌山。",
+        "intro": "进了琵琶洞，便尝一尝我的倒马毒桩！",
+        "attack": [
+          "尾钩落！",
+          "毒敌山可不是好走的路。"
+        ],
+        "defeat": "尾钩折下，毒敌山终得安宁。",
+        "trial": 44,
+        "trialName": "琵琶洞受苦",
+        "kind": "boss",
+        "legacyBossIndex": 10,
+        "powerTier": 10
+      }
+    ],
+    "mobNames": {},
+    "element": "wood",
+    "ordeal": {
+      "name": "藤瘴缠身",
+      "cost": "小妖生命 +12%",
+      "reward": "过关得 12 文",
+      "mobHp": 1.12,
+      "coins": 12
+    }
+  },
+  {
+    "ch": 58,
+    "place": "真假美猴王",
+    "boss": "六耳猕猴",
+    "type": "monkey",
+    "pattern": "trap",
+    "biome": "night",
+    "accent": "#b9a5a0",
+    "mobs": [
+      "disguised",
+      "shade",
+      "leopard"
+    ],
+    "story": "师徒再生误会，真心与假意尚待分辨。 真假美猴王同声同貌，须识其攻势破绽。",
+    "bridge": "上一段路已过，师徒来到真假美猴王。",
+    "intro": "你说谁是真，谁又是假？",
+    "attack": [
+      "这一棒，你认得出么？"
+    ],
+    "defeat": "真假终辨，师徒复归一路。",
+    "mechanic": "mirror",
+    "trial": 45,
+    "trialName": "真假美猴王",
+    "kind": "boss",
+    "legacyBossIndex": -1,
+    "powerTier": 10,
+    "chapterIndex": 19,
+    "firstTrial": 45,
+    "lastTrial": 46,
+    "sourceTrials": [
+      {
+        "ch": 56,
+        "place": "山野小径",
+        "boss": null,
+        "type": "scorpion",
+        "pattern": "trap",
+        "biome": "web",
+        "accent": "#bc93a8",
+        "mobs": [
+          "scorpionlet",
+          "spiderlet",
+          "shade"
+        ],
+        "story": "师徒再生误会，真心与假意尚待分辨。",
+        "bridge": "前一难已过，取经人行至山野小径。",
+        "intro": "",
+        "attack": [
+          "尾钩落！",
+          "毒敌山可不是好走的路。"
+        ],
+        "defeat": "",
+        "trial": 45,
+        "trialName": "再贬心猿",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 10
+      },
+      {
+        "ch": 58,
+        "place": "花果山影",
+        "boss": "六耳猕猴",
+        "type": "monkey",
+        "pattern": "trap",
+        "biome": "web",
+        "accent": "#b9a5a0",
+        "mobs": [
+          "scorpionlet",
+          "spiderlet",
+          "shade"
+        ],
+        "story": "真假美猴王同声同貌，须识其攻势破绽。",
+        "bridge": "前一难已过，取经人行至花果山影。",
+        "intro": "你说谁是真，谁又是假？",
+        "attack": [
+          "这一棒，你认得出么？"
+        ],
+        "defeat": "真假终辨，师徒复归一路。",
+        "mechanic": "mirror",
+        "trial": 46,
+        "trialName": "难辨猕猴",
+        "kind": "boss",
+        "legacyBossIndex": -1,
+        "powerTier": 10
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 58,
+        "place": "花果山影",
+        "boss": "六耳猕猴",
+        "type": "monkey",
+        "pattern": "trap",
+        "biome": "web",
+        "accent": "#b9a5a0",
+        "mobs": [
+          "scorpionlet",
+          "spiderlet",
+          "shade"
+        ],
+        "story": "真假美猴王同声同貌，须识其攻势破绽。",
+        "bridge": "前一难已过，取经人行至花果山影。",
+        "intro": "你说谁是真，谁又是假？",
+        "attack": [
+          "这一棒，你认得出么？"
+        ],
+        "defeat": "真假终辨，师徒复归一路。",
+        "mechanic": "mirror",
+        "trial": 46,
+        "trialName": "难辨猕猴",
+        "kind": "boss",
+        "legacyBossIndex": -1,
+        "powerTier": 10
+      }
+    ],
+    "mobNames": {
+      "disguised": "六耳幻化猴兵"
+    },
+    "element": "none",
+    "ordeal": {
+      "name": "风餐露宿",
+      "cost": "小妖伤害 +8%",
+      "reward": "过关得 10 文",
+      "mobDamage": 1.08,
+      "coins": 10
+    }
+  },
+  {
+    "ch": 61,
+    "place": "火焰山",
+    "boss": "牛魔王",
+    "type": "bull",
+    "pattern": "charge",
+    "biome": "ember",
+    "accent": "#df826b",
+    "mobs": [
+      "fireling",
+      "bulllet",
+      "jackal"
+    ],
+    "story": "八百里热浪灼路，地面火区迫人改道。 铁扇公主不肯借扇，一挥便是狂风。 牛魔王现出本相，三借芭蕉扇方可熄火。",
+    "bridge": "上一段路已过，师徒来到火焰山。",
+    "intro": "平天大圣在此，芭蕉扇岂由你拿走！",
+    "attack": [
+      "看我原身！",
+      "火焰山的路，还没开！"
+    ],
+    "defeat": "三调芭蕉扇，烈焰终得消退。",
+    "trial": 47,
+    "trialName": "火焰山",
+    "kind": "boss",
+    "legacyBossIndex": 11,
+    "powerTier": 10,
+    "chapterIndex": 20,
+    "firstTrial": 47,
+    "lastTrial": 49,
+    "sourceTrials": [
+      {
+        "ch": 59,
+        "place": "火焰山",
+        "boss": null,
+        "type": "bull",
+        "pattern": "charge",
+        "biome": "ember",
+        "accent": "#df826b",
+        "mobs": [
+          "fireling",
+          "bulllet",
+          "jackal"
+        ],
+        "story": "八百里热浪灼路，地面火区迫人改道。",
+        "bridge": "前一难已过，取经人行至火焰山。",
+        "intro": "",
+        "attack": [
+          "看我原身！",
+          "火焰山的路，还没开！"
+        ],
+        "defeat": "",
+        "trial": 47,
+        "trialName": "路阻火焰山",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 11
+      },
+      {
+        "ch": 60,
+        "place": "芭蕉洞",
+        "boss": "铁扇公主",
+        "type": "fan",
+        "pattern": "charge",
+        "biome": "ember",
+        "accent": "#d59b77",
+        "mobs": [
+          "fireling",
+          "bulllet",
+          "jackal"
+        ],
+        "story": "铁扇公主不肯借扇，一挥便是狂风。",
+        "bridge": "前一难已过，取经人行至芭蕉洞。",
+        "intro": "芭蕉扇在我手中，你休想借走！",
+        "attack": [
+          "一扇送你出山！"
+        ],
+        "defeat": "芭蕉扇有了着落，火焰山尚待熄灭。",
+        "mechanic": "gust",
+        "trial": 48,
+        "trialName": "求取芭蕉扇",
+        "kind": "boss",
+        "legacyBossIndex": -1,
+        "powerTier": 11
+      },
+      {
+        "ch": 61,
+        "place": "火焰山深处",
+        "boss": "牛魔王",
+        "type": "bull",
+        "pattern": "charge",
+        "biome": "ember",
+        "accent": "#df826b",
+        "mobs": [
+          "fireling",
+          "bulllet",
+          "jackal"
+        ],
+        "story": "牛魔王现出本相，三借芭蕉扇方可熄火。",
+        "bridge": "前一难已过，取经人行至火焰山深处。",
+        "intro": "平天大圣在此，芭蕉扇岂由你拿走！",
+        "attack": [
+          "看我原身！",
+          "火焰山的路，还没开！"
+        ],
+        "defeat": "三调芭蕉扇，烈焰终得消退。",
+        "trial": 49,
+        "trialName": "收缚魔王",
+        "kind": "boss",
+        "legacyBossIndex": 11,
+        "powerTier": 11
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 60,
+        "place": "芭蕉洞",
+        "boss": "铁扇公主",
+        "type": "fan",
+        "pattern": "charge",
+        "biome": "ember",
+        "accent": "#d59b77",
+        "mobs": [
+          "fireling",
+          "bulllet",
+          "jackal"
+        ],
+        "story": "铁扇公主不肯借扇，一挥便是狂风。",
+        "bridge": "前一难已过，取经人行至芭蕉洞。",
+        "intro": "芭蕉扇在我手中，你休想借走！",
+        "attack": [
+          "一扇送你出山！"
+        ],
+        "defeat": "芭蕉扇有了着落，火焰山尚待熄灭。",
+        "mechanic": "gust",
+        "trial": 48,
+        "trialName": "求取芭蕉扇",
+        "kind": "boss",
+        "legacyBossIndex": -1,
+        "powerTier": 11
+      },
+      {
+        "ch": 61,
+        "place": "火焰山深处",
+        "boss": "牛魔王",
+        "type": "bull",
+        "pattern": "charge",
+        "biome": "ember",
+        "accent": "#df826b",
+        "mobs": [
+          "fireling",
+          "bulllet",
+          "jackal"
+        ],
+        "story": "牛魔王现出本相，三借芭蕉扇方可熄火。",
+        "bridge": "前一难已过，取经人行至火焰山深处。",
+        "intro": "平天大圣在此，芭蕉扇岂由你拿走！",
+        "attack": [
+          "看我原身！",
+          "火焰山的路，还没开！"
+        ],
+        "defeat": "三调芭蕉扇，烈焰终得消退。",
+        "trial": 49,
+        "trialName": "收缚魔王",
+        "kind": "boss",
+        "legacyBossIndex": 11,
+        "powerTier": 11
+      }
+    ],
+    "mobNames": {
+      "bulllet": "积雷山牛兵"
+    },
+    "element": "fire",
+    "ordeal": {
+      "name": "火路难行",
+      "cost": "受到的灼烧伤害 +20%",
+      "reward": "过关得 12 文",
+      "burn": 1.2,
+      "coins": 12
+    }
+  },
+  {
+    "ch": 63,
+    "place": "祭赛国与碧波潭",
+    "boss": null,
+    "type": "bull",
+    "pattern": "charge",
+    "biome": "river",
+    "accent": "#df826b",
+    "mobs": [
+      "fishling",
+      "guard",
+      "shade"
+    ],
+    "story": "金光寺佛宝失窃，僧众蒙冤，塔上留下线索。 九头虫的巢穴藏着佛宝，水府守卫不肯放行。",
+    "bridge": "上一段路已过，师徒来到祭赛国与碧波潭。",
+    "intro": "",
+    "attack": [
+      "看我原身！",
+      "火焰山的路，还没开！"
+    ],
+    "defeat": "",
+    "trial": 50,
+    "trialName": "祭赛国与碧波潭",
+    "kind": "combat",
+    "legacyBossIndex": -1,
+    "powerTier": 11,
+    "chapterIndex": 21,
+    "firstTrial": 50,
+    "lastTrial": 51,
+    "sourceTrials": [
+      {
+        "ch": 62,
+        "place": "祭赛国",
+        "boss": null,
+        "type": "bull",
+        "pattern": "charge",
+        "biome": "ember",
+        "accent": "#df826b",
+        "mobs": [
+          "fireling",
+          "bulllet",
+          "jackal"
+        ],
+        "story": "金光寺佛宝失窃，僧众蒙冤，塔上留下线索。",
+        "bridge": "前一难已过，取经人行至祭赛国。",
+        "intro": "",
+        "attack": [
+          "看我原身！",
+          "火焰山的路，还没开！"
+        ],
+        "defeat": "",
+        "trial": 50,
+        "trialName": "赛城扫塔",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 11
+      },
+      {
+        "ch": 63,
+        "place": "碧波潭",
+        "boss": null,
+        "type": "bull",
+        "pattern": "charge",
+        "biome": "ember",
+        "accent": "#df826b",
+        "mobs": [
+          "fireling",
+          "bulllet",
+          "jackal"
+        ],
+        "story": "九头虫的巢穴藏着佛宝，水府守卫不肯放行。",
+        "bridge": "前一难已过，取经人行至碧波潭。",
+        "intro": "",
+        "attack": [
+          "看我原身！",
+          "火焰山的路，还没开！"
+        ],
+        "defeat": "",
+        "trial": 51,
+        "trialName": "取宝救僧",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 11
+      }
+    ],
+    "bossRefs": [],
+    "mobNames": {
+      "fishling": "碧波潭水卒",
+      "guard": "九头虫亲卫"
+    },
+    "element": "water",
+    "ordeal": {
+      "name": "弱水牵衣",
+      "cost": "移动速度 -10%",
+      "reward": "过关得 10 文",
+      "move": 0.9,
+      "coins": 10
+    }
+  },
+  {
+    "ch": 64,
+    "place": "荆棘岭",
+    "boss": null,
+    "type": "bull",
+    "pattern": "charge",
+    "biome": "forest",
+    "accent": "#df826b",
+    "mobs": [
+      "shade",
+      "stone",
+      "guard"
+    ],
+    "story": "树精以诗会留客，美景与迷途只隔一念。",
+    "bridge": "上一段路已过，师徒来到荆棘岭。",
+    "intro": "",
+    "attack": [
+      "看我原身！",
+      "火焰山的路，还没开！"
+    ],
+    "defeat": "",
+    "trial": 52,
+    "trialName": "荆棘岭",
+    "kind": "combat",
+    "legacyBossIndex": -1,
+    "powerTier": 11,
+    "chapterIndex": 22,
+    "firstTrial": 52,
+    "lastTrial": 52,
+    "sourceTrials": [
+      {
+        "ch": 64,
+        "place": "荆棘岭",
+        "boss": null,
+        "type": "bull",
+        "pattern": "charge",
+        "biome": "ember",
+        "accent": "#df826b",
+        "mobs": [
+          "fireling",
+          "bulllet",
+          "jackal"
+        ],
+        "story": "树精以诗会留客，美景与迷途只隔一念。",
+        "bridge": "前一难已过，取经人行至荆棘岭。",
+        "intro": "",
+        "attack": [
+          "看我原身！",
+          "火焰山的路，还没开！"
+        ],
+        "defeat": "",
+        "trial": 52,
+        "trialName": "棘林吟咏",
+        "kind": "event",
+        "legacyBossIndex": -1,
+        "powerTier": 11
+      }
+    ],
+    "bossRefs": [],
+    "mobNames": {
+      "shade": "荆棘岭树精"
+    },
+    "element": "wood",
+    "ordeal": {
+      "name": "藤瘴缠身",
+      "cost": "小妖生命 +12%",
+      "reward": "过关得 12 文",
+      "mobHp": 1.12,
+      "coins": 12
+    }
+  },
+  {
+    "ch": 65,
+    "place": "小雷音寺",
+    "boss": "黄眉怪",
+    "type": "brow",
+    "pattern": "trap",
+    "biome": "temple",
+    "accent": "#e6cc84",
+    "mobs": [
+      "guard",
+      "shade",
+      "stone"
+    ],
+    "story": "黄眉怪假设佛殿，金铙与人种袋等着取经人。 诸天神也困于袋中，须找准出口与援手。",
+    "bridge": "上一段路已过，师徒来到小雷音寺。",
+    "intro": "进了我的小雷音，便别急着找真佛！",
+    "attack": [
+      "金铙合！",
+      "入袋来！"
+    ],
+    "defeat": "假佛殿散，西行重见真路。",
+    "unlock": "tangseng-hidden",
+    "trial": 53,
+    "trialName": "小雷音寺",
+    "kind": "boss",
+    "legacyBossIndex": 12,
+    "powerTier": 12,
+    "chapterIndex": 23,
+    "firstTrial": 53,
+    "lastTrial": 54,
+    "sourceTrials": [
+      {
+        "ch": 65,
+        "place": "小雷音寺",
+        "boss": "黄眉怪",
+        "type": "brow",
+        "pattern": "trap",
+        "biome": "temple",
+        "accent": "#e6cc84",
+        "mobs": [
+          "guard",
+          "shade",
+          "stone"
+        ],
+        "story": "黄眉怪假设佛殿，金铙与人种袋等着取经人。",
+        "bridge": "前一难已过，取经人行至小雷音寺。",
+        "intro": "进了我的小雷音，便别急着找真佛！",
+        "attack": [
+          "金铙合！",
+          "入袋来！"
+        ],
+        "defeat": "假佛殿散，西行重见真路。",
+        "unlock": "tangseng-hidden",
+        "trial": 53,
+        "trialName": "小雷音遇难",
+        "kind": "boss",
+        "legacyBossIndex": 12,
+        "powerTier": 12
+      },
+      {
+        "ch": 66,
+        "place": "小雷音寺后殿",
+        "boss": null,
+        "type": "brow",
+        "pattern": "trap",
+        "biome": "temple",
+        "accent": "#e6cc84",
+        "mobs": [
+          "guard",
+          "shade",
+          "stone"
+        ],
+        "story": "诸天神也困于袋中，须找准出口与援手。",
+        "bridge": "前一难已过，取经人行至小雷音寺后殿。",
+        "intro": "",
+        "attack": [
+          "金铙合！",
+          "入袋来！"
+        ],
+        "defeat": "",
+        "unlock": "tangseng-hidden",
+        "trial": 54,
+        "trialName": "诸天神遭困",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 12
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 65,
+        "place": "小雷音寺",
+        "boss": "黄眉怪",
+        "type": "brow",
+        "pattern": "trap",
+        "biome": "temple",
+        "accent": "#e6cc84",
+        "mobs": [
+          "guard",
+          "shade",
+          "stone"
+        ],
+        "story": "黄眉怪假设佛殿，金铙与人种袋等着取经人。",
+        "bridge": "前一难已过，取经人行至小雷音寺。",
+        "intro": "进了我的小雷音，便别急着找真佛！",
+        "attack": [
+          "金铙合！",
+          "入袋来！"
+        ],
+        "defeat": "假佛殿散，西行重见真路。",
+        "unlock": "tangseng-hidden",
+        "trial": 53,
+        "trialName": "小雷音遇难",
+        "kind": "boss",
+        "legacyBossIndex": 12,
+        "powerTier": 12
+      }
+    ],
+    "mobNames": {
+      "guard": "小雷音寺黄眉亲卫"
+    },
+    "element": "metal",
+    "ordeal": {
+      "name": "宝光压阵",
+      "cost": "妖王法术伤害 +10%",
+      "reward": "过关得 14 文",
+      "bossSpell": 1.1,
+      "coins": 14
+    }
+  },
+  {
+    "ch": 67,
+    "place": "驼罗庄",
+    "boss": null,
+    "type": "brow",
+    "pattern": "trap",
+    "biome": "temple",
+    "accent": "#e6cc84",
+    "mobs": [
+      "leopard",
+      "stone",
+      "shade"
+    ],
+    "story": "秽气满谷，巨蟒在浑浊中伺机而动。",
+    "bridge": "上一段路已过，师徒来到驼罗庄。",
+    "intro": "",
+    "attack": [
+      "金铙合！",
+      "入袋来！"
+    ],
+    "defeat": "",
+    "unlock": "tangseng-hidden",
+    "trial": 55,
+    "trialName": "驼罗庄",
+    "kind": "combat",
+    "legacyBossIndex": -1,
+    "powerTier": 12,
+    "chapterIndex": 24,
+    "firstTrial": 55,
+    "lastTrial": 55,
+    "sourceTrials": [
+      {
+        "ch": 67,
+        "place": "稀柿衕",
+        "boss": null,
+        "type": "brow",
+        "pattern": "trap",
+        "biome": "temple",
+        "accent": "#e6cc84",
+        "mobs": [
+          "guard",
+          "shade",
+          "stone"
+        ],
+        "story": "秽气满谷，巨蟒在浑浊中伺机而动。",
+        "bridge": "前一难已过，取经人行至稀柿衕。",
+        "intro": "",
+        "attack": [
+          "金铙合！",
+          "入袋来！"
+        ],
+        "defeat": "",
+        "unlock": "tangseng-hidden",
+        "trial": 55,
+        "trialName": "稀柿同秽阻",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 12
+      }
+    ],
+    "bossRefs": [],
+    "mobNames": {
+      "shade": "稀柿衕蟒影"
+    },
+    "element": "earth",
+    "ordeal": {
+      "name": "山重路险",
+      "cost": "小妖接触伤害 +12%",
+      "reward": "过关得 10 文",
+      "mobTouch": 1.12,
+      "coins": 10
+    }
+  },
+  {
+    "ch": 71,
+    "place": "朱紫国与麒麟山",
+    "boss": "赛太岁",
+    "type": "beast",
+    "pattern": "fire",
+    "biome": "forest",
+    "accent": "#caac80",
+    "mobs": [
+      "leopard",
+      "fireling",
+      "wolf"
+    ],
+    "story": "国王有疾，师徒先问病因，再觅医方。 一剂乌金丹使国王转安，旧事由此说起。 赛太岁的紫金铃轮放烟、沙、火，须认出铃声次序。",
+    "bridge": "上一段路已过，师徒来到朱紫国与麒麟山。",
+    "intro": "三只紫金铃响起，你们还能近身么？",
+    "attack": [
+      "放烟！",
+      "放沙！再放火！"
+    ],
+    "defeat": "金铃息声，故人得以团聚。",
+    "trial": 56,
+    "trialName": "朱紫国与麒麟山",
+    "kind": "boss",
+    "legacyBossIndex": 13,
+    "powerTier": 13,
+    "chapterIndex": 25,
+    "firstTrial": 56,
+    "lastTrial": 58,
+    "sourceTrials": [
+      {
+        "ch": 68,
+        "place": "朱紫国",
+        "boss": null,
+        "type": "beast",
+        "pattern": "fire",
+        "biome": "forest",
+        "accent": "#caac80",
+        "mobs": [
+          "leopard",
+          "wolf",
+          "fireling"
+        ],
+        "story": "国王有疾，师徒先问病因，再觅医方。",
+        "bridge": "前一难已过，取经人行至朱紫国。",
+        "intro": "",
+        "attack": [
+          "放烟！",
+          "放沙！再放火！"
+        ],
+        "defeat": "",
+        "trial": 56,
+        "trialName": "朱紫国行医",
+        "kind": "event",
+        "legacyBossIndex": -1,
+        "powerTier": 13
+      },
+      {
+        "ch": 69,
+        "place": "朱紫国宫中",
+        "boss": null,
+        "type": "beast",
+        "pattern": "fire",
+        "biome": "forest",
+        "accent": "#caac80",
+        "mobs": [
+          "leopard",
+          "wolf",
+          "fireling"
+        ],
+        "story": "一剂乌金丹使国王转安，旧事由此说起。",
+        "bridge": "前一难已过，取经人行至朱紫国宫中。",
+        "intro": "",
+        "attack": [
+          "放烟！",
+          "放沙！再放火！"
+        ],
+        "defeat": "",
+        "trial": 57,
+        "trialName": "拯救疲癃",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 13
+      },
+      {
+        "ch": 71,
+        "place": "麒麟山",
+        "boss": "赛太岁",
+        "type": "beast",
+        "pattern": "fire",
+        "biome": "forest",
+        "accent": "#caac80",
+        "mobs": [
+          "leopard",
+          "wolf",
+          "fireling"
+        ],
+        "story": "赛太岁的紫金铃轮放烟、沙、火，须认出铃声次序。",
+        "bridge": "前一难已过，取经人行至麒麟山。",
+        "intro": "三只紫金铃响起，你们还能近身么？",
+        "attack": [
+          "放烟！",
+          "放沙！再放火！"
+        ],
+        "defeat": "金铃息声，故人得以团聚。",
+        "trial": 58,
+        "trialName": "降妖取后",
+        "kind": "boss",
+        "legacyBossIndex": 13,
+        "powerTier": 13
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 71,
+        "place": "麒麟山",
+        "boss": "赛太岁",
+        "type": "beast",
+        "pattern": "fire",
+        "biome": "forest",
+        "accent": "#caac80",
+        "mobs": [
+          "leopard",
+          "wolf",
+          "fireling"
+        ],
+        "story": "赛太岁的紫金铃轮放烟、沙、火，须认出铃声次序。",
+        "bridge": "前一难已过，取经人行至麒麟山。",
+        "intro": "三只紫金铃响起，你们还能近身么？",
+        "attack": [
+          "放烟！",
+          "放沙！再放火！"
+        ],
+        "defeat": "金铃息声，故人得以团聚。",
+        "trial": 58,
+        "trialName": "降妖取后",
+        "kind": "boss",
+        "legacyBossIndex": 13,
+        "powerTier": 13
+      }
+    ],
+    "mobNames": {
+      "fireling": "麒麟山金铃火卒"
+    },
+    "element": "fire",
+    "ordeal": {
+      "name": "火路难行",
+      "cost": "受到的灼烧伤害 +20%",
+      "reward": "过关得 12 文",
+      "burn": 1.2,
+      "coins": 12
+    }
+  },
+  {
+    "ch": 72,
+    "place": "盘丝岭",
+    "boss": null,
+    "type": "spider",
+    "pattern": "illusion",
+    "biome": "forest",
+    "accent": "#b6a6cc",
+    "mobs": [
+      "spiderlet",
+      "scorpionlet",
+      "shade"
+    ],
+    "story": "七蛛吐丝织网，路边的濯垢泉并不安宁。",
+    "bridge": "上一段路已过，师徒来到盘丝岭。",
+    "intro": "",
+    "attack": [
+      "毒光开！",
+      "蛛丝早已布好。"
+    ],
+    "defeat": "",
+    "trial": 59,
+    "trialName": "盘丝岭",
+    "kind": "combat",
+    "legacyBossIndex": -1,
+    "powerTier": 13,
+    "chapterIndex": 26,
+    "firstTrial": 59,
+    "lastTrial": 59,
+    "sourceTrials": [
+      {
+        "ch": 72,
+        "place": "盘丝洞",
+        "boss": null,
+        "type": "spider",
+        "pattern": "illusion",
+        "biome": "web",
+        "accent": "#b6a6cc",
+        "mobs": [
+          "spiderlet",
+          "bat",
+          "shade"
+        ],
+        "story": "七蛛吐丝织网，路边的濯垢泉并不安宁。",
+        "bridge": "前一难已过，取经人行至盘丝洞。",
+        "intro": "",
+        "attack": [
+          "毒光开！",
+          "蛛丝早已布好。"
+        ],
+        "defeat": "",
+        "trial": 59,
+        "trialName": "七情迷没",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 14
+      }
+    ],
+    "bossRefs": [],
+    "mobNames": {
+      "shade": "黄花观毒目侍"
+    },
+    "element": "wood",
+    "ordeal": {
+      "name": "藤瘴缠身",
+      "cost": "小妖生命 +12%",
+      "reward": "过关得 12 文",
+      "mobHp": 1.12,
+      "coins": 12
+    }
+  },
+  {
+    "ch": 73,
+    "place": "黄花观",
+    "boss": "百眼魔君",
+    "type": "spider",
+    "pattern": "illusion",
+    "biome": "forest",
+    "accent": "#b6a6cc",
+    "mobs": [
+      "spiderlet",
+      "scorpionlet",
+      "shade"
+    ],
+    "story": "百眼魔君毒目齐开，金光所照需立即闪避。",
+    "bridge": "上一段路已过，师徒来到黄花观。",
+    "intro": "我这千眼金光，照得你无处遁形！",
+    "attack": [
+      "毒光开！",
+      "蛛丝早已布好。"
+    ],
+    "defeat": "毒眼闭合，盘丝之困已解。",
+    "trial": 60,
+    "trialName": "黄花观",
+    "kind": "boss",
+    "legacyBossIndex": 14,
+    "powerTier": 14,
+    "chapterIndex": 27,
+    "firstTrial": 60,
+    "lastTrial": 60,
+    "sourceTrials": [
+      {
+        "ch": 73,
+        "place": "黄花观",
+        "boss": "百眼魔君",
+        "type": "spider",
+        "pattern": "illusion",
+        "biome": "web",
+        "accent": "#b6a6cc",
+        "mobs": [
+          "spiderlet",
+          "bat",
+          "shade"
+        ],
+        "story": "百眼魔君毒目齐开，金光所照需立即闪避。",
+        "bridge": "前一难已过，取经人行至黄花观。",
+        "intro": "我这千眼金光，照得你无处遁形！",
+        "attack": [
+          "毒光开！",
+          "蛛丝早已布好。"
+        ],
+        "defeat": "毒眼闭合，盘丝之困已解。",
+        "trial": 60,
+        "trialName": "多目遭伤",
+        "kind": "boss",
+        "legacyBossIndex": 14,
+        "powerTier": 14
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 73,
+        "place": "黄花观",
+        "boss": "百眼魔君",
+        "type": "spider",
+        "pattern": "illusion",
+        "biome": "web",
+        "accent": "#b6a6cc",
+        "mobs": [
+          "spiderlet",
+          "bat",
+          "shade"
+        ],
+        "story": "百眼魔君毒目齐开，金光所照需立即闪避。",
+        "bridge": "前一难已过，取经人行至黄花观。",
+        "intro": "我这千眼金光，照得你无处遁形！",
+        "attack": [
+          "毒光开！",
+          "蛛丝早已布好。"
+        ],
+        "defeat": "毒眼闭合，盘丝之困已解。",
+        "trial": 60,
+        "trialName": "多目遭伤",
+        "kind": "boss",
+        "legacyBossIndex": 14,
+        "powerTier": 14
+      }
+    ],
+    "mobNames": {
+      "shade": "黄花观毒目侍"
+    },
+    "element": "wood",
+    "ordeal": {
+      "name": "藤瘴缠身",
+      "cost": "小妖生命 +12%",
+      "reward": "过关得 12 文",
+      "mobHp": 1.12,
+      "coins": 12
+    }
+  },
+  {
+    "ch": 77,
+    "place": "狮驼岭与狮驼国",
+    "boss": "大鹏金翅雕",
+    "type": "bird",
+    "pattern": "fan",
+    "biome": "wild",
+    "accent": "#c5b4df",
+    "mobs": [
+      "lionlet",
+      "leopard",
+      "guard"
+    ],
+    "story": "狮驼岭妖众严阵以待，青狮白象先封要道。 三魔分兵设伏，三色妖旗各领一队。 城池已遭妖占，先救受困百姓，再冲出城门。 大鹏展翼遮天，须看羽影预判落点。",
+    "bridge": "上一段路已过，师徒来到狮驼岭与狮驼国。",
+    "intro": "我一展翅，便是九万里；你们往哪里逃？",
+    "attack": [
+      "展翼！",
+      "狮驼岭可不是小山头。"
+    ],
+    "defeat": "鹏影远去，群妖散尽。",
+    "trial": 61,
+    "trialName": "狮驼岭与狮驼国",
+    "kind": "boss",
+    "legacyBossIndex": 15,
+    "powerTier": 14,
+    "chapterIndex": 28,
+    "firstTrial": 61,
+    "lastTrial": 64,
+    "sourceTrials": [
+      {
+        "ch": 74,
+        "place": "狮驼岭",
+        "boss": null,
+        "type": "bird",
+        "pattern": "fan",
+        "biome": "wild",
+        "accent": "#c5b4df",
+        "mobs": [
+          "lionlet",
+          "leopard",
+          "guard"
+        ],
+        "story": "狮驼岭妖众严阵以待，青狮白象先封要道。",
+        "bridge": "前一难已过，取经人行至狮驼岭。",
+        "intro": "",
+        "attack": [
+          "展翼！",
+          "狮驼岭可不是小山头。"
+        ],
+        "defeat": "",
+        "trial": 61,
+        "trialName": "路阻狮驼",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 15
+      },
+      {
+        "ch": 75,
+        "place": "狮驼洞",
+        "boss": null,
+        "type": "bird",
+        "pattern": "fan",
+        "biome": "wild",
+        "accent": "#c5b4df",
+        "mobs": [
+          "lionlet",
+          "leopard",
+          "guard"
+        ],
+        "story": "三魔分兵设伏，三色妖旗各领一队。",
+        "bridge": "前一难已过，取经人行至狮驼洞。",
+        "intro": "",
+        "attack": [
+          "展翼！",
+          "狮驼岭可不是小山头。"
+        ],
+        "defeat": "",
+        "trial": 62,
+        "trialName": "怪分三色",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 15
+      },
+      {
+        "ch": 76,
+        "place": "狮驼国",
+        "boss": null,
+        "type": "bird",
+        "pattern": "fan",
+        "biome": "wild",
+        "accent": "#c5b4df",
+        "mobs": [
+          "lionlet",
+          "leopard",
+          "guard"
+        ],
+        "story": "城池已遭妖占，先救受困百姓，再冲出城门。",
+        "bridge": "前一难已过，取经人行至狮驼国。",
+        "intro": "",
+        "attack": [
+          "展翼！",
+          "狮驼岭可不是小山头。"
+        ],
+        "defeat": "",
+        "trial": 63,
+        "trialName": "城里遇灾",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 15
+      },
+      {
+        "ch": 77,
+        "place": "狮驼岭云端",
+        "boss": "大鹏金翅雕",
+        "type": "bird",
+        "pattern": "fan",
+        "biome": "wild",
+        "accent": "#c5b4df",
+        "mobs": [
+          "lionlet",
+          "leopard",
+          "guard"
+        ],
+        "story": "大鹏展翼遮天，须看羽影预判落点。",
+        "bridge": "前一难已过，取经人行至狮驼岭云端。",
+        "intro": "我一展翅，便是九万里；你们往哪里逃？",
+        "attack": [
+          "展翼！",
+          "狮驼岭可不是小山头。"
+        ],
+        "defeat": "鹏影远去，群妖散尽。",
+        "trial": 64,
+        "trialName": "请佛收魔",
+        "kind": "boss",
+        "legacyBossIndex": 15,
+        "powerTier": 15
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 77,
+        "place": "狮驼岭云端",
+        "boss": "大鹏金翅雕",
+        "type": "bird",
+        "pattern": "fan",
+        "biome": "wild",
+        "accent": "#c5b4df",
+        "mobs": [
+          "lionlet",
+          "leopard",
+          "guard"
+        ],
+        "story": "大鹏展翼遮天，须看羽影预判落点。",
+        "bridge": "前一难已过，取经人行至狮驼岭云端。",
+        "intro": "我一展翅，便是九万里；你们往哪里逃？",
+        "attack": [
+          "展翼！",
+          "狮驼岭可不是小山头。"
+        ],
+        "defeat": "鹏影远去，群妖散尽。",
+        "trial": 64,
+        "trialName": "请佛收魔",
+        "kind": "boss",
+        "legacyBossIndex": 15,
+        "powerTier": 15
+      }
+    ],
+    "mobNames": {
+      "guard": "狮驼国妖兵"
+    },
+    "element": "earth",
+    "ordeal": {
+      "name": "山重路险",
+      "cost": "小妖接触伤害 +12%",
+      "reward": "过关得 10 文",
+      "mobTouch": 1.12,
+      "coins": 10
+    }
+  },
+  {
+    "ch": 79,
+    "place": "比丘国",
+    "boss": "白鹿精",
+    "type": "deer",
+    "pattern": "illusion",
+    "biome": "city",
+    "accent": "#b6c99b",
+    "mobs": [
+      "deerlet",
+      "guard",
+      "shade"
+    ],
+    "story": "妖怪欲取童心，先护住城中孩子。 白鹿精假作国丈，识破真身方能收妖。",
+    "bridge": "上一段路已过，师徒来到比丘国。",
+    "intro": "国丈的话，你们也敢不听？",
+    "attack": [
+      "真身岂容轻看！",
+      "宫门一闭，谁来救你们？"
+    ],
+    "defeat": "伪国丈退去，孩童平安。",
+    "trial": 65,
+    "trialName": "比丘国",
+    "kind": "boss",
+    "legacyBossIndex": 16,
+    "powerTier": 15,
+    "chapterIndex": 29,
+    "firstTrial": 65,
+    "lastTrial": 66,
+    "sourceTrials": [
+      {
+        "ch": 78,
+        "place": "比丘国",
+        "boss": null,
+        "type": "deer",
+        "pattern": "illusion",
+        "biome": "city",
+        "accent": "#b6c99b",
+        "mobs": [
+          "deerlet",
+          "shade",
+          "guard"
+        ],
+        "story": "妖怪欲取童心，先护住城中孩子。",
+        "bridge": "前一难已过，取经人行至比丘国。",
+        "intro": "",
+        "attack": [
+          "真身岂容轻看！",
+          "宫门一闭，谁来救你们？"
+        ],
+        "defeat": "",
+        "trial": 65,
+        "trialName": "比丘救子",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 16
+      },
+      {
+        "ch": 79,
+        "place": "比丘国王宫",
+        "boss": "白鹿精",
+        "type": "deer",
+        "pattern": "illusion",
+        "biome": "city",
+        "accent": "#b6c99b",
+        "mobs": [
+          "deerlet",
+          "shade",
+          "guard"
+        ],
+        "story": "白鹿精假作国丈，识破真身方能收妖。",
+        "bridge": "前一难已过，取经人行至比丘国王宫。",
+        "intro": "国丈的话，你们也敢不听？",
+        "attack": [
+          "真身岂容轻看！",
+          "宫门一闭，谁来救你们？"
+        ],
+        "defeat": "伪国丈退去，孩童平安。",
+        "trial": 66,
+        "trialName": "辨认真邪",
+        "kind": "boss",
+        "legacyBossIndex": 16,
+        "powerTier": 16
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 79,
+        "place": "比丘国王宫",
+        "boss": "白鹿精",
+        "type": "deer",
+        "pattern": "illusion",
+        "biome": "city",
+        "accent": "#b6c99b",
+        "mobs": [
+          "deerlet",
+          "shade",
+          "guard"
+        ],
+        "story": "白鹿精假作国丈，识破真身方能收妖。",
+        "bridge": "前一难已过，取经人行至比丘国王宫。",
+        "intro": "国丈的话，你们也敢不听？",
+        "attack": [
+          "真身岂容轻看！",
+          "宫门一闭，谁来救你们？"
+        ],
+        "defeat": "伪国丈退去，孩童平安。",
+        "trial": 66,
+        "trialName": "辨认真邪",
+        "kind": "boss",
+        "legacyBossIndex": 16,
+        "powerTier": 16
+      }
+    ],
+    "mobNames": {
+      "guard": "比丘国妖卫"
+    },
+    "element": "wood",
+    "ordeal": {
+      "name": "藤瘴缠身",
+      "cost": "小妖生命 +12%",
+      "reward": "过关得 12 文",
+      "mobHp": 1.12,
+      "coins": 12
+    }
+  },
+  {
+    "ch": 83,
+    "place": "镇海禅林寺与无底洞",
+    "boss": "金鼻白毛老鼠精",
+    "type": "mouse",
+    "pattern": "illusion",
+    "biome": "night",
+    "accent": "#c9b1be",
+    "mobs": [
+      "bat",
+      "shade",
+      "guard"
+    ],
+    "story": "受伤女子求援，善念与警觉都不可丢。 寺中病榻卧着师父，香灯后的踪迹可疑。 金鼻白毛老鼠精遁入洞中，灯影间不断换位。",
+    "bridge": "上一段路已过，师徒来到镇海禅林寺与无底洞。",
+    "intro": "无底洞门已闭，你们找得着人么？",
+    "attack": [
+      "灯花一灭，谁还认得路？"
+    ],
+    "defeat": "洞门打开，师父重见天日。",
+    "mechanic": "blink",
+    "trial": 67,
+    "trialName": "镇海禅林寺与无底洞",
+    "kind": "boss",
+    "legacyBossIndex": -1,
+    "powerTier": 15,
+    "chapterIndex": 30,
+    "firstTrial": 67,
+    "lastTrial": 69,
+    "sourceTrials": [
+      {
+        "ch": 80,
+        "place": "黑松林",
+        "boss": null,
+        "type": "deer",
+        "pattern": "illusion",
+        "biome": "city",
+        "accent": "#b6c99b",
+        "mobs": [
+          "deerlet",
+          "shade",
+          "guard"
+        ],
+        "story": "受伤女子求援，善念与警觉都不可丢。",
+        "bridge": "前一难已过，取经人行至黑松林。",
+        "intro": "",
+        "attack": [
+          "真身岂容轻看！",
+          "宫门一闭，谁来救你们？"
+        ],
+        "defeat": "",
+        "trial": 67,
+        "trialName": "松林救怪",
+        "kind": "event",
+        "legacyBossIndex": -1,
+        "powerTier": 16
+      },
+      {
+        "ch": 81,
+        "place": "镇海禅林寺",
+        "boss": null,
+        "type": "deer",
+        "pattern": "illusion",
+        "biome": "city",
+        "accent": "#b6c99b",
+        "mobs": [
+          "deerlet",
+          "shade",
+          "guard"
+        ],
+        "story": "寺中病榻卧着师父，香灯后的踪迹可疑。",
+        "bridge": "前一难已过，取经人行至镇海禅林寺。",
+        "intro": "",
+        "attack": [
+          "真身岂容轻看！",
+          "宫门一闭，谁来救你们？"
+        ],
+        "defeat": "",
+        "trial": 68,
+        "trialName": "僧房卧病",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 16
+      },
+      {
+        "ch": 83,
+        "place": "陷空山无底洞",
+        "boss": "金鼻白毛老鼠精",
+        "type": "mouse",
+        "pattern": "illusion",
+        "biome": "city",
+        "accent": "#c9b1be",
+        "mobs": [
+          "deerlet",
+          "shade",
+          "guard"
+        ],
+        "story": "金鼻白毛老鼠精遁入洞中，灯影间不断换位。",
+        "bridge": "前一难已过，取经人行至陷空山无底洞。",
+        "intro": "无底洞门已闭，你们找得着人么？",
+        "attack": [
+          "灯花一灭，谁还认得路？"
+        ],
+        "defeat": "洞门打开，师父重见天日。",
+        "mechanic": "blink",
+        "trial": 69,
+        "trialName": "无底洞遭困",
+        "kind": "boss",
+        "legacyBossIndex": -1,
+        "powerTier": 16
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 83,
+        "place": "陷空山无底洞",
+        "boss": "金鼻白毛老鼠精",
+        "type": "mouse",
+        "pattern": "illusion",
+        "biome": "city",
+        "accent": "#c9b1be",
+        "mobs": [
+          "deerlet",
+          "shade",
+          "guard"
+        ],
+        "story": "金鼻白毛老鼠精遁入洞中，灯影间不断换位。",
+        "bridge": "前一难已过，取经人行至陷空山无底洞。",
+        "intro": "无底洞门已闭，你们找得着人么？",
+        "attack": [
+          "灯花一灭，谁还认得路？"
+        ],
+        "defeat": "洞门打开，师父重见天日。",
+        "mechanic": "blink",
+        "trial": 69,
+        "trialName": "无底洞遭困",
+        "kind": "boss",
+        "legacyBossIndex": -1,
+        "powerTier": 16
+      }
+    ],
+    "mobNames": {
+      "shade": "无底洞灯影"
+    },
+    "element": "none",
+    "ordeal": {
+      "name": "风餐露宿",
+      "cost": "小妖伤害 +8%",
+      "reward": "过关得 10 文",
+      "mobDamage": 1.08,
+      "coins": 10
+    }
+  },
+  {
+    "ch": 84,
+    "place": "灭法国",
+    "boss": null,
+    "type": "deer",
+    "pattern": "illusion",
+    "biome": "city",
+    "accent": "#b6c99b",
+    "mobs": [
+      "guard",
+      "shade",
+      "jackal"
+    ],
+    "story": "城中禁僧，师徒须借夜色巧过关门。",
+    "bridge": "上一段路已过，师徒来到灭法国。",
+    "intro": "",
+    "attack": [
+      "真身岂容轻看！",
+      "宫门一闭，谁来救你们？"
+    ],
+    "defeat": "",
+    "trial": 70,
+    "trialName": "灭法国",
+    "kind": "combat",
+    "legacyBossIndex": -1,
+    "powerTier": 16,
+    "chapterIndex": 31,
+    "firstTrial": 70,
+    "lastTrial": 70,
+    "sourceTrials": [
+      {
+        "ch": 84,
+        "place": "灭法国",
+        "boss": null,
+        "type": "deer",
+        "pattern": "illusion",
+        "biome": "city",
+        "accent": "#b6c99b",
+        "mobs": [
+          "deerlet",
+          "shade",
+          "guard"
+        ],
+        "story": "城中禁僧，师徒须借夜色巧过关门。",
+        "bridge": "前一难已过，取经人行至灭法国。",
+        "intro": "",
+        "attack": [
+          "真身岂容轻看！",
+          "宫门一闭，谁来救你们？"
+        ],
+        "defeat": "",
+        "trial": 70,
+        "trialName": "灭法国难行",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 16
+      }
+    ],
+    "bossRefs": [],
+    "mobNames": {
+      "guard": "灭法国巡卒"
+    },
+    "element": "none",
+    "ordeal": {
+      "name": "风餐露宿",
+      "cost": "小妖伤害 +8%",
+      "reward": "过关得 10 文",
+      "mobDamage": 1.08,
+      "coins": 10
+    }
+  },
+  {
+    "ch": 85,
+    "place": "隐雾山",
+    "boss": "南山大王",
+    "type": "leopard",
+    "pattern": "illusion",
+    "biome": "night",
+    "accent": "#d2b18a",
+    "mobs": [
+      "leopard",
+      "wolf",
+      "shade"
+    ],
+    "story": "浓雾藏住南山大王的影子，听风辨位才有出路。",
+    "bridge": "上一段路已过，师徒来到隐雾山。",
+    "intro": "隐雾山中，我的旗号就是规矩。",
+    "attack": [
+      "雾里看不清，可怪不得我！"
+    ],
+    "defeat": "浓雾散尽，山径复明。",
+    "mechanic": "fog",
+    "trial": 71,
+    "trialName": "隐雾山",
+    "kind": "boss",
+    "legacyBossIndex": -1,
+    "powerTier": 16,
+    "chapterIndex": 32,
+    "firstTrial": 71,
+    "lastTrial": 71,
+    "sourceTrials": [
+      {
+        "ch": 85,
+        "place": "隐雾山",
+        "boss": "南山大王",
+        "type": "leopard",
+        "pattern": "illusion",
+        "biome": "city",
+        "accent": "#d2b18a",
+        "mobs": [
+          "deerlet",
+          "shade",
+          "guard"
+        ],
+        "story": "浓雾藏住南山大王的影子，听风辨位才有出路。",
+        "bridge": "前一难已过，取经人行至隐雾山。",
+        "intro": "隐雾山中，我的旗号就是规矩。",
+        "attack": [
+          "雾里看不清，可怪不得我！"
+        ],
+        "defeat": "浓雾散尽，山径复明。",
+        "mechanic": "fog",
+        "trial": 71,
+        "trialName": "隐雾山遇魔",
+        "kind": "boss",
+        "legacyBossIndex": -1,
+        "powerTier": 16
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 85,
+        "place": "隐雾山",
+        "boss": "南山大王",
+        "type": "leopard",
+        "pattern": "illusion",
+        "biome": "city",
+        "accent": "#d2b18a",
+        "mobs": [
+          "deerlet",
+          "shade",
+          "guard"
+        ],
+        "story": "浓雾藏住南山大王的影子，听风辨位才有出路。",
+        "bridge": "前一难已过，取经人行至隐雾山。",
+        "intro": "隐雾山中，我的旗号就是规矩。",
+        "attack": [
+          "雾里看不清，可怪不得我！"
+        ],
+        "defeat": "浓雾散尽，山径复明。",
+        "mechanic": "fog",
+        "trial": 71,
+        "trialName": "隐雾山遇魔",
+        "kind": "boss",
+        "legacyBossIndex": -1,
+        "powerTier": 16
+      }
+    ],
+    "mobNames": {
+      "shade": "隐雾山雾妖"
+    },
+    "element": "wood",
+    "ordeal": {
+      "name": "藤瘴缠身",
+      "cost": "小妖生命 +12%",
+      "reward": "过关得 12 文",
+      "mobHp": 1.12,
+      "coins": 12
+    }
+  },
+  {
+    "ch": 87,
+    "place": "凤仙郡",
+    "boss": null,
+    "type": "deer",
+    "pattern": "illusion",
+    "biome": "city",
+    "accent": "#b6c99b",
+    "mobs": [
+      "guard",
+      "stone",
+      "shade"
+    ],
+    "story": "旱情连年，先解郡侯心结，再求甘霖。",
+    "bridge": "上一段路已过，师徒来到凤仙郡。",
+    "intro": "",
+    "attack": [
+      "真身岂容轻看！",
+      "宫门一闭，谁来救你们？"
+    ],
+    "defeat": "",
+    "trial": 72,
+    "trialName": "凤仙郡",
+    "kind": "combat",
+    "legacyBossIndex": -1,
+    "powerTier": 17,
+    "chapterIndex": 33,
+    "firstTrial": 72,
+    "lastTrial": 72,
+    "sourceTrials": [
+      {
+        "ch": 87,
+        "place": "凤仙郡",
+        "boss": null,
+        "type": "deer",
+        "pattern": "illusion",
+        "biome": "city",
+        "accent": "#b6c99b",
+        "mobs": [
+          "deerlet",
+          "shade",
+          "guard"
+        ],
+        "story": "旱情连年，先解郡侯心结，再求甘霖。",
+        "bridge": "前一难已过，取经人行至凤仙郡。",
+        "intro": "",
+        "attack": [
+          "真身岂容轻看！",
+          "宫门一闭，谁来救你们？"
+        ],
+        "defeat": "",
+        "trial": 72,
+        "trialName": "凤仙郡求雨",
+        "kind": "event",
+        "legacyBossIndex": -1,
+        "powerTier": 16
+      }
+    ],
+    "bossRefs": [],
+    "mobNames": {},
+    "element": "earth",
+    "ordeal": {
+      "name": "山重路险",
+      "cost": "小妖接触伤害 +12%",
+      "reward": "过关得 10 文",
+      "mobTouch": 1.12,
+      "coins": 10
+    }
+  },
+  {
+    "ch": 90,
+    "place": "玉华州与竹节山",
+    "boss": "九灵元圣",
+    "type": "lion",
+    "pattern": "roar",
+    "biome": "forest",
+    "accent": "#eccb89",
+    "mobs": [
+      "lionlet",
+      "guard",
+      "leopard"
+    ],
+    "story": "三般兵器被黄狮精盗去，徒弟们沿痕追入山中。 黄狮摆下钉钯宴，夺回兵器须先破寨门。 九灵元圣九口齐啸，必须看准分段吼势。",
+    "bridge": "上一段路已过，师徒来到玉华州与竹节山。",
+    "intro": "老夫九口一张，任你有几般变化！",
+    "attack": [
+      "九灵齐啸！",
+      "小狮们，守住竹节山！"
+    ],
+    "defeat": "九灵归位，西天已不远。",
+    "unlock": "bajie-hidden",
+    "trial": 73,
+    "trialName": "玉华州与竹节山",
+    "kind": "boss",
+    "legacyBossIndex": 18,
+    "powerTier": 17,
+    "chapterIndex": 34,
+    "firstTrial": 73,
+    "lastTrial": 75,
+    "sourceTrials": [
+      {
+        "ch": 89,
+        "place": "玉华州",
+        "boss": null,
+        "type": "lion",
+        "pattern": "charge",
+        "biome": "forest",
+        "accent": "#d7b577",
+        "mobs": [
+          "lionlet",
+          "jackal",
+          "wolf"
+        ],
+        "story": "三般兵器被黄狮精盗去，徒弟们沿痕追入山中。",
+        "bridge": "前一难已过，取经人行至玉华州。",
+        "intro": "",
+        "attack": [
+          "把兵器留下！",
+          "豹头山的小妖，随我上！"
+        ],
+        "defeat": "",
+        "trial": 73,
+        "trialName": "失落兵器",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 17
+      },
+      {
+        "ch": 89,
+        "place": "豹头山",
+        "boss": "黄狮精",
+        "type": "lion",
+        "pattern": "charge",
+        "biome": "forest",
+        "accent": "#d7b577",
+        "mobs": [
+          "lionlet",
+          "jackal",
+          "wolf"
+        ],
+        "story": "黄狮摆下钉钯宴，夺回兵器须先破寨门。",
+        "bridge": "前一难已过，取经人行至豹头山。",
+        "intro": "钉钯宴已摆好，你们来得正是时候！",
+        "attack": [
+          "把兵器留下！",
+          "豹头山的小妖，随我上！"
+        ],
+        "defeat": "兵器寻回，更强的狮王尚在后头。",
+        "trial": 74,
+        "trialName": "会庆钉钯",
+        "kind": "boss",
+        "legacyBossIndex": 17,
+        "powerTier": 17
+      },
+      {
+        "ch": 90,
+        "place": "竹节山",
+        "boss": "九灵元圣",
+        "type": "lion",
+        "pattern": "roar",
+        "biome": "forest",
+        "accent": "#eccb89",
+        "mobs": [
+          "lionlet",
+          "guard",
+          "leopard"
+        ],
+        "story": "九灵元圣九口齐啸，必须看准分段吼势。",
+        "bridge": "前一难已过，取经人行至竹节山。",
+        "intro": "老夫九口一张，任你有几般变化！",
+        "attack": [
+          "九灵齐啸！",
+          "小狮们，守住竹节山！"
+        ],
+        "defeat": "九灵归位，西天已不远。",
+        "unlock": "bajie-hidden",
+        "trial": 75,
+        "trialName": "竹节山遭难",
+        "kind": "boss",
+        "legacyBossIndex": 18,
+        "powerTier": 18
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 89,
+        "place": "豹头山",
+        "boss": "黄狮精",
+        "type": "lion",
+        "pattern": "charge",
+        "biome": "forest",
+        "accent": "#d7b577",
+        "mobs": [
+          "lionlet",
+          "jackal",
+          "wolf"
+        ],
+        "story": "黄狮摆下钉钯宴，夺回兵器须先破寨门。",
+        "bridge": "前一难已过，取经人行至豹头山。",
+        "intro": "钉钯宴已摆好，你们来得正是时候！",
+        "attack": [
+          "把兵器留下！",
+          "豹头山的小妖，随我上！"
+        ],
+        "defeat": "兵器寻回，更强的狮王尚在后头。",
+        "trial": 74,
+        "trialName": "会庆钉钯",
+        "kind": "boss",
+        "legacyBossIndex": 17,
+        "powerTier": 17
+      },
+      {
+        "ch": 90,
+        "place": "竹节山",
+        "boss": "九灵元圣",
+        "type": "lion",
+        "pattern": "roar",
+        "biome": "forest",
+        "accent": "#eccb89",
+        "mobs": [
+          "lionlet",
+          "guard",
+          "leopard"
+        ],
+        "story": "九灵元圣九口齐啸，必须看准分段吼势。",
+        "bridge": "前一难已过，取经人行至竹节山。",
+        "intro": "老夫九口一张，任你有几般变化！",
+        "attack": [
+          "九灵齐啸！",
+          "小狮们，守住竹节山！"
+        ],
+        "defeat": "九灵归位，西天已不远。",
+        "unlock": "bajie-hidden",
+        "trial": 75,
+        "trialName": "竹节山遭难",
+        "kind": "boss",
+        "legacyBossIndex": 18,
+        "powerTier": 18
+      }
+    ],
+    "mobNames": {
+      "guard": "竹节山狮兵"
+    },
+    "element": "earth",
+    "ordeal": {
+      "name": "山重路险",
+      "cost": "小妖接触伤害 +12%",
+      "reward": "过关得 10 文",
+      "mobTouch": 1.12,
+      "coins": 10
+    }
+  },
+  {
+    "ch": 92,
+    "place": "金平府与玄英洞",
+    "boss": "辟寒大王",
+    "type": "rhino",
+    "pattern": "roar",
+    "biome": "river",
+    "accent": "#9dc8cd",
+    "mobs": [
+      "bulllet",
+      "fishling",
+      "stone"
+    ],
+    "story": "元宵灯夜，犀牛三怪假扮佛爷索取香油。 辟寒辟暑辟尘三怪守洞，寒潮与尘风交替。",
+    "bridge": "上一段路已过，师徒来到金平府与玄英洞。",
+    "intro": "金平府香油，原是我等要的供奉。",
+    "attack": [
+      "辟暑、辟尘，合力守洞！"
+    ],
+    "defeat": "犀牛三怪伏诛，金平府灯火安宁。",
+    "unlock": "bajie-hidden",
+    "mechanic": "ice",
+    "trial": 76,
+    "trialName": "金平府与玄英洞",
+    "kind": "boss",
+    "legacyBossIndex": -1,
+    "powerTier": 18,
+    "chapterIndex": 35,
+    "firstTrial": 76,
+    "lastTrial": 77,
+    "sourceTrials": [
+      {
+        "ch": 91,
+        "place": "金平府",
+        "boss": null,
+        "type": "lion",
+        "pattern": "roar",
+        "biome": "forest",
+        "accent": "#eccb89",
+        "mobs": [
+          "lionlet",
+          "guard",
+          "leopard"
+        ],
+        "story": "元宵灯夜，犀牛三怪假扮佛爷索取香油。",
+        "bridge": "前一难已过，取经人行至金平府。",
+        "intro": "",
+        "attack": [
+          "九灵齐啸！",
+          "小狮们，守住竹节山！"
+        ],
+        "defeat": "",
+        "unlock": "bajie-hidden",
+        "trial": 76,
+        "trialName": "玄英洞受苦",
+        "kind": "combat",
+        "legacyBossIndex": -1,
+        "powerTier": 18
+      },
+      {
+        "ch": 92,
+        "place": "青龙山玄英洞",
+        "boss": "辟寒大王",
+        "type": "rhino",
+        "pattern": "roar",
+        "biome": "forest",
+        "accent": "#9dc8cd",
+        "mobs": [
+          "lionlet",
+          "guard",
+          "leopard"
+        ],
+        "story": "辟寒辟暑辟尘三怪守洞，寒潮与尘风交替。",
+        "bridge": "前一难已过，取经人行至青龙山玄英洞。",
+        "intro": "金平府香油，原是我等要的供奉。",
+        "attack": [
+          "辟暑、辟尘，合力守洞！"
+        ],
+        "defeat": "犀牛三怪伏诛，金平府灯火安宁。",
+        "unlock": "bajie-hidden",
+        "mechanic": "ice",
+        "trial": 77,
+        "trialName": "赶捉犀牛",
+        "kind": "boss",
+        "legacyBossIndex": -1,
+        "powerTier": 18
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 92,
+        "place": "青龙山玄英洞",
+        "boss": "辟寒大王",
+        "type": "rhino",
+        "pattern": "roar",
+        "biome": "forest",
+        "accent": "#9dc8cd",
+        "mobs": [
+          "lionlet",
+          "guard",
+          "leopard"
+        ],
+        "story": "辟寒辟暑辟尘三怪守洞，寒潮与尘风交替。",
+        "bridge": "前一难已过，取经人行至青龙山玄英洞。",
+        "intro": "金平府香油，原是我等要的供奉。",
+        "attack": [
+          "辟暑、辟尘，合力守洞！"
+        ],
+        "defeat": "犀牛三怪伏诛，金平府灯火安宁。",
+        "unlock": "bajie-hidden",
+        "mechanic": "ice",
+        "trial": 77,
+        "trialName": "赶捉犀牛",
+        "kind": "boss",
+        "legacyBossIndex": -1,
+        "powerTier": 18
+      }
+    ],
+    "mobNames": {
+      "bulllet": "玄英洞犀兵",
+      "fishling": "青龙山寒水妖"
+    },
+    "element": "water",
+    "ordeal": {
+      "name": "弱水牵衣",
+      "cost": "移动速度 -10%",
+      "reward": "过关得 10 文",
+      "move": 0.9,
+      "coins": 10
+    }
+  },
+  {
+    "ch": 95,
+    "place": "天竺国",
+    "boss": "玉兔精",
+    "type": "rabbit",
+    "pattern": "illusion",
+    "biome": "moon",
+    "accent": "#e0c5dd",
+    "mobs": [
+      "rabbitlet",
+      "shade",
+      "guard"
+    ],
+    "story": "假公主抛绣球招亲，月宫玉兔的真身将现。",
+    "bridge": "上一段路已过，师徒来到天竺国。",
+    "intro": "一枚绣球，便把你们的路改了方向。",
+    "attack": [
+      "月影分身！",
+      "谁能认出真正的公主？"
+    ],
+    "defeat": "玉兔归月，取经之路终见圆满。",
+    "trial": 78,
+    "trialName": "天竺国",
+    "kind": "boss",
+    "legacyBossIndex": 19,
+    "powerTier": 18,
+    "chapterIndex": 36,
+    "firstTrial": 78,
+    "lastTrial": 78,
+    "sourceTrials": [
+      {
+        "ch": 95,
+        "place": "天竺国",
+        "boss": "玉兔精",
+        "type": "rabbit",
+        "pattern": "illusion",
+        "biome": "moon",
+        "accent": "#e0c5dd",
+        "mobs": [
+          "rabbitlet",
+          "shade",
+          "guard"
+        ],
+        "story": "假公主抛绣球招亲，月宫玉兔的真身将现。",
+        "bridge": "前一难已过，取经人行至天竺国。",
+        "intro": "一枚绣球，便把你们的路改了方向。",
+        "attack": [
+          "月影分身！",
+          "谁能认出真正的公主？"
+        ],
+        "defeat": "玉兔归月，取经之路终见圆满。",
+        "trial": 78,
+        "trialName": "天竺招婚",
+        "kind": "boss",
+        "legacyBossIndex": 19,
+        "powerTier": 19
+      }
+    ],
+    "bossRefs": [
+      {
+        "ch": 95,
+        "place": "天竺国",
+        "boss": "玉兔精",
+        "type": "rabbit",
+        "pattern": "illusion",
+        "biome": "moon",
+        "accent": "#e0c5dd",
+        "mobs": [
+          "rabbitlet",
+          "shade",
+          "guard"
+        ],
+        "story": "假公主抛绣球招亲，月宫玉兔的真身将现。",
+        "bridge": "前一难已过，取经人行至天竺国。",
+        "intro": "一枚绣球，便把你们的路改了方向。",
+        "attack": [
+          "月影分身！",
+          "谁能认出真正的公主？"
+        ],
+        "defeat": "玉兔归月，取经之路终见圆满。",
+        "trial": 78,
+        "trialName": "天竺招婚",
+        "kind": "boss",
+        "legacyBossIndex": 19,
+        "powerTier": 19
+      }
+    ],
+    "mobNames": {
+      "shade": "月宫玉兔幻影"
+    },
+    "element": "none",
+    "ordeal": {
+      "name": "风餐露宿",
+      "cost": "小妖伤害 +8%",
+      "reward": "过关得 10 文",
+      "mobDamage": 1.08,
+      "coins": 10
+    }
+  },
+  {
+    "ch": 99,
+    "place": "凌云渡与归途",
+    "boss": null,
+    "type": "rabbit",
+    "pattern": "illusion",
+    "biome": "moon",
+    "accent": "#e0c5dd",
+    "mobs": [
+      "guard",
+      "shade",
+      "fishling"
+    ],
+    "story": "寇员外一案蒙冤，师徒忍耐狱中等待真相。 无底船载师徒过水，旧身随流而去，真经近在眼前。 雷音寺取得有字真经后，老鼋在归途翻船，湿了经卷。师徒护经上岸，八十一难方才圆满。",
+    "bridge": "上一段路已过，师徒来到凌云渡与归途。",
+    "intro": "",
+    "attack": [
+      "月影分身！",
+      "谁能认出真正的公主？"
+    ],
+    "defeat": "",
+    "trial": 79,
+    "trialName": "凌云渡与归途",
+    "kind": "combat",
+    "legacyBossIndex": -1,
+    "powerTier": 19,
+    "chapterIndex": 37,
+    "firstTrial": 79,
+    "lastTrial": 81,
+    "sourceTrials": [
+      {
+        "ch": 97,
+        "place": "铜台府",
+        "boss": null,
+        "type": "rabbit",
+        "pattern": "illusion",
+        "biome": "moon",
+        "accent": "#e0c5dd",
+        "mobs": [
+          "rabbitlet",
+          "shade",
+          "guard"
+        ],
+        "story": "寇员外一案蒙冤，师徒忍耐狱中等待真相。",
+        "bridge": "前一难已过，取经人行至铜台府。",
+        "intro": "",
+        "attack": [
+          "月影分身！",
+          "谁能认出真正的公主？"
+        ],
+        "defeat": "",
+        "trial": 79,
+        "trialName": "铜台府监禁",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 19
+      },
+      {
+        "ch": 98,
+        "place": "凌云渡",
+        "boss": null,
+        "type": "rabbit",
+        "pattern": "illusion",
+        "biome": "moon",
+        "accent": "#e0c5dd",
+        "mobs": [
+          "rabbitlet",
+          "shade",
+          "guard"
+        ],
+        "story": "无底船载师徒过水，旧身随流而去，真经近在眼前。",
+        "bridge": "前一难已过，取经人行至凌云渡。",
+        "intro": "",
+        "attack": [
+          "月影分身！",
+          "谁能认出真正的公主？"
+        ],
+        "defeat": "",
+        "trial": 80,
+        "trialName": "凌云渡脱胎",
+        "kind": "story",
+        "legacyBossIndex": -1,
+        "powerTier": 19
+      },
+      {
+        "ch": 99,
+        "place": "通天河归途",
+        "boss": null,
+        "type": "rabbit",
+        "pattern": "illusion",
+        "biome": "moon",
+        "accent": "#e0c5dd",
+        "mobs": [
+          "rabbitlet",
+          "shade",
+          "guard"
+        ],
+        "story": "雷音寺取得有字真经后，老鼋在归途翻船，湿了经卷。师徒护经上岸，八十一难方才圆满。",
+        "bridge": "前一难已过，取经人行至通天河归途。",
+        "intro": "",
+        "attack": [
+          "月影分身！",
+          "谁能认出真正的公主？"
+        ],
+        "defeat": "",
+        "trial": 81,
+        "trialName": "通天河归渡",
+        "kind": "final",
+        "legacyBossIndex": -1,
+        "powerTier": 19
+      }
+    ],
+    "bossRefs": [],
+    "mobNames": {},
+    "element": "none",
+    "ordeal": {
+      "name": "风餐露宿",
+      "cost": "小妖伤害 +8%",
+      "reward": "过关得 10 文",
+      "mobDamage": 1.08,
+      "coins": 10
+    }
+  }
+]

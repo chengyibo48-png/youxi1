@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "b_shield_spend"
+title = "护甲换攻"
+description = "第三段有至少8护盾时消耗8护盾，伤害提高30%；无盾不强化"
+category = "hero"
+effect = "b_shield_spend"
+amount = 1
+max_level = 1
+tags = Array[String](["journey_late"])
+requires_any = Array[String]([])
+
+needs_shield = true

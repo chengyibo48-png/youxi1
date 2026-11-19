@@ -1,0 +1,4182 @@
+{
+  "count": 143,
+  "new_talents_added": 0,
+  "scope": "Static resource and execution trace audit; does not certify every gameplay combination",
+  "talents": [
+    {
+      "id": "return",
+      "name": "回旋兵器",
+      "category": "shape",
+      "hero": "",
+      "effect": "return",
+      "applicable_tags": [
+        "projectile"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/return.tres",
+      "change": "投射物回返，去程与回程各命中一次",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/audio_palette.gd:8",
+        "scripts/boss_controller.gd:67",
+        "scripts/character_combat_kit.gd:39",
+        "scripts/combat.gd:182",
+        "scripts/combat.gd:207",
+        "scripts/combat.gd:345",
+        "scripts/combat.gd:346",
+        "scripts/combat.gd:511",
+        "scripts/combat.gd:527",
+        "scripts/combat.gd:537",
+        "scripts/combat.gd:553",
+        "scripts/combat.gd:555",
+        "scripts/combat.gd:599",
+        "scripts/combat.gd:637",
+        "scripts/combo_talents.gd:17",
+        "scripts/content_extension.gd:4",
+        "scripts/content_extension.gd:57",
+        "scripts/content_extension.gd:84",
+        "scripts/main.gd:545",
+        "scripts/main.gd:1480",
+        "scripts/main.gd:1496",
+        "scripts/main.gd:1524",
+        "scripts/main.gd:1842",
+        "scripts/relic_synergy.gd:59",
+        "scripts/relic_synergy.gd:61",
+        "scripts/role_combat.gd:125",
+        "scripts/role_combat.gd:145",
+        "scripts/role_combat.gd:221",
+        "scripts/role_combat.gd:225",
+        "scripts/role_combat.gd:299",
+        "scripts/role_combat.gd:301",
+        "scripts/role_combat.gd:323",
+        "scripts/role_combat.gd:335",
+        "scripts/role_combat.gd:370",
+        "scripts/role_combat.gd:373",
+        "scripts/role_traits.gd:33",
+        "scripts/save.gd:103",
+        "scripts/weapon_arts.gd:55",
+        "scripts/weapon_arts.gd:62",
+        "scripts/weapon_arts.gd:122",
+        "scripts/weapon_arts.gd:135",
+        "scripts/weapon_arts.gd:157",
+        "scripts/weapon_arts.gd:168",
+        "scripts/weapon_arts.gd:175",
+        "scripts/weapon_arts.gd:191",
+        "scripts/weapon_arts.gd:199",
+        "scripts/weapon_arts.gd:215",
+        "scripts/weapon_arts.gd:217",
+        "scripts/weapon_arts.gd:229",
+        "scripts/weapon_arts.gd:254",
+        "scripts/weapon_arts.gd:266",
+        "scripts/weapon_arts.gd:271",
+        "scripts/weapon_arts.gd:272",
+        "scripts/weapon_combo.gd:47",
+        "scripts/weapon_combo.gd:55",
+        "scripts/weapon_combo.gd:74",
+        "scripts/weapon_combo.gd:86",
+        "scripts/weapon_combo.gd:92",
+        "scripts/weapon_combo.gd:104",
+        "scripts/weapon_combo.gd:109",
+        "scripts/weapon_combo.gd:117",
+        "scripts/weapon_combo.gd:121",
+        "scripts/weapon_combo.gd:132"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "split",
+      "name": "分裂法印",
+      "category": "shape",
+      "hero": "",
+      "effect": "split",
+      "applicable_tags": [
+        "projectile"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/split.tres",
+      "change": "主弹命中分裂为两枚低伤子弹，子弹不再分裂",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        2.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:552",
+        "scripts/main.gd:545",
+        "scripts/main.gd:1840"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "echo",
+      "name": "延迟棍影",
+      "category": "shape",
+      "hero": "",
+      "effect": "echo",
+      "applicable_tags": [
+        "melee"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/echo.tres",
+      "change": "重击0.35秒后追加低伤墨影攻击",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/main.gd:545",
+        "scripts/main.gd:829",
+        "scripts/main.gd:861",
+        "scripts/main.gd:891",
+        "scripts/role_combat.gd:96",
+        "scripts/role_combat.gd:137",
+        "scripts/role_combat.gd:152",
+        "scripts/role_combat.gd:217",
+        "scripts/role_combat.gd:362",
+        "scripts/weapon_arts.gd:117",
+        "scripts/weapon_effects.gd:7",
+        "scripts/weapon_effects.gd:107"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "orbit",
+      "name": "环绕护兵",
+      "category": "shape",
+      "hero": "",
+      "effect": "orbit",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/orbit.tres",
+      "change": "获得环绕近身攻击，远程基础伤害降低10%",
+      "tradeoff": "获得环绕近身攻击，远程基础伤害降低10%",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/abilities_visual.gd:44",
+        "scripts/audio_palette.gd:8",
+        "scripts/combat.gd:169",
+        "scripts/combat.gd:170",
+        "scripts/combat.gd:207",
+        "scripts/combat.gd:601",
+        "scripts/layered_rig.gd:18",
+        "scripts/main.gd:1480",
+        "scripts/main.gd:1524",
+        "scripts/main.gd:1647",
+        "scripts/main.gd:1837",
+        "scripts/role_combat.gd:256",
+        "scripts/role_presentation.gd:64"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "pierce",
+      "name": "贯穿真意",
+      "category": "shape",
+      "hero": "",
+      "effect": "pierce",
+      "applicable_tags": [
+        "projectile"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/pierce.tres",
+      "change": "投射物额外穿透两名敌人",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        2.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/boss_controller.gd:67",
+        "scripts/combat.gd:345",
+        "scripts/combat.gd:346",
+        "scripts/combat.gd:553",
+        "scripts/content_extension.gd:4",
+        "scripts/content_extension.gd:38",
+        "scripts/content_extension.gd:54",
+        "scripts/main.gd:967",
+        "scripts/role_combat.gd:125",
+        "scripts/role_combat.gd:225",
+        "scripts/role_combat.gd:299",
+        "scripts/role_combat.gd:301",
+        "scripts/role_combat.gd:323",
+        "scripts/role_combat.gd:370",
+        "scripts/role_combat.gd:373",
+        "scripts/role_traits.gd:33",
+        "scripts/weapon_arts.gd:59",
+        "scripts/weapon_arts.gd:135",
+        "scripts/weapon_arts.gd:142",
+        "scripts/weapon_arts.gd:157",
+        "scripts/weapon_arts.gd:168",
+        "scripts/weapon_arts.gd:175",
+        "scripts/weapon_arts.gd:179",
+        "scripts/weapon_arts.gd:191",
+        "scripts/weapon_arts.gd:196",
+        "scripts/weapon_arts.gd:199",
+        "scripts/weapon_arts.gd:201",
+        "scripts/weapon_arts.gd:209",
+        "scripts/weapon_arts.gd:215",
+        "scripts/weapon_arts.gd:217",
+        "scripts/weapon_arts.gd:229",
+        "scripts/weapon_arts.gd:232",
+        "scripts/weapon_arts.gd:251",
+        "scripts/weapon_arts.gd:268",
+        "scripts/weapon_arts.gd:272",
+        "scripts/weapon_arts.gd:276",
+        "scripts/weapon_combo.gd:34",
+        "scripts/weapon_combo.gd:55",
+        "scripts/weapon_combo.gd:59",
+        "scripts/weapon_combo.gd:61",
+        "scripts/weapon_combo.gd:74",
+        "scripts/weapon_combo.gd:86",
+        "scripts/weapon_combo.gd:89",
+        "scripts/weapon_combo.gd:92",
+        "scripts/weapon_combo.gd:94",
+        "scripts/weapon_combo.gd:104",
+        "scripts/weapon_combo.gd:107",
+        "scripts/weapon_combo.gd:109",
+        "scripts/weapon_combo.gd:111",
+        "scripts/weapon_combo.gd:115",
+        "scripts/weapon_combo.gd:117",
+        "scripts/weapon_combo.gd:121",
+        "scripts/weapon_combo.gd:132",
+        "scripts/weapon_combo.gd:134",
+        "scripts/weapon_combo.gd:137",
+        "scripts/weapon_effects.gd:11",
+        "scripts/weapon_effects.gd:134"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "fan",
+      "name": "三花散射",
+      "category": "shape",
+      "hero": "",
+      "effect": "fan",
+      "applicable_tags": [
+        "projectile"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/fan.tres",
+      "change": "每次出手附加两枚35%伤害扇形副弹，本体投射伤害降低15%；每招只追加一次",
+      "tradeoff": "每次出手附加两枚35%伤害扇形副弹，本体投射伤害降低15%；每招只追加一次",
+      "parameter_levels": [
+        2.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/abilities_visual.gd:29",
+        "scripts/boss_controller.gd:2",
+        "scripts/boss_controller.gd:30",
+        "scripts/boss_controller.gd:65",
+        "scripts/boss_tactics.gd:6",
+        "scripts/character_pose.gd:23",
+        "scripts/combat.gd:176",
+        "scripts/enemy_effects.gd:73",
+        "scripts/enemy_effects.gd:92",
+        "scripts/enemy_effects.gd:95",
+        "scripts/enemy_rig.gd:63",
+        "scripts/layered_rig.gd:21",
+        "scripts/main.gd:545",
+        "scripts/main.gd:967",
+        "scripts/main.gd:1639",
+        "scripts/main.gd:1766",
+        "scripts/main.gd:1797",
+        "scripts/main.gd:1816",
+        "scripts/main.gd:1840",
+        "scripts/relic_synergy.gd:59",
+        "scripts/role_combat.gd:300",
+        "scripts/role_presentation.gd:115",
+        "scripts/skill_presentation.gd:17",
+        "scripts/weapon_arts.gd:63"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "rear",
+      "name": "背水一击",
+      "category": "shape",
+      "hero": "",
+      "effect": "rear",
+      "applicable_tags": [
+        "melee"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/rear.tres",
+      "change": "普攻同时向后方追加低伤攻击",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/role_combat.gd:155"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "wide",
+      "name": "横扫千军",
+      "category": "shape",
+      "hero": "",
+      "effect": "wide",
+      "applicable_tags": [
+        "melee"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/wide.tres",
+      "change": "近战攻击角度扩大35%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.35
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/role_combat.gd:60"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "reach",
+      "name": "一寸长强",
+      "category": "shape",
+      "hero": "",
+      "effect": "reach",
+      "applicable_tags": [
+        "melee"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/reach.tres",
+      "change": "近战范围增加28%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.28
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/role_combat.gd:48",
+        "scripts/role_combat.gd:210",
+        "scripts/role_combat.gd:212",
+        "scripts/role_combat.gd:245",
+        "scripts/role_combat.gd:356",
+        "scripts/save.gd:82",
+        "scripts/weapon_arts.gd:39"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "bounce",
+      "name": "折返飞锋",
+      "category": "shape",
+      "hero": "",
+      "effect": "bounce",
+      "applicable_tags": [
+        "projectile"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/bounce.tres",
+      "change": "投射物碰壁反射一次",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/boss_controller.gd:67",
+        "scripts/combat.gd:345",
+        "scripts/combat.gd:346",
+        "scripts/main.gd:1842"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "homing",
+      "name": "追魂法印",
+      "category": "shape",
+      "hero": "",
+      "effect": "homing",
+      "applicable_tags": [
+        "projectile"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/homing.tres",
+      "change": "主投射物逐步追踪最近敌人",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/boss_controller.gd:67",
+        "scripts/combat.gd:345",
+        "scripts/combat.gd:346",
+        "scripts/relic_synergy.gd:61",
+        "scripts/role_combat.gd:335"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "nova",
+      "name": "落点震波",
+      "category": "shape",
+      "hero": "",
+      "effect": "nova",
+      "applicable_tags": [
+        "projectile"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/nova.tres",
+      "change": "主弹命中触发一次小范围冲击",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:303"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "fork",
+      "name": "双路齐发",
+      "category": "shape",
+      "hero": "",
+      "effect": "fork",
+      "applicable_tags": [
+        "projectile"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/fork.tres",
+      "change": "主弹分为左右两条平行路径",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/main.gd:1840",
+        "scripts/role_combat.gd:145"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "spin",
+      "name": "回身破阵",
+      "category": "shape",
+      "hero": "",
+      "effect": "spin",
+      "applicable_tags": [
+        "melee"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/spin.tres",
+      "change": "第三段近战连招变为全周攻击",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/action_geometry.gd:16",
+        "scripts/role_combat.gd:175",
+        "scripts/role_traits.gd:6",
+        "scripts/weapon_arts.gd:7",
+        "scripts/weapon_arts.gd:18",
+        "scripts/weapon_arts.gd:47",
+        "scripts/weapon_combo.gd:20",
+        "scripts/weapon_effects.gd:100"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "sweep",
+      "name": "踏前追击",
+      "category": "shape",
+      "hero": "",
+      "effect": "sweep",
+      "applicable_tags": [
+        "melee"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/sweep.tres",
+      "change": "近战普攻同时向前移动18像素",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/authored_motion.gd:13",
+        "scripts/enemy_controller.gd:2",
+        "scripts/enemy_controller.gd:3",
+        "scripts/enemy_controller.gd:27",
+        "scripts/enemy_controller.gd:30",
+        "scripts/enemy_controller.gd:75",
+        "scripts/enemy_effects.gd:80",
+        "scripts/role_combat.gd:148"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "heavy_line",
+      "name": "破阵长锋",
+      "category": "shape",
+      "hero": "",
+      "effect": "heavy_line",
+      "applicable_tags": [
+        "melee"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/heavy_line.tres",
+      "change": "扩大专属重击轨迹或法印爆破范围35%；起手延长0.06秒",
+      "tradeoff": "扩大专属重击轨迹或法印爆破范围35%；起手延长0.06秒",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/relic_synergy.gd:33",
+        "scripts/role_combat.gd:36",
+        "scripts/role_combat.gd:62",
+        "scripts/skill_presentation.gd:12",
+        "scripts/weapon_arts.gd:42",
+        "scripts/weapon_arts.gd:115"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "heavy_ring",
+      "name": "震地重击",
+      "category": "shape",
+      "hero": "",
+      "effect": "heavy_ring",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/heavy_ring.tres",
+      "change": "重击追加周身震波",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/role_combat.gd:151"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "mine",
+      "name": "伏墨留印",
+      "category": "shape",
+      "hero": "",
+      "effect": "mine",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/mine.tres",
+      "change": "重击位置留下1.2秒后爆发的墨印",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:381",
+        "scripts/combat.gd:385",
+        "scripts/combat.gd:579",
+        "scripts/role_combat.gd:152"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "orbit_speed",
+      "name": "御兵急转",
+      "category": "shape",
+      "hero": "",
+      "effect": "orbit_speed",
+      "applicable_tags": [
+        "orbit"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/orbit_speed.tres",
+      "change": "环绕兵器转速提高60%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.6
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:603",
+        "scripts/main.gd:1649",
+        "scripts/main.gd:1837"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "orbit_count",
+      "name": "双环护身",
+      "category": "shape",
+      "hero": "",
+      "effect": "orbit_count",
+      "applicable_tags": [
+        "orbit"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/orbit_count.tres",
+      "change": "环绕兵器额外增加一件",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:602",
+        "scripts/main.gd:1648",
+        "scripts/main.gd:1837"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "field_size",
+      "name": "阵域扩张",
+      "category": "shape",
+      "hero": "",
+      "effect": "field_size",
+      "applicable_tags": [
+        "field"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/field_size.tres",
+      "change": "领域范围扩大35%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.35
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:351",
+        "scripts/weapon_arts.gd:123",
+        "scripts/weapon_combo.gd:46"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "field_time",
+      "name": "墨迹长留",
+      "category": "shape",
+      "hero": "",
+      "effect": "field_time",
+      "applicable_tags": [
+        "field"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/field_time.tres",
+      "change": "领域持续时间增加50%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.5
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:351",
+        "scripts/role_combat.gd:198"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "converge",
+      "name": "收束法诀",
+      "category": "shape",
+      "hero": "",
+      "effect": "converge",
+      "applicable_tags": [
+        "projectile"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/converge.tres",
+      "change": "投射方向偏向瞄准轴，散角缩小65%；飞行与自动回返时间延长15%",
+      "tradeoff": "投射方向偏向瞄准轴，散角缩小65%；飞行与自动回返时间延长15%",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/weapon_arts.gd:60"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "pulse",
+      "name": "脉冲阵法",
+      "category": "shape",
+      "hero": "",
+      "effect": "pulse",
+      "applicable_tags": [
+        "field"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/pulse.tres",
+      "change": "领域每秒向外释放一次低伤冲击",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:593",
+        "scripts/role_combat.gd:84"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "burn",
+      "name": "朱焰附兵",
+      "category": "element",
+      "hero": "",
+      "effect": "burn",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/burn.tres",
+      "change": "命中灼烧；等级1/2/3持续3/4/5秒，每半秒基础伤害3/4/5，可再受燃烧强化影响",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:90",
+        "scripts/combat.gd:224",
+        "scripts/combat.gd:291",
+        "scripts/combat.gd:340",
+        "scripts/combat.gd:494",
+        "scripts/main.gd:545"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "frost",
+      "name": "寒霜刻印",
+      "category": "element",
+      "hero": "",
+      "effect": "frost",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/frost.tres",
+      "change": "命中减速；等级1/2/3持续2/2.5/3秒，小妖累计四次命中后冻结；首领只减速与破势",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/boss_controller.gd:67",
+        "scripts/combat.gd:295",
+        "scripts/combat.gd:296",
+        "scripts/combat.gd:340",
+        "scripts/combat.gd:550",
+        "scripts/combat.gd:561",
+        "scripts/enemy_controller.gd:34",
+        "scripts/enemy_effects.gd:90",
+        "scripts/enemy_effects.gd:99",
+        "scripts/main.gd:545",
+        "scripts/weapon_arts.gd:166",
+        "scripts/weapon_arts.gd:201",
+        "scripts/weapon_arts.gd:256",
+        "scripts/weapon_arts.gd:269",
+        "scripts/weapon_combo.gd:83",
+        "scripts/weapon_combo.gd:111",
+        "scripts/weapon_effects.gd:11",
+        "scripts/weapon_effects.gd:118"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "chain",
+      "name": "雷引连环",
+      "category": "element",
+      "hero": "",
+      "effect": "chain",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/chain.tres",
+      "change": "主攻击命中向两名近敌传导雷击",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        2.0,
+        4.0,
+        6.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:302",
+        "scripts/main.gd:545",
+        "scripts/main.gd:829",
+        "scripts/main.gd:861",
+        "scripts/main.gd:891",
+        "scripts/main.gd:967",
+        "scripts/main.gd:1835",
+        "scripts/weapon_effects.gd:9",
+        "scripts/weapon_effects.gd:130",
+        "scripts/weapon_grips.gd:6",
+        "scripts/weapon_grips.gd:7"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "poison",
+      "name": "青毒蚀骨",
+      "category": "element",
+      "hero": "",
+      "effect": "poison",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/poison.tres",
+      "change": "命中中毒；等级1/2/3持续4/6/8秒，每半秒基础伤害2.5/3/3.5",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/boss_controller.gd:2",
+        "scripts/boss_controller.gd:41",
+        "scripts/boss_controller.gd:148",
+        "scripts/boss_tactics.gd:15",
+        "scripts/boss_tactics.gd:20",
+        "scripts/boss_tactics.gd:24",
+        "scripts/combat.gd:90",
+        "scripts/combat.gd:224",
+        "scripts/combat.gd:292",
+        "scripts/combat.gd:336",
+        "scripts/combat.gd:476",
+        "scripts/combat.gd:495",
+        "scripts/combat.gd:562",
+        "scripts/enemy_controller.gd:2",
+        "scripts/enemy_controller.gd:3",
+        "scripts/enemy_controller.gd:25",
+        "scripts/enemy_controller.gd:27",
+        "scripts/enemy_controller.gd:29",
+        "scripts/enemy_controller.gd:30",
+        "scripts/enemy_controller.gd:34",
+        "scripts/enemy_effects.gd:52",
+        "scripts/enemy_effects.gd:91",
+        "scripts/enemy_rig.gd:64",
+        "scripts/main.gd:1753"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "sand",
+      "name": "流沙侵身",
+      "category": "element",
+      "hero": "",
+      "effect": "sand",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/sand.tres",
+      "change": "命中增加1/2/3枚流沙印并减速，单目标最多6枚",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/abilities_visual.gd:87",
+        "scripts/combat.gd:173",
+        "scripts/combat.gd:293",
+        "scripts/combat.gd:567",
+        "scripts/combat.gd:592",
+        "scripts/layered_rig.gd:21",
+        "scripts/role_combat.gd:296",
+        "scripts/role_combat.gd:297",
+        "scripts/role_combat.gd:366",
+        "scripts/role_presentation.gd:113",
+        "scripts/skill_presentation.gd:2",
+        "scripts/skill_presentation.gd:36",
+        "scripts/weapon_arts.gd:184",
+        "scripts/weapon_arts.gd:187",
+        "scripts/weapon_arts.gd:264",
+        "scripts/weapon_combo.gd:98",
+        "scripts/weapon_combo.gd:99",
+        "scripts/weapon_combo.gd:101"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "purify",
+      "name": "净心佛纹",
+      "category": "element",
+      "hero": "",
+      "effect": "purify",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/purify.tres",
+      "change": "神通命中阶段清除自身毒与灼烧，返还2/4/6资源；不降低技能消耗门槛",
+      "tradeoff": "神通命中阶段清除自身毒与灼烧，返还2/4/6资源；不降低技能消耗门槛",
+      "parameter_levels": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:403",
+        "scripts/combat.gd:431",
+        "scripts/main.gd:695",
+        "scripts/main.gd:701",
+        "scripts/main.gd:821",
+        "scripts/main.gd:825",
+        "scripts/main.gd:845",
+        "scripts/main.gd:848",
+        "scripts/main.gd:861",
+        "scripts/main.gd:862",
+        "scripts/main.gd:882",
+        "scripts/main.gd:885",
+        "scripts/relic_synergy.gd:18",
+        "scripts/relic_synergy.gd:27",
+        "scripts/relic_synergy.gd:38",
+        "scripts/relic_synergy.gd:69",
+        "scripts/role_combat.gd:238",
+        "scripts/role_combat.gd:337"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "iceburst",
+      "name": "碎冰飞锋",
+      "category": "element",
+      "hero": "",
+      "effect": "iceburst",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [
+        "frost"
+      ],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/iceburst.tres",
+      "change": "冻结小妖死亡时产生6/8/10枚不递归碎片，各造成10/12/14基础伤害",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:333",
+        "scripts/combat.gd:334"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "fireburst",
+      "name": "焰尽归尘",
+      "category": "element",
+      "hero": "",
+      "effect": "fireburst",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [
+        "burn"
+      ],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/fireburst.tres",
+      "change": "灼烧目标死亡时产生65/80/95半径爆炸，造成22/28/34基础伤害，不触发命中联动",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:335"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "venomspread",
+      "name": "毒雾蔓延",
+      "category": "element",
+      "hero": "",
+      "effect": "venomspread",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [
+        "poison"
+      ],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/venomspread.tres",
+      "change": "中毒目标死亡留下55/65/75半径毒阵，持续3/4/5秒，每次造成5/7/9基础伤害",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:336"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "shock",
+      "name": "惊雷破势",
+      "category": "element",
+      "hero": "",
+      "effect": "shock",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [
+        "chain",
+        "crit_chain"
+      ],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/shock.tres",
+      "change": "雷击附加破势",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.35,
+        0.7,
+        1.0499999999999998
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:318"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "burn_time",
+      "name": "薪火不息",
+      "category": "element",
+      "hero": "",
+      "effect": "burn_time",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [
+        "burn"
+      ],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/burn_time.tres",
+      "change": "灼烧持续时间增加60%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.6,
+        1.2,
+        1.7999999999999998
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:291"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "burn_power",
+      "name": "三昧余焰",
+      "category": "element",
+      "hero": "",
+      "effect": "burn_power",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [
+        "burn"
+      ],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/burn_power.tres",
+      "change": "灼烧伤害增加50%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.5,
+        1.0,
+        1.5
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:494"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "frost_time",
+      "name": "凝霜成锁",
+      "category": "element",
+      "hero": "",
+      "effect": "frost_time",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [
+        "frost"
+      ],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/frost_time.tres",
+      "change": "减速持续时间增加50%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.5,
+        1.0,
+        1.5
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:296"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "frost_break",
+      "name": "寒锋破甲",
+      "category": "element",
+      "hero": "",
+      "effect": "frost_break",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [
+        "frost"
+      ],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/frost_break.tres",
+      "change": "攻击减速敌人伤害提高20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:263",
+        "scripts/main.gd:545"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "chain_range",
+      "name": "雷路拓展",
+      "category": "element",
+      "hero": "",
+      "effect": "chain_range",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [
+        "chain",
+        "crit_chain"
+      ],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/chain_range.tres",
+      "change": "雷链跳跃范围增加40%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.4,
+        0.8,
+        1.2000000000000002
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:312"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "chain_count",
+      "name": "五雷牵引",
+      "category": "element",
+      "hero": "",
+      "effect": "chain_count",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [
+        "chain"
+      ],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/chain_count.tres",
+      "change": "雷链多跳跃一个目标",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:302",
+        "scripts/main.gd:967"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "poison_power",
+      "name": "蚀毒深种",
+      "category": "element",
+      "hero": "",
+      "effect": "poison_power",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [
+        "poison"
+      ],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/poison_power.tres",
+      "change": "中毒伤害增加45%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.45,
+        0.9,
+        1.35
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:495"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "sand_damage",
+      "name": "积沙成刃",
+      "category": "element",
+      "hero": "",
+      "effect": "sand_damage",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [
+        "sand"
+      ],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/sand_damage.tres",
+      "change": "每层印记提升引爆伤害",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:264",
+        "scripts/role_combat.gd:315",
+        "scripts/weapon_arts.gd:84"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "element_guard",
+      "name": "五行护体",
+      "category": "element",
+      "hero": "",
+      "effect": "element_guard",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/element_guard.tres",
+      "change": "受持续伤害降低15%",
+      "tradeoff": "受持续伤害降低15%",
+      "parameter_levels": [
+        0.15,
+        0.3,
+        0.44999999999999996
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:240"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "steam",
+      "name": "水火蒸腾",
+      "category": "element",
+      "hero": "",
+      "effect": "steam",
+      "applicable_tags": [],
+      "prerequisites": [
+        "burn",
+        "frost"
+      ],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/steam.tres",
+      "change": "同时灼烧与减速的敌人，每半秒追加4/6/8基础伤害，不再次产生联动",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:496"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "dash_trail",
+      "name": "闪避留痕",
+      "category": "trigger",
+      "hero": "",
+      "effect": "dash_trail",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/dash_trail.tres",
+      "change": "闪避原地留痕，0.35秒后在70/80/90半径造成24/32/40基础伤害，不触发命中联动",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:381"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "crit_chain",
+      "name": "火眼惊雷",
+      "category": "trigger",
+      "hero": "",
+      "effect": "crit_chain",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [
+        "goldbody"
+      ],
+      "resource": "data/talents/crit_chain.tres",
+      "change": "暴击触发一次额外雷击",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:302",
+        "scripts/main.gd:1835"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "combo_charge",
+      "name": "蓄力破阵",
+      "category": "trigger",
+      "hero": "",
+      "effect": "combo_charge",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/combo_charge.tres",
+      "change": "第三段普攻强化下一次重击，额外伤害60%/80%/100%；只储存一次",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/role_combat.gd:54",
+        "scripts/role_combat.gd:55"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "shield_burst",
+      "name": "护盾震击",
+      "category": "trigger",
+      "hero": "",
+      "effect": "shield_burst",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/shield_burst.tres",
+      "change": "敌人击破护盾时反震90/100/110半径，造成14/20/26基础伤害；自损不触发",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:245",
+        "scripts/main.gd:545"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "break_reward",
+      "name": "破势纳气",
+      "category": "trigger",
+      "hero": "",
+      "effect": "break_reward",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/break_reward.tres",
+      "change": "敌人破势时获得资源",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        10.0,
+        20.0,
+        30.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:282"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "kill_resource",
+      "name": "斩妖聚势",
+      "category": "trigger",
+      "hero": "",
+      "effect": "kill_resource",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/kill_resource.tres",
+      "change": "击败敌人获得额外资源",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        3.0,
+        6.0,
+        9.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:331"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "dodge_resource",
+      "name": "险中取势",
+      "category": "trigger",
+      "hero": "",
+      "effect": "dodge_resource",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/dodge_resource.tres",
+      "change": "无敌闪避躲过命中获得资源，有触发冷却",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        8.0,
+        16.0,
+        24.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:237"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "cast_echo",
+      "name": "余音回响",
+      "category": "trigger",
+      "hero": "",
+      "effect": "cast_echo",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/cast_echo.tres",
+      "change": "神通释放后0.3秒追加80/90/100半径余响，造成20/26/32基础伤害；不触发命中联动",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/role_combat.gd:237",
+        "scripts/role_combat.gd:336"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "kill_heal",
+      "name": "以毒养身",
+      "category": "trigger",
+      "hero": "",
+      "effect": "kill_heal",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [
+        "poison"
+      ],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/kill_heal.tres",
+      "change": "中毒敌人死亡回复生命",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        2.0,
+        4.0,
+        6.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:332"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "crit_resource",
+      "name": "灵光一现",
+      "category": "trigger",
+      "hero": "",
+      "effect": "crit_resource",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [
+        "goldbody"
+      ],
+      "resource": "data/talents/crit_resource.tres",
+      "change": "暴击获得资源",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        2.0,
+        4.0,
+        6.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:301"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "heavy_shield",
+      "name": "重击护心",
+      "category": "trigger",
+      "hero": "",
+      "effect": "heavy_shield",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/heavy_shield.tres",
+      "change": "重击命中获得少量护盾，每次攻击至多一次",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        3.0,
+        6.0,
+        9.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/role_combat.gd:150"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "dash_attack",
+      "name": "疾步追锋",
+      "category": "trigger",
+      "hero": "",
+      "effect": "dash_attack",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/dash_attack.tres",
+      "change": "闪避后两秒攻击增强30%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.3,
+        0.6,
+        0.8999999999999999
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:216"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "low_power",
+      "name": "绝境怒意",
+      "category": "trigger",
+      "hero": "",
+      "effect": "low_power",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/low_power.tres",
+      "change": "生命低于35%时伤害提高35%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.35,
+        0.7,
+        1.0499999999999998
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:211"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "full_power",
+      "name": "无伤禅心",
+      "category": "trigger",
+      "hero": "",
+      "effect": "full_power",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/full_power.tres",
+      "change": "生命高于90%时伤害提高20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:212"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "resource_damage",
+      "name": "聚气成锋",
+      "category": "trigger",
+      "hero": "",
+      "effect": "resource_damage",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/resource_damage.tres",
+      "change": "满资源时攻击提升20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:213"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "cast_haste",
+      "name": "神通连携",
+      "category": "trigger",
+      "hero": "",
+      "effect": "cast_haste",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/cast_haste.tres",
+      "change": "释放技能后普攻短暂加速20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:101",
+        "scripts/role_combat.gd:38",
+        "scripts/weapon_arts.gd:41"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "max_hp",
+      "name": "厚土养身",
+      "category": "support",
+      "hero": "",
+      "effect": "max_hp",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/max_hp.tres",
+      "change": "最大生命增加15，并回复等量生命",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        15.0,
+        30.0,
+        45.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:90",
+        "scripts/combat.gd:196",
+        "scripts/combat.gd:224",
+        "scripts/main.gd:1188",
+        "scripts/main.gd:1477",
+        "scripts/save.gd:63"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "armor",
+      "name": "护身真诀",
+      "category": "support",
+      "hero": "",
+      "effect": "armor",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/armor.tres",
+      "change": "伤害减免增加8%，最高55%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.08,
+        0.16,
+        0.24
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:239",
+        "scripts/combat.gd:266"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "speed",
+      "name": "踏风步",
+      "category": "support",
+      "hero": "",
+      "effect": "speed",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/speed.tres",
+      "change": "移速增加8%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.08,
+        0.16,
+        0.24
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/boss_controller.gd:34",
+        "scripts/boss_controller.gd:67",
+        "scripts/combat.gd:224",
+        "scripts/combat.gd:345",
+        "scripts/combat.gd:452",
+        "scripts/combat.gd:477",
+        "scripts/content_extension.gd:4",
+        "scripts/content_extension.gd:30",
+        "scripts/content_extension.gd:54",
+        "scripts/enemy_controller.gd:34",
+        "scripts/escape_planner.gd:19",
+        "scripts/escape_planner.gd:36",
+        "scripts/role_combat.gd:125",
+        "scripts/role_combat.gd:221",
+        "scripts/role_combat.gd:299",
+        "scripts/role_combat.gd:323",
+        "scripts/role_combat.gd:370",
+        "scripts/role_combat.gd:373",
+        "scripts/weapon_arts.gd:55",
+        "scripts/weapon_arts.gd:103",
+        "scripts/weapon_arts.gd:168",
+        "scripts/weapon_arts.gd:191",
+        "scripts/weapon_arts.gd:196",
+        "scripts/weapon_arts.gd:209",
+        "scripts/weapon_arts.gd:217",
+        "scripts/weapon_arts.gd:232",
+        "scripts/weapon_arts.gd:276",
+        "scripts/weapon_combo.gd:34",
+        "scripts/weapon_combo.gd:36",
+        "scripts/weapon_combo.gd:107",
+        "scripts/weapon_combo.gd:115",
+        "scripts/weapon_combo.gd:134",
+        "scripts/weapon_combo.gd:137"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "damage",
+      "name": "锻锋",
+      "category": "support",
+      "hero": "",
+      "effect": "damage",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/damage.tres",
+      "change": "基础攻击伤害增加12%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.12,
+        0.24,
+        0.36
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/attack_director.gd:6",
+        "scripts/boss_controller.gd:15",
+        "scripts/boss_controller.gd:32",
+        "scripts/clone_replay.gd:10",
+        "scripts/combat.gd:206",
+        "scripts/combat.gd:249",
+        "scripts/combat.gd:345",
+        "scripts/combat.gd:351",
+        "scripts/combat.gd:381",
+        "scripts/combat.gd:385",
+        "scripts/combat.gd:425",
+        "scripts/combat.gd:600",
+        "scripts/content_extension.gd:27",
+        "scripts/escape_planner.gd:29",
+        "scripts/escape_planner.gd:41",
+        "scripts/main.gd:666",
+        "scripts/main.gd:829",
+        "scripts/main.gd:861",
+        "scripts/main.gd:891",
+        "scripts/role_combat.gd:48",
+        "scripts/role_combat.gd:137",
+        "scripts/role_combat.gd:209",
+        "scripts/role_combat.gd:217",
+        "scripts/role_combat.gd:245",
+        "scripts/role_combat.gd:265",
+        "scripts/role_combat.gd:315",
+        "scripts/role_combat.gd:319",
+        "scripts/role_combat.gd:329",
+        "scripts/role_combat.gd:356",
+        "scripts/role_combat.gd:362",
+        "scripts/run_statistics.gd:8",
+        "scripts/run_statistics.gd:12",
+        "scripts/run_statistics.gd:24",
+        "scripts/run_statistics.gd:36",
+        "scripts/save.gd:82",
+        "scripts/save.gd:103",
+        "scripts/save.gd:105",
+        "scripts/save.gd:112",
+        "scripts/weapon_arts.gd:109",
+        "scripts/weapon_arts.gd:247",
+        "scripts/weapon_combo.gd:43"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "crit",
+      "name": "火眼",
+      "category": "support",
+      "hero": "",
+      "effect": "crit",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [
+        "goldbody"
+      ],
+      "resource": "data/talents/crit.tres",
+      "change": "暴击率增加6个百分点，最高65%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.06,
+        0.12,
+        0.18
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/audio_palette.gd:7",
+        "scripts/combat.gd:260",
+        "scripts/combat.gd:304",
+        "scripts/combat.gd:398",
+        "scripts/combat.gd:417",
+        "scripts/main.gd:1480",
+        "scripts/main.gd:1518",
+        "scripts/main.gd:1528",
+        "scripts/main.gd:1667",
+        "scripts/relic_synergy.gd:3",
+        "scripts/relic_synergy.gd:27",
+        "scripts/relic_synergy.gd:44"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "crit_power",
+      "name": "致命一击",
+      "category": "support",
+      "hero": "",
+      "effect": "crit_power",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [
+        "goldbody"
+      ],
+      "resource": "data/talents/crit_power.tres",
+      "change": "暴击倍率增加0.25/0.5/0.75，总暴击倍率最多2.4",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:261"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "haste",
+      "name": "疾手",
+      "category": "support",
+      "hero": "",
+      "effect": "haste",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/haste.tres",
+      "change": "普攻速度提升8%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.08,
+        0.16,
+        0.24
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:101",
+        "scripts/role_combat.gd:38",
+        "scripts/weapon_arts.gd:41"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "cooldown",
+      "name": "调息",
+      "category": "support",
+      "hero": "",
+      "effect": "cooldown",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/cooldown.tres",
+      "change": "技能冷却缩短7%，最低原始35%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.07,
+        0.14,
+        0.21000000000000002
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:224",
+        "scripts/combat.gd:360",
+        "scripts/main.gd:829",
+        "scripts/main.gd:861",
+        "scripts/main.gd:891",
+        "scripts/main.gd:1465",
+        "scripts/main.gd:1468",
+        "scripts/main.gd:1471",
+        "scripts/main.gd:1472",
+        "scripts/main.gd:1473"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "dash_cd",
+      "name": "轻身",
+      "category": "support",
+      "hero": "",
+      "effect": "dash_cd",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/dash_cd.tres",
+      "change": "闪避恢复加快10%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.1,
+        0.2,
+        0.30000000000000004
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:380",
+        "scripts/combat.gd:451",
+        "scripts/combat.gd:613"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "shield",
+      "name": "佛衣护体",
+      "category": "support",
+      "hero": "",
+      "effect": "shield",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/shield.tres",
+      "change": "每次进房获得8护盾",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        8.0,
+        16.0,
+        24.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/abilities_visual.gd:31",
+        "scripts/combat.gd:90",
+        "scripts/combat.gd:181",
+        "scripts/combat.gd:199",
+        "scripts/combat.gd:244",
+        "scripts/combat.gd:249",
+        "scripts/combat.gd:418",
+        "scripts/layered_rig.gd:20",
+        "scripts/layered_rig.gd:146",
+        "scripts/main.gd:545",
+        "scripts/main.gd:610",
+        "scripts/main.gd:660",
+        "scripts/main.gd:686",
+        "scripts/main.gd:695",
+        "scripts/main.gd:833",
+        "scripts/main.gd:842",
+        "scripts/main.gd:848",
+        "scripts/main.gd:861",
+        "scripts/main.gd:862",
+        "scripts/main.gd:877",
+        "scripts/main.gd:884",
+        "scripts/main.gd:1188",
+        "scripts/main.gd:1477",
+        "scripts/main.gd:1480",
+        "scripts/relic_synergy.gd:20",
+        "scripts/relic_synergy.gd:27",
+        "scripts/relic_synergy.gd:38",
+        "scripts/relic_synergy.gd:71",
+        "scripts/role_combat.gd:281",
+        "scripts/role_presentation.gd:93",
+        "scripts/role_presentation.gd:167",
+        "scripts/role_traits.gd:37",
+        "scripts/save.gd:63",
+        "scripts/skill_presentation.gd:31",
+        "scripts/weapon_grips.gd:6",
+        "scripts/weapon_visual.gd:32"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "regen",
+      "name": "灵泉润脉",
+      "category": "support",
+      "hero": "",
+      "effect": "regen",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/regen.tres",
+      "change": "每秒回复0.35生命",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.35,
+        0.7,
+        1.0499999999999998
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:395",
+        "scripts/combat.gd:396",
+        "scripts/combat.gd:413",
+        "scripts/combat.gd:465",
+        "scripts/main.gd:829",
+        "scripts/main.gd:861",
+        "scripts/main.gd:891",
+        "scripts/relic_synergy.gd:4",
+        "scripts/relic_synergy.gd:27",
+        "scripts/relic_synergy.gd:46"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "pickup",
+      "name": "聚灵",
+      "category": "support",
+      "hero": "",
+      "effect": "pickup",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/pickup.tres",
+      "change": "拾取距离增加25%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/audio_palette.gd:7",
+        "scripts/combat.gd:157",
+        "scripts/combat.gd:482",
+        "scripts/main.gd:1480"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "coins",
+      "name": "招财",
+      "category": "support",
+      "hero": "",
+      "effect": "coins",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/coins.tres",
+      "change": "战斗铜钱收益增加20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:90",
+        "scripts/combat.gd:328",
+        "scripts/combat.gd:329",
+        "scripts/main.gd:665",
+        "scripts/main.gd:695",
+        "scripts/main.gd:818",
+        "scripts/main.gd:833",
+        "scripts/main.gd:848",
+        "scripts/main.gd:861",
+        "scripts/main.gd:862",
+        "scripts/main.gd:876",
+        "scripts/main.gd:879",
+        "scripts/main.gd:888",
+        "scripts/main.gd:1177",
+        "scripts/main.gd:1188",
+        "scripts/main.gd:1477",
+        "scripts/save.gd:63"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "discount",
+      "name": "善缘",
+      "category": "support",
+      "hero": "",
+      "effect": "discount",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/discount.tres",
+      "change": "商店折扣增加8%，最高35%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.08,
+        0.16,
+        0.24
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/main.gd:829",
+        "scripts/main.gd:842",
+        "scripts/main.gd:861",
+        "scripts/main.gd:891"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "xp",
+      "name": "讲经",
+      "category": "support",
+      "hero": "",
+      "effect": "xp",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/xp.tres",
+      "change": "修为收益增加15%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.15,
+        0.3,
+        0.44999999999999996
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:90",
+        "scripts/combat.gd:330",
+        "scripts/main.gd:1188",
+        "scripts/save.gd:63"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "relic_cd",
+      "name": "御宝",
+      "category": "support",
+      "hero": "",
+      "effect": "relic_cd",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/relic_cd.tres",
+      "change": "法宝冷却缩短10%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.1,
+        0.2,
+        0.30000000000000004
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:433",
+        "scripts/combat.gd:613"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "heal_power",
+      "name": "药理",
+      "category": "support",
+      "hero": "",
+      "effect": "heal_power",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/heal_power.tres",
+      "change": "非持续回复效果增加20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:203"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "reward_shield",
+      "name": "清场护佑",
+      "category": "support",
+      "hero": "",
+      "effect": "reward_shield",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/reward_shield.tres",
+      "change": "清场后获得8护盾",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        8.0,
+        16.0,
+        24.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/main.gd:721"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "salvage",
+      "name": "拾遗",
+      "category": "support",
+      "hero": "",
+      "effect": "salvage",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/salvage.tres",
+      "change": "弃选天赋多得3铜钱",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        3.0,
+        6.0,
+        9.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/main.gd:762"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "fortune",
+      "name": "福缘",
+      "category": "support",
+      "hero": "",
+      "effect": "fortune",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/fortune.tres",
+      "change": "精英资源收益增加15%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.15,
+        0.3,
+        0.44999999999999996
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:328"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "wukong_t0",
+      "name": "棍势长留",
+      "category": "hero",
+      "hero": "wukong",
+      "effect": "hero_resource_gain",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/wukong_t0.tres",
+      "change": "第三段普攻改为绕身旋棍。角色专属：命中资源收益提高20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:290",
+        "scripts/role_traits.gd:6"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "wukong_t1",
+      "name": "分身同心",
+      "category": "hero",
+      "hero": "wukong",
+      "effect": "hero_summon_power",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [
+        "summon_source"
+      ],
+      "blocked_by": [],
+      "resource": "data/talents/wukong_t1.tres",
+      "change": "第三段普攻追加迟影分身，分身不能再次产生分身。角色专属：召唤伤害提高20%",
+      "tradeoff": "第三段普攻追加迟影分身，分身不能再次产生分身。角色专属：召唤伤害提高20%",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/role_combat.gd:187",
+        "scripts/role_combat.gd:209"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "wukong_t2",
+      "name": "定身破势",
+      "category": "hero",
+      "hero": "wukong",
+      "effect": "hero_control_break",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/wukong_t2.tres",
+      "change": "重击命中附加1秒减速与15破势。角色专属：控制额外提升破势20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:275",
+        "scripts/role_combat.gd:178"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "wukong_t3",
+      "name": "筋斗余锋",
+      "category": "hero",
+      "hero": "wukong",
+      "effect": "hero_dash_power",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/wukong_t3.tres",
+      "change": "角色专属：闪避留下额外角色攻击",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:381"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "wukong_t4",
+      "name": "火眼洞穿",
+      "category": "hero",
+      "hero": "wukong",
+      "effect": "hero_mark_power",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [
+        "mark_source"
+      ],
+      "blocked_by": [],
+      "resource": "data/talents/wukong_t4.tres",
+      "change": "第三段普攻标记弱点2秒。角色专属：标记目标承伤额外提高20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:265",
+        "scripts/role_combat.gd:185"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "wukong_t5",
+      "name": "棍势回流",
+      "category": "hero",
+      "hero": "wukong",
+      "effect": "hero_resource_regen",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/wukong_t5.tres",
+      "change": "重击命中恢复棍势4点。角色专属：每秒恢复少量角色资源",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:467",
+        "scripts/role_combat.gd:186"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "tangseng_t0",
+      "name": "禅意护持",
+      "category": "hero",
+      "hero": "tangseng",
+      "effect": "hero_shield_gain",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/tangseng_t0.tres",
+      "change": "落印时获得4点基础护盾。角色专属：护盾收益提高20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/main.gd:660",
+        "scripts/role_combat.gd:199",
+        "scripts/role_combat.gd:281",
+        "scripts/role_combat.gd:328"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "tangseng_t1",
+      "name": "度化延时",
+      "category": "hero",
+      "hero": "tangseng",
+      "effect": "hero_summon_time",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [
+        "summon_source"
+      ],
+      "blocked_by": [],
+      "resource": "data/talents/tangseng_t1.tres",
+      "change": "度化协战命中落印，独立冷却0.8秒。角色专属：协战持续时间提高20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/role_combat.gd:265",
+        "scripts/role_traits.gd:24"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "tangseng_t2",
+      "name": "佛印灼心",
+      "category": "hero",
+      "hero": "tangseng",
+      "effect": "hero_skill_power",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/tangseng_t2.tres",
+      "change": "第二段普攻追加两枚斜向念珠。角色专属：技能伤害提高20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:214",
+        "scripts/weapon_arts.gd:124"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "tangseng_t3",
+      "name": "慈悲回响",
+      "category": "hero",
+      "hero": "tangseng",
+      "effect": "hero_heal_gain",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/tangseng_t3.tres",
+      "change": "念诵在原地留下短暂莲台，独立冷却0.8秒。角色专属：回复效果提高20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:203",
+        "scripts/role_traits.gd:28"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "tangseng_t4",
+      "name": "禅心净域",
+      "category": "hero",
+      "hero": "tangseng",
+      "effect": "hero_field_power",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [
+        "field",
+        "field_source"
+      ],
+      "blocked_by": [],
+      "resource": "data/talents/tangseng_t4.tres",
+      "change": "相邻法印形成可伤敌的连接线。角色专属：领域伤害提高20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:351",
+        "scripts/role_combat.gd:84"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "tangseng_t5",
+      "name": "金光蓄势",
+      "category": "hero",
+      "hero": "tangseng",
+      "effect": "hero_resource_regen",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/tangseng_t5.tres",
+      "change": "重击引爆每枚法印返还3禅意。角色专属：每秒恢复少量角色资源",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:467",
+        "scripts/weapon_arts.gd:118",
+        "scripts/weapon_arts.gd:233"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "bajie_t0",
+      "name": "战意承伤",
+      "category": "hero",
+      "hero": "bajie",
+      "effect": "hero_hurt_resource",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/bajie_t0.tres",
+      "change": "受击积累反击伤害，下一重击消耗。角色专属：受击获得额外资源",
+      "tradeoff": "受击积累反击伤害，下一重击消耗。角色专属：受击获得额外资源",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:248",
+        "scripts/combat.gd:254",
+        "scripts/combat.gd:270"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "bajie_t1",
+      "name": "天蓬铁衣",
+      "category": "hero",
+      "hero": "bajie",
+      "effect": "hero_shield_gain",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/bajie_t1.tres",
+      "change": "成功格挡反弹160范围内的敌弹，反弹不触发派生。角色专属：护盾收益提高20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/main.gd:660",
+        "scripts/role_combat.gd:199",
+        "scripts/role_combat.gd:281",
+        "scripts/role_combat.gd:328",
+        "scripts/role_traits.gd:10"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "bajie_t2",
+      "name": "裂地余震",
+      "category": "hero",
+      "hero": "bajie",
+      "effect": "hero_heavy_power",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/bajie_t2.tres",
+      "change": "重击范围延长20%。角色专属：重击伤害提高20%",
+      "tradeoff": "重击范围延长20%。角色专属：重击伤害提高20%",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/role_combat.gd:53",
+        "scripts/role_traits.gd:7"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "bajie_t3",
+      "name": "饕餮养身",
+      "category": "hero",
+      "hero": "bajie",
+      "effect": "hero_heal_gain",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/bajie_t3.tres",
+      "change": "第三段普攻命中回复2生命。角色专属：回复效果提高20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:203",
+        "scripts/role_combat.gd:190"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "bajie_t4",
+      "name": "牵耙聚敌",
+      "category": "hero",
+      "hero": "bajie",
+      "effect": "hero_pull_power",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [
+        "pull_source"
+      ],
+      "blocked_by": [],
+      "resource": "data/talents/bajie_t4.tres",
+      "change": "第三段普攻将敌人向身前勾回，首领位移减弱。角色专属：牵引距离提高20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/role_combat.gd:180",
+        "scripts/role_combat.gd:292"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "bajie_t5",
+      "name": "怒意贯体",
+      "category": "hero",
+      "hero": "bajie",
+      "effect": "hero_resource_damage",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/bajie_t5.tres",
+      "change": "消耗战意的强化重击追加延迟震地。角色专属：高资源攻击进一步增强",
+      "tradeoff": "消耗战意的强化重击追加延迟震地。角色专属：高资源攻击进一步增强",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:213",
+        "scripts/role_combat.gd:156"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "shaseng_t0",
+      "name": "藤沙叠印",
+      "category": "hero",
+      "hero": "shaseng",
+      "effect": "hero_sand_gain",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [
+        "sand"
+      ],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/shaseng_t0.tres",
+      "change": "角色专属：命中额外叠加印记",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:293",
+        "scripts/role_combat.gd:189"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "shaseng_t1",
+      "name": "流沙深域",
+      "category": "hero",
+      "hero": "shaseng",
+      "effect": "hero_field_power",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [
+        "field",
+        "field_source"
+      ],
+      "blocked_by": [],
+      "resource": "data/talents/shaseng_t1.tres",
+      "change": "流沙领域改为缓慢跟随自身，取消直线漂移。角色专属：领域伤害提高20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:351",
+        "scripts/combat.gd:567"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "shaseng_t2",
+      "name": "月刃分光",
+      "category": "hero",
+      "hero": "shaseng",
+      "effect": "hero_extra_skill_shots",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [
+        "skill_shots"
+      ],
+      "blocked_by": [],
+      "resource": "data/talents/shaseng_t2.tres",
+      "change": "角色专属：飞刃技能增加两发",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/role_combat.gd:301"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "shaseng_t3",
+      "name": "沙印噬身",
+      "category": "hero",
+      "hero": "shaseng",
+      "effect": "hero_sand_damage",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [
+        "detonate_source"
+      ],
+      "blocked_by": [],
+      "resource": "data/talents/shaseng_t3.tres",
+      "change": "逐次引爆后飞出两枚碎沙刃，碎刃不再次触发自身。角色专属：印记引爆伤害提高20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/role_combat.gd:315",
+        "scripts/role_traits.gd:32",
+        "scripts/weapon_arts.gd:84"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "shaseng_t4",
+      "name": "束缚延时",
+      "category": "hero",
+      "hero": "shaseng",
+      "effect": "hero_control_time",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [
+        "control_source"
+      ],
+      "blocked_by": [],
+      "resource": "data/talents/shaseng_t4.tres",
+      "change": "角色专属：小妖控制延长20%",
+      "tradeoff": "角色专属：小妖控制延长20%",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/role_combat.gd:204"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "shaseng_t5",
+      "name": "引爆回流",
+      "category": "hero",
+      "hero": "shaseng",
+      "effect": "hero_resource_gain",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/shaseng_t5.tres",
+      "change": "第三段普攻命中恢复5沙息；月刃回收额外恢复3沙息。角色专属：命中资源收益提高20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:290",
+        "scripts/role_combat.gd:189",
+        "scripts/role_traits.gd:18"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "bailongma_t0",
+      "name": "潮势疾驰",
+      "category": "hero",
+      "hero": "bailongma",
+      "effect": "hero_move_resource",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/bailongma_t0.tres",
+      "change": "移动时每0.6秒留下短暂水痕。角色专属：有效移动每秒积累资源",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:468",
+        "scripts/role_combat.gd:80"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "bailongma_t1",
+      "name": "龙鳞护身",
+      "category": "hero",
+      "hero": "bailongma",
+      "effect": "hero_shield_gain",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/bailongma_t1.tres",
+      "change": "水幕拦截敌弹回复3护盾，冷却0.2秒。角色专属：护盾收益提高20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/main.gd:660",
+        "scripts/role_combat.gd:199",
+        "scripts/role_combat.gd:281",
+        "scripts/role_combat.gd:328",
+        "scripts/role_traits.gd:36"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "bailongma_t2",
+      "name": "水枪急流",
+      "category": "hero",
+      "hero": "bailongma",
+      "effect": "hero_projectile_power",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/bailongma_t2.tres",
+      "change": "御剑普攻额外放出一柄剑。角色专属：投射物伤害提高20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:348"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "bailongma_t3",
+      "name": "踏浪留潮",
+      "category": "hero",
+      "hero": "bailongma",
+      "effect": "hero_dash_power",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/bailongma_t3.tres",
+      "change": "侧闪反刺增加一次回收蓄势。角色专属：闪避留下额外角色攻击",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:381",
+        "scripts/role_combat.gd:326"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "bailongma_t4",
+      "name": "化龙长息",
+      "category": "hero",
+      "hero": "bailongma",
+      "effect": "hero_buff_time",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [
+        "buff_source"
+      ],
+      "blocked_by": [],
+      "resource": "data/talents/bailongma_t4.tres",
+      "change": "角色专属：化龙持续时间提高20%",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/role_combat.gd:321"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "bailongma_t5",
+      "name": "潮起聚气",
+      "category": "hero",
+      "hero": "bailongma",
+      "effect": "hero_resource_regen",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/bailongma_t5.tres",
+      "change": "御剑回收增加蓄势并恢复2潮势。角色专属：每秒恢复少量角色资源",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        0.2,
+        0.4,
+        0.6000000000000001
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:467",
+        "scripts/role_traits.gd:19"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "glass",
+      "name": "舍身成锋",
+      "category": "core",
+      "hero": "",
+      "effect": "glass",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/glass.tres",
+      "change": "伤害提升60%，最大生命降低30%",
+      "tradeoff": "伤害提升60%，最大生命降低30%",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:197",
+        "scripts/combat.gd:208"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "goldbody",
+      "name": "金身换势",
+      "category": "core",
+      "hero": "",
+      "effect": "goldbody",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/goldbody.tres",
+      "change": "失去暴击，获得40护盾并提高破势",
+      "tradeoff": "失去暴击，获得40护盾并提高破势",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:198",
+        "scripts/combat.gd:260",
+        "scripts/combat.gd:275",
+        "scripts/combat.gd:398"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "storm",
+      "name": "万雷归宗",
+      "category": "core",
+      "hero": "",
+      "effect": "storm",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [
+        "chain",
+        "crit_chain"
+      ],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/storm.tres",
+      "change": "雷链增强，但基础攻击伤害降低20%",
+      "tradeoff": "雷链增强，但基础攻击伤害降低20%",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:209",
+        "scripts/combat.gd:318"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "swarm",
+      "name": "百兵齐鸣",
+      "category": "core",
+      "hero": "",
+      "effect": "swarm",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [
+        "projectile"
+      ],
+      "blocked_by": [],
+      "resource": "data/talents/swarm.tres",
+      "change": "增加投射物，单弹伤害降低35%",
+      "tradeoff": "增加投射物，单弹伤害降低35%",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/main.gd:673",
+        "scripts/weapon_arts.gd:68"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "immovable",
+      "name": "不动如山",
+      "category": "core",
+      "hero": "",
+      "effect": "immovable",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/immovable.tres",
+      "change": "重击伤害增加25%，受伤减免增加20个百分点（总上限55%），移动速度降低20%",
+      "tradeoff": "重击伤害增加25%，受伤减免增加20个百分点（总上限55%），移动速度降低20%",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:239",
+        "scripts/combat.gd:452",
+        "scripts/escape_planner.gd:19",
+        "scripts/role_combat.gd:53"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "blood",
+      "name": "血换神通",
+      "category": "core",
+      "hero": "",
+      "effect": "blood",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/blood.tres",
+      "change": "技能资源不足时消耗生命替代，不致死",
+      "tradeoff": "技能资源不足时消耗生命替代，不致死",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/role_combat.gd:34",
+        "scripts/role_combat.gd:385"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "summoner",
+      "name": "身外法身",
+      "category": "core",
+      "hero": "",
+      "effect": "summoner",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/summoner.tres",
+      "change": "常驻协战攻击，普攻伤害降低25%",
+      "tradeoff": "常驻协战攻击，普攻伤害降低25%",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:171",
+        "scripts/combat.gd:210",
+        "scripts/combat.gd:600",
+        "scripts/enemy_controller.gd:3",
+        "scripts/enemy_controller.gd:4",
+        "scripts/enemy_controller.gd:7",
+        "scripts/enemy_controller.gd:70",
+        "scripts/enemy_rig.gd:24",
+        "scripts/main.gd:563",
+        "scripts/main.gd:716",
+        "scripts/main.gd:1419",
+        "scripts/main.gd:1783",
+        "scripts/main.gd:1787",
+        "scripts/main.gd:1796"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "domain",
+      "name": "阵法宗师",
+      "category": "core",
+      "hero": "",
+      "effect": "domain",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [
+        "field",
+        "field_source"
+      ],
+      "blocked_by": [],
+      "resource": "data/talents/domain.tres",
+      "change": "领域强化并延长，普攻速度降低20%",
+      "tradeoff": "领域强化并延长，普攻速度降低20%",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:102",
+        "scripts/combat.gd:351",
+        "scripts/main.gd:545",
+        "scripts/role_combat.gd:198",
+        "scripts/weapon_arts.gd:41"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "duelist",
+      "name": "一线诛魔",
+      "category": "core",
+      "hero": "",
+      "effect": "duelist",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/duelist.tres",
+      "change": "对首领伤害提高50%，对小妖降低20%",
+      "tradeoff": "对首领伤害提高50%，对小妖降低20%",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:262"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "relicmaster",
+      "name": "御宝真仙",
+      "category": "core",
+      "hero": "",
+      "effect": "relicmaster",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/relicmaster.tres",
+      "change": "法宝效果增强，技能冷却延长20%",
+      "tradeoff": "法宝效果增强，技能冷却延长20%",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:409",
+        "scripts/combat.gd:433"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "lotus_steps",
+      "name": "步步生莲",
+      "category": "shape",
+      "hero": "",
+      "effect": "lotus_steps",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/lotus_steps.tres",
+      "change": "闪避沿路径留下三朵莲印，依次延迟爆发；每朵18点基础伤害",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:382",
+        "scripts/combat.gd:386",
+        "scripts/main.gd:545"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "third_crescent",
+      "name": "双弦月影",
+      "category": "shape",
+      "hero": "",
+      "effect": "third_crescent",
+      "applicable_tags": [
+        "melee"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/third_crescent.tres",
+      "change": "近战第三连击向两侧留下月影，0.18秒后各造成35%攻击伤害",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/main.gd:545",
+        "scripts/role_combat.gd:153"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "seal_wheel",
+      "name": "法印回轮",
+      "category": "shape",
+      "hero": "",
+      "effect": "seal_wheel",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/seal_wheel.tres",
+      "change": "施放技能后3秒内，下一次普攻额外释放120范围法印，造成55%攻击伤害",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/main.gd:545",
+        "scripts/role_combat.gd:146",
+        "scripts/role_combat.gd:239",
+        "scripts/role_combat.gd:338"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "combo_open",
+      "name": "探路直刺",
+      "category": "shape",
+      "hero": "",
+      "effect": "combo_open",
+      "applicable_tags": [
+        "melee"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/combo_open.tres",
+      "change": "第一段转为直刺，距离增加25%，伤害降低10%",
+      "tradeoff": "第一段转为直刺，距离增加25%，伤害降低10%",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combo_talents.gd:5"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "combo_lateral",
+      "name": "侧翼星芒",
+      "category": "shape",
+      "hero": "",
+      "effect": "combo_lateral",
+      "applicable_tags": [
+        "projectile"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/combo_lateral.tres",
+      "change": "第二段主攻击伤害降低10%，附加两枚15%伤害侧翼星芒；派生不触发命中联动",
+      "tradeoff": "第二段主攻击伤害降低10%，附加两枚15%伤害侧翼星芒；派生不触发命中联动",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combo_talents.gd:6",
+        "scripts/combo_talents.gd:16"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "combo_final",
+      "name": "收式破阵",
+      "category": "trigger",
+      "hero": "",
+      "effect": "combo_final",
+      "applicable_tags": [
+        "melee",
+        "journey_mid"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/combo_final.tres",
+      "change": "第三段消耗10资源，伤害增加25%、距离增加15%；资源不足时不强化",
+      "tradeoff": "第三段消耗10资源，伤害增加25%、距离增加15%；资源不足时不强化",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combo_talents.gd:7"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "combo_return",
+      "name": "归器收式",
+      "category": "shape",
+      "hero": "",
+      "effect": "combo_return",
+      "applicable_tags": [
+        "projectile"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [
+        "return_source"
+      ],
+      "blocked_by": [],
+      "resource": "data/talents/combo_return.tres",
+      "change": "第三段主动召回返程兵器，本段基础伤害降低20%",
+      "tradeoff": "第三段主动召回返程兵器，本段基础伤害降低20%",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combo_talents.gd:8",
+        "scripts/combo_talents.gd:18"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "combo_anchor",
+      "name": "二式留阵",
+      "category": "shape",
+      "hero": "",
+      "effect": "combo_anchor",
+      "applicable_tags": [
+        "journey_mid"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/combo_anchor.tres",
+      "change": "第二段落下1.2秒墨阵，每0.6秒造成12%攻击伤害；同目标只触发一次命中联动",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combo_talents.gd:19"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "combo_aegis",
+      "name": "三式护身",
+      "category": "trigger",
+      "hero": "",
+      "effect": "combo_aegis",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/combo_aegis.tres",
+      "change": "第三段消耗6资源换8护盾，护盾上限100",
+      "tradeoff": "第三段消耗6资源换8护盾，护盾上限100",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combat.gd:183",
+        "scripts/combo_talents.gd:20"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "combo_stride",
+      "name": "退进两仪",
+      "category": "shape",
+      "hero": "",
+      "effect": "combo_stride",
+      "applicable_tags": [
+        "melee"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/combo_stride.tres",
+      "change": "第二段后退20像素，第三段前进35像素，必须管理落脚位置",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combo_talents.gd:21"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "combo_ink",
+      "name": "收式迟影",
+      "category": "shape",
+      "hero": "",
+      "effect": "combo_ink",
+      "applicable_tags": [
+        "journey_mid"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/combo_ink.tres",
+      "change": "第三段落点延迟0.35秒追加25%攻击伤害，不触发命中联动",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combo_talents.gd:22"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "combo_frugal",
+      "name": "吐纳换息",
+      "category": "trigger",
+      "hero": "",
+      "effect": "combo_frugal",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/combo_frugal.tres",
+      "change": "第一段回复2资源；第三段消耗4资源使两项神通冷却各减少0.25秒",
+      "tradeoff": "第一段回复2资源；第三段消耗4资源使两项神通冷却各减少0.25秒",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combo_talents.gd:23"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "combo_draw",
+      "name": "蓄式换势",
+      "category": "trigger",
+      "hero": "",
+      "effect": "combo_draw",
+      "applicable_tags": [
+        "journey_late"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/combo_draw.tres",
+      "change": "第三段伤害降低20%，让下一次重击伤害增加20%；不能重复叠加",
+      "tradeoff": "第三段伤害降低20%，让下一次重击伤害增加20%；不能重复叠加",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combo_talents.gd:9",
+        "scripts/combo_talents.gd:12"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "w_combo_vault",
+      "name": "踏云落棍",
+      "category": "hero",
+      "hero": "wukong",
+      "effect": "w_combo_vault",
+      "applicable_tags": [
+        "melee",
+        "journey_mid"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/w_combo_vault.tres",
+      "change": "第三段前移35像素，落点0.18秒后追加25%伤害，不触发命中联动",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combo_talents.gd:26"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "w_echo_staff",
+      "name": "二式影棍",
+      "category": "hero",
+      "hero": "wukong",
+      "effect": "w_echo_staff",
+      "applicable_tags": [
+        "journey_late"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/w_echo_staff.tres",
+      "change": "第二段身前留下延迟0.22秒的22%伤害棍影，不再派生分身",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combo_talents.gd:27"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "t_combo_lotus",
+      "name": "落印生莲",
+      "category": "hero",
+      "hero": "tangseng",
+      "effect": "t_combo_lotus",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/t_combo_lotus.tres",
+      "change": "第三段在脚下留下1.8秒小莲阵；站在阵内每0.6秒回复2生命",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combo_talents.gd:28"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "t_recall_print",
+      "name": "归珠落印",
+      "category": "hero",
+      "hero": "tangseng",
+      "effect": "t_recall_print",
+      "applicable_tags": [
+        "projectile",
+        "journey_late"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [
+        "return_source"
+      ],
+      "blocked_by": [],
+      "resource": "data/talents/t_recall_print.tres",
+      "change": "返程兵器收回时在脚下布小法印，至少间隔1.2秒",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combo_talents.gd:38"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "b_combo_guard",
+      "name": "回耙架势",
+      "category": "hero",
+      "hero": "bajie",
+      "effect": "b_combo_guard",
+      "applicable_tags": [
+        "journey_mid"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/b_combo_guard.tres",
+      "change": "第二段命中阶段获得0.15秒格挡窗口，只能挡一次",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combo_talents.gd:29"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "b_shield_spend",
+      "name": "护甲换攻",
+      "category": "hero",
+      "hero": "bajie",
+      "effect": "b_shield_spend",
+      "applicable_tags": [
+        "journey_late"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/b_shield_spend.tres",
+      "change": "第三段有至少8护盾时消耗8护盾，伤害提高30%；无盾不强化",
+      "tradeoff": "第三段有至少8护盾时消耗8护盾，伤害提高30%；无盾不强化",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combo_talents.gd:10"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "s_combo_transfer",
+      "name": "流印牵线",
+      "category": "hero",
+      "hero": "shaseng",
+      "effect": "s_combo_transfer",
+      "applicable_tags": [],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/s_combo_transfer.tres",
+      "change": "第二段把附近第一个目标的一枚印搬到另一目标，需至少两敌",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combo_talents.gd:30"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "s_combo_refund",
+      "name": "收砂还息",
+      "category": "hero",
+      "hero": "shaseng",
+      "effect": "s_combo_refund",
+      "applicable_tags": [
+        "journey_mid"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/s_combo_refund.tres",
+      "change": "第三段消耗附近至多三枚流沙印，每枚回复3资源；牺牲印裂爆发",
+      "tradeoff": "第三段消耗附近至多三枚流沙印，每枚回复3资源；牺牲印裂爆发",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combo_talents.gd:33"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "d_combo_recall",
+      "name": "三式归潮",
+      "category": "hero",
+      "hero": "bailongma",
+      "effect": "d_combo_recall",
+      "applicable_tags": [
+        "projectile"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [
+        "return_source"
+      ],
+      "blocked_by": [],
+      "resource": "data/talents/d_combo_recall.tres",
+      "change": "第三段召回兵器并积一层回收势，最多三层，保持2秒",
+      "tradeoff": "无额外惩罚；占用修行点，仍受适用条件和触发上限约束",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combo_talents.gd:36"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    },
+    {
+      "id": "d_tide_precision",
+      "name": "潮势穿心",
+      "category": "hero",
+      "hero": "bailongma",
+      "effect": "d_tide_precision",
+      "applicable_tags": [
+        "melee",
+        "journey_late"
+      ],
+      "prerequisites": [],
+      "alternatives": [],
+      "source_tags": [],
+      "blocked_by": [],
+      "resource": "data/talents/d_tide_precision.tres",
+      "change": "第三段资源至少50时消耗12资源，距离与伤害各增加20%",
+      "tradeoff": "第三段资源至少50时消耗12资源，距离与伤害各增加20%",
+      "parameter_levels": [
+        1.0
+      ],
+      "parameter_note": "效果参数档位；实际收益还受执行逻辑、冷却与上限约束",
+      "execution_locations": [
+        "scripts/combo_talents.gd:11"
+      ],
+      "status": "已映射执行引用，实机组合与真人体验分别验收"
+    }
+  ]
+}

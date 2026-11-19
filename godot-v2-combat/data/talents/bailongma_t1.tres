@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"bailongma_t1"
+title = "龙鳞护身"
+description = "水幕拦截敌弹回复3护盾，冷却0.2秒。角色专属：护盾收益提高20%"
+category = &"hero"
+effect = &"hero_shield_gain"
+amount = 0.2
+max_level = 3
+tags = Array[String]([])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String]([])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = true

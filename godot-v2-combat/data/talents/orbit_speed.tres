@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"orbit_speed"
+title = "御兵急转"
+description = "环绕兵器转速提高60%"
+category = &"shape"
+effect = &"orbit_speed"
+amount = 0.6
+max_level = 1
+tags = Array[String](["orbit"])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String]([])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "combo_anchor"
+title = "二式留阵"
+description = "第二段落下1.2秒墨阵，每0.6秒造成12%攻击伤害；同目标只触发一次命中联动"
+category = "shape"
+effect = "combo_anchor"
+amount = 1
+max_level = 1
+tags = Array[String](["journey_mid"])
+requires_any = Array[String]([])

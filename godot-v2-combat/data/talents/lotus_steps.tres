@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"lotus_steps"
+title = "步步生莲"
+description = "闪避沿路径留下三朵莲印，依次延迟爆发；每朵18点基础伤害"
+category = &"shape"
+effect = &"lotus_steps"
+amount = 1
+max_level = 1
+tags = Array[String]([])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String]([])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

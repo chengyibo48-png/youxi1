@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"seal_wheel"
+title = "法印回轮"
+description = "施放技能后3秒内，下一次普攻额外释放120范围法印，造成55%攻击伤害"
+category = &"shape"
+effect = &"seal_wheel"
+amount = 1
+max_level = 1
+tags = Array[String]([])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String]([])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

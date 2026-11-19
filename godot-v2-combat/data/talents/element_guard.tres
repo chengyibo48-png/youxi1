@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"element_guard"
+title = "五行护体"
+description = "火域、毒雾、冰域及自身余毒/余火的周期伤害减少15/30/45%；不降低普通近战和直接飞弹伤害"
+category = &"element"
+effect = &"element_guard"
+amount = 0.15
+max_level = 3
+tags = Array[String]([])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String]([])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

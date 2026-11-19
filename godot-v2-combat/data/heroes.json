@@ -1,0 +1,47 @@
+[
+  {
+    "id": "wukong",
+    "name": "孙悟空",
+    "resource": "棍势",
+    "color": "#D9A85C",
+    "hp": 110,
+    "speed": 280,
+    "resource_rule": "第三段连招额外积累6棍势"
+  },
+  {
+    "id": "tangseng",
+    "name": "唐三藏",
+    "resource": "禅意",
+    "color": "#EFE0AD",
+    "hp": 100,
+    "speed": 250,
+    "resource_rule": "停步凝神每秒积累1禅意"
+  },
+  {
+    "id": "bajie",
+    "name": "猪八戒",
+    "resource": "战意",
+    "color": "#B96952",
+    "hp": 155,
+    "speed": 225,
+    "resource_rule": "护盾承伤转化为战意"
+  },
+  {
+    "id": "shaseng",
+    "name": "沙悟净",
+    "resource": "沙息",
+    "color": "#5D9A9B",
+    "hp": 120,
+    "speed": 260,
+    "resource_rule": "命中已有流沙印的敌人获得额外资源"
+  },
+  {
+    "id": "bailongma",
+    "name": "白龙马",
+    "resource": "潮势",
+    "color": "#98CBD6",
+    "hp": 108,
+    "speed": 310,
+    "resource_rule": "持续移动积累潮势"
+  }
+]

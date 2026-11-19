@@ -1,0 +1,62 @@
+[
+  {
+    "id": "trial_0",
+    "name": "疾战",
+    "rule": "time"
+  },
+  {
+    "id": "trial_1",
+    "name": "护灯",
+    "rule": "protect"
+  },
+  {
+    "id": "trial_2",
+    "name": "群妖",
+    "rule": "swarm"
+  },
+  {
+    "id": "trial_3",
+    "name": "破甲",
+    "rule": "armor"
+  },
+  {
+    "id": "trial_4",
+    "name": "禁疗",
+    "rule": "noheal"
+  },
+  {
+    "id": "trial_5",
+    "name": "毒雾",
+    "rule": "poison"
+  },
+  {
+    "id": "trial_6",
+    "name": "雷阵",
+    "rule": "thunder"
+  },
+  {
+    "id": "trial_7",
+    "name": "逐影",
+    "rule": "fast"
+  },
+  {
+    "id": "trial_8",
+    "name": "精英双守",
+    "rule": "elite"
+  },
+  {
+    "id": "trial_9",
+    "name": "贫财",
+    "rule": "nocoins"
+  },
+  {
+    "id": "trial_10",
+    "name": "失衡",
+    "rule": "break"
+  },
+  {
+    "id": "trial_11",
+    "name": "火域",
+    "rule": "fire"
+  }
+]

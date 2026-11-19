@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"swarm"
+title = "百兵齐鸣"
+description = "增加投射物，单弹伤害降低35%"
+category = &"core"
+effect = &"swarm"
+amount = 1
+max_level = 1
+tags = Array[String]([])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String](["projectile"])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

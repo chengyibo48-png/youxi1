@@ -1,0 +1,820 @@
+[
+  {
+    "id": "boss_0",
+    "name": "寅将军",
+    "type": "tiger",
+    "biome": "wild",
+    "accent": "#db9e66",
+    "phase_one": [
+      "charge",
+      "slam"
+    ],
+    "phase_two": [
+      "charge",
+      "fan",
+      "slam"
+    ],
+    "warning": 0.85,
+    "recovery": 1.5,
+    "summons": "chaser",
+    "story": "虎穴妖宴在前，寅将军盘踞岭口。",
+    "intro": "唐朝来的和尚，入了我这虎穴，还往何处走？",
+    "phase_three": [
+      "charge",
+      "fan",
+      "slam",
+      "roar"
+    ],
+    "opening": "冲锋后贴身惩罚",
+    "signature": [
+      "charge",
+      "slam"
+    ]
+  },
+  {
+    "id": "boss_1",
+    "name": "黑熊精",
+    "type": "bear",
+    "biome": "forest",
+    "accent": "#a9b987",
+    "phase_one": [
+      "slam",
+      "summon"
+    ],
+    "phase_two": [
+      "slam",
+      "ward",
+      "summon"
+    ],
+    "warning": 0.95,
+    "recovery": 1.65,
+    "summons": "ranged",
+    "story": "黑熊精盗得袈裟，在黑风洞设下佛衣会。",
+    "intro": "好一领锦襕袈裟，既到了黑风山，便由我保管！",
+    "phase_three": [
+      "slam",
+      "ward",
+      "summon",
+      "roar"
+    ],
+    "opening": "重砸结束可近身",
+    "signature": [
+      "ward",
+      "slam"
+    ]
+  },
+  {
+    "id": "boss_2",
+    "name": "黄风怪",
+    "type": "wind",
+    "biome": "desert",
+    "accent": "#e0c178",
+    "phase_one": [
+      "fan",
+      "gust"
+    ],
+    "phase_two": [
+      "gust",
+      "burst",
+      "fan"
+    ],
+    "warning": 1.05,
+    "recovery": 1.8,
+    "summons": "guard",
+    "story": "虎先锋掳人入洞，黄蜂小妖随三昧神风卷土而来。",
+    "intro": "三昧神风一吹，任你火眼金睛也辨不清方向！",
+    "phase_three": [
+      "gust",
+      "burst",
+      "fan"
+    ],
+    "opening": "躲过主招后抓住收招间隙",
+    "signature": [
+      "gust",
+      "fan"
+    ]
+  },
+  {
+    "id": "boss_3",
+    "name": "白骨精",
+    "type": "bone",
+    "biome": "grave",
+    "accent": "#ded9cf",
+    "phase_one": [
+      "illusion",
+      "poison"
+    ],
+    "phase_two": [
+      "illusion",
+      "laser",
+      "poison"
+    ],
+    "warning": 0.85,
+    "recovery": 1.95,
+    "summons": "chaser",
+    "story": "白骨精连换三副人形，师徒眼见与心信彼此冲突。",
+    "intro": "你们看见的，未必就是你们相信的。",
+    "phase_three": [
+      "illusion",
+      "laser",
+      "poison",
+      "blink"
+    ],
+    "opening": "躲过主招后抓住收招间隙",
+    "signature": [
+      "illusion",
+      "laser"
+    ]
+  },
+  {
+    "id": "boss_4",
+    "name": "黄袍怪",
+    "type": "robe",
+    "biome": "night",
+    "accent": "#a8a4d4",
+    "phase_one": [
+      "fan",
+      "laser"
+    ],
+    "phase_two": [
+      "laser",
+      "burst",
+      "charge"
+    ],
+    "warning": 0.95,
+    "recovery": 1.5,
+    "summons": "ranged",
+    "story": "黄袍怪施法改人形貌，金殿中须揭破真相。",
+    "intro": "波月洞里，轮不到旁人评说我的旧缘！",
+    "phase_three": [
+      "laser",
+      "burst",
+      "charge"
+    ],
+    "opening": "躲过主招后抓住收招间隙",
+    "signature": [
+      "laser",
+      "charge"
+    ]
+  },
+  {
+    "id": "boss_5",
+    "name": "金角大王",
+    "type": "horn",
+    "biome": "cave",
+    "accent": "#e1bc73",
+    "phase_one": [
+      "gourd",
+      "laser"
+    ],
+    "phase_two": [
+      "gourd",
+      "fire",
+      "laser"
+    ],
+    "warning": 1.05,
+    "recovery": 1.65,
+    "summons": "guard",
+    "story": "莲花洞喽啰封山，金角持宝葫芦守住入口。",
+    "intro": "叫得出你的名字，便有法宝应声！",
+    "phase_three": [
+      "gourd",
+      "fire",
+      "laser",
+      "burst"
+    ],
+    "opening": "离开吸引范围后反击",
+    "signature": [
+      "gourd",
+      "laser"
+    ]
+  },
+  {
+    "id": "boss_6",
+    "name": "银角大王",
+    "type": "horn",
+    "biome": "cave",
+    "accent": "#c9d4db",
+    "phase_one": [
+      "gourd",
+      "ice"
+    ],
+    "phase_two": [
+      "ice",
+      "gourd",
+      "burst"
+    ],
+    "warning": 0.85,
+    "recovery": 1.8,
+    "summons": "chaser",
+    "story": "银角举净瓶点名，被叫住的人须速离原地。",
+    "intro": "你叫我一声，我便放你进葫芦！",
+    "phase_three": [
+      "ice",
+      "gourd",
+      "burst"
+    ],
+    "opening": "离开吸引范围后反击",
+    "signature": [
+      "ice",
+      "burst"
+    ]
+  },
+  {
+    "id": "boss_7",
+    "name": "红孩儿",
+    "type": "fire",
+    "biome": "ember",
+    "accent": "#ef8865",
+    "phase_one": [
+      "fire",
+      "fan"
+    ],
+    "phase_two": [
+      "fire",
+      "fire",
+      "charge"
+    ],
+    "warning": 0.95,
+    "recovery": 1.95,
+    "summons": "ranged",
+    "story": "观音前来收服圣婴大王，先撑过最后一阵真火。",
+    "intro": "我乃圣婴大王！尝尝这三昧真火！",
+    "phase_three": [
+      "fire",
+      "charge",
+      "burst"
+    ],
+    "opening": "绕开火域后输出",
+    "signature": [
+      "fire",
+      "fan"
+    ]
+  },
+  {
+    "id": "boss_8",
+    "name": "虎力大仙",
+    "type": "tiger",
+    "biome": "city",
+    "accent": "#d6b574",
+    "phase_one": [
+      "laser",
+      "summon"
+    ],
+    "phase_two": [
+      "laser",
+      "roar",
+      "summon"
+    ],
+    "warning": 1.05,
+    "recovery": 1.5,
+    "summons": "guard",
+    "story": "虎力大仙以求雨斗法定输赢，风雷与符箓交织。",
+    "intro": "在车迟国，求雨斗法便见真章！",
+    "phase_three": [
+      "laser",
+      "roar",
+      "summon"
+    ],
+    "opening": "躲过主招后抓住收招间隙",
+    "signature": [
+      "charge",
+      "slam"
+    ]
+  },
+  {
+    "id": "boss_9",
+    "name": "灵感大王",
+    "type": "fish",
+    "biome": "river",
+    "accent": "#8ecdd4",
+    "phase_one": [
+      "wave",
+      "ice"
+    ],
+    "phase_two": [
+      "wave",
+      "gourd",
+      "ice"
+    ],
+    "warning": 0.85,
+    "recovery": 1.65,
+    "summons": "chaser",
+    "story": "观音携鱼篮收妖，灵感大王最后掀起巨浪。",
+    "intro": "河水漫天，谁能过我的通天河？",
+    "phase_three": [
+      "wave",
+      "gourd",
+      "ice",
+      "burst"
+    ],
+    "opening": "躲过主招后抓住收招间隙",
+    "signature": [
+      "wave",
+      "ice"
+    ]
+  },
+  {
+    "id": "boss_10",
+    "name": "青牛精",
+    "type": "bull",
+    "biome": "cave",
+    "accent": "#a3c2c3",
+    "phase_one": [
+      "ward",
+      "charge"
+    ],
+    "phase_two": [
+      "ward",
+      "roar",
+      "charge"
+    ],
+    "warning": 0.95,
+    "recovery": 1.8,
+    "summons": "ranged",
+    "story": "青牛精的金刚琢把兵器一一套走，硬拼难胜。",
+    "intro": "再好的兵器，遇我金刚琢也留不住！",
+    "phase_three": [
+      "ward",
+      "roar",
+      "charge"
+    ],
+    "opening": "用重击打破护身",
+    "signature": [
+      "charge",
+      "roar"
+    ]
+  },
+  {
+    "id": "boss_11",
+    "name": "蝎子精",
+    "type": "scorpion",
+    "biome": "web",
+    "accent": "#bc93a8",
+    "phase_one": [
+      "poison",
+      "charge"
+    ],
+    "phase_two": [
+      "poison",
+      "laser",
+      "charge"
+    ],
+    "warning": 1.05,
+    "recovery": 1.95,
+    "summons": "guard",
+    "story": "蝎子精尾钩如针，倒马毒桩不可硬接。",
+    "intro": "进了琵琶洞，便尝一尝我的倒马毒桩！",
+    "phase_three": [
+      "poison",
+      "laser",
+      "charge",
+      "burst"
+    ],
+    "opening": "躲过主招后抓住收招间隙",
+    "signature": [
+      "poison",
+      "charge"
+    ]
+  },
+  {
+    "id": "boss_12",
+    "name": "六耳猕猴",
+    "type": "monkey",
+    "biome": "web",
+    "accent": "#b9a5a0",
+    "phase_one": [
+      "mirror",
+      "slam"
+    ],
+    "phase_two": [
+      "mirror",
+      "charge",
+      "roar"
+    ],
+    "warning": 0.85,
+    "recovery": 1.5,
+    "summons": "chaser",
+    "story": "真假美猴王同声同貌，须识其攻势破绽。",
+    "intro": "你说谁是真，谁又是假？",
+    "phase_three": [
+      "mirror",
+      "charge",
+      "roar",
+      "blink"
+    ],
+    "opening": "躲过主招后抓住收招间隙",
+    "signature": [
+      "mirror",
+      "charge"
+    ]
+  },
+  {
+    "id": "boss_13",
+    "name": "铁扇公主",
+    "type": "fan",
+    "biome": "ember",
+    "accent": "#d59b77",
+    "phase_one": [
+      "gust",
+      "fan"
+    ],
+    "phase_two": [
+      "gust",
+      "gust",
+      "wave"
+    ],
+    "warning": 0.95,
+    "recovery": 1.65,
+    "summons": "ranged",
+    "story": "铁扇公主不肯借扇，一挥便是狂风。",
+    "intro": "芭蕉扇在我手中，你休想借走！",
+    "phase_three": [
+      "gust",
+      "wave",
+      "burst"
+    ],
+    "opening": "躲过主招后抓住收招间隙",
+    "signature": [
+      "gust",
+      "wave"
+    ]
+  },
+  {
+    "id": "boss_14",
+    "name": "牛魔王",
+    "type": "bull",
+    "biome": "ember",
+    "accent": "#df826b",
+    "phase_one": [
+      "charge",
+      "roar"
+    ],
+    "phase_two": [
+      "charge",
+      "fire",
+      "roar"
+    ],
+    "warning": 1.05,
+    "recovery": 1.8,
+    "summons": "guard",
+    "story": "牛魔王现出本相，三借芭蕉扇方可熄火。",
+    "intro": "平天大圣在此，芭蕉扇岂由你拿走！",
+    "phase_three": [
+      "charge",
+      "fire",
+      "roar"
+    ],
+    "opening": "冲锋后贴身惩罚",
+    "signature": [
+      "charge",
+      "roar"
+    ]
+  },
+  {
+    "id": "boss_15",
+    "name": "黄眉怪",
+    "type": "brow",
+    "biome": "temple",
+    "accent": "#e6cc84",
+    "phase_one": [
+      "gourd",
+      "summon"
+    ],
+    "phase_two": [
+      "gourd",
+      "ward",
+      "summon"
+    ],
+    "warning": 0.85,
+    "recovery": 1.95,
+    "summons": "chaser",
+    "story": "黄眉怪假设佛殿，金铙与人种袋等着取经人。",
+    "intro": "进了我的小雷音，便别急着找真佛！",
+    "phase_three": [
+      "gourd",
+      "ward",
+      "summon",
+      "burst"
+    ],
+    "opening": "离开吸引范围后反击",
+    "signature": [
+      "gourd",
+      "summon"
+    ]
+  },
+  {
+    "id": "boss_16",
+    "name": "赛太岁",
+    "type": "beast",
+    "biome": "forest",
+    "accent": "#caac80",
+    "phase_one": [
+      "fire",
+      "poison"
+    ],
+    "phase_two": [
+      "fire",
+      "gust",
+      "poison"
+    ],
+    "warning": 0.95,
+    "recovery": 1.5,
+    "summons": "ranged",
+    "story": "赛太岁的紫金铃轮放烟、沙、火，须认出铃声次序。",
+    "intro": "三只紫金铃响起，你们还能近身么？",
+    "phase_three": [
+      "fire",
+      "gust",
+      "poison",
+      "burst"
+    ],
+    "opening": "绕开火域后输出",
+    "signature": [
+      "fire",
+      "poison"
+    ]
+  },
+  {
+    "id": "boss_17",
+    "name": "百眼魔君",
+    "type": "spider",
+    "biome": "web",
+    "accent": "#b6a6cc",
+    "phase_one": [
+      "web",
+      "laser"
+    ],
+    "phase_two": [
+      "web",
+      "laser",
+      "illusion"
+    ],
+    "warning": 1.05,
+    "recovery": 1.65,
+    "summons": "guard",
+    "story": "百眼魔君毒目齐开，金光所照需立即闪避。",
+    "intro": "我这千眼金光，照得你无处遁形！",
+    "phase_three": [
+      "web",
+      "laser",
+      "illusion",
+      "burst"
+    ],
+    "opening": "躲过主招后抓住收招间隙",
+    "signature": [
+      "web",
+      "illusion"
+    ]
+  },
+  {
+    "id": "boss_18",
+    "name": "大鹏金翅雕",
+    "type": "bird",
+    "biome": "wild",
+    "accent": "#c5b4df",
+    "phase_one": [
+      "charge",
+      "fan"
+    ],
+    "phase_two": [
+      "charge",
+      "burst",
+      "gust"
+    ],
+    "warning": 0.85,
+    "recovery": 1.8,
+    "summons": "chaser",
+    "story": "大鹏展翼遮天，须看羽影预判落点。",
+    "intro": "我一展翅，便是九万里；你们往哪里逃？",
+    "phase_three": [
+      "charge",
+      "burst",
+      "gust"
+    ],
+    "opening": "冲锋后贴身惩罚",
+    "signature": [
+      "gust",
+      "fan"
+    ]
+  },
+  {
+    "id": "boss_19",
+    "name": "白鹿精",
+    "type": "deer",
+    "biome": "city",
+    "accent": "#b6c99b",
+    "phase_one": [
+      "illusion",
+      "summon"
+    ],
+    "phase_two": [
+      "illusion",
+      "web",
+      "summon"
+    ],
+    "warning": 0.95,
+    "recovery": 1.95,
+    "summons": "ranged",
+    "story": "白鹿精假作国丈，识破真身方能收妖。",
+    "intro": "国丈的话，你们也敢不听？",
+    "phase_three": [
+      "illusion",
+      "web",
+      "summon",
+      "burst"
+    ],
+    "opening": "躲过主招后抓住收招间隙",
+    "signature": [
+      "illusion",
+      "summon"
+    ]
+  },
+  {
+    "id": "boss_20",
+    "name": "金鼻白毛老鼠精",
+    "type": "mouse",
+    "biome": "city",
+    "accent": "#c9b1be",
+    "phase_one": [
+      "blink",
+      "gourd"
+    ],
+    "phase_two": [
+      "blink",
+      "poison",
+      "gourd"
+    ],
+    "warning": 1.05,
+    "recovery": 1.5,
+    "summons": "guard",
+    "story": "金鼻白毛老鼠精遁入洞中，灯影间不断换位。",
+    "intro": "无底洞门已闭，你们找得着人么？",
+    "phase_three": [
+      "blink",
+      "poison",
+      "gourd"
+    ],
+    "opening": "躲过主招后抓住收招间隙",
+    "signature": [
+      "blink",
+      "gourd"
+    ]
+  },
+  {
+    "id": "boss_21",
+    "name": "南山大王",
+    "type": "leopard",
+    "biome": "city",
+    "accent": "#d2b18a",
+    "phase_one": [
+      "fog",
+      "charge"
+    ],
+    "phase_two": [
+      "fog",
+      "illusion",
+      "charge"
+    ],
+    "warning": 0.85,
+    "recovery": 1.65,
+    "summons": "chaser",
+    "story": "浓雾藏住南山大王的影子，听风辨位才有出路。",
+    "intro": "隐雾山中，我的旗号就是规矩。",
+    "phase_three": [
+      "fog",
+      "illusion",
+      "charge",
+      "burst"
+    ],
+    "opening": "躲过主招后抓住收招间隙",
+    "signature": [
+      "fog",
+      "charge"
+    ]
+  },
+  {
+    "id": "boss_22",
+    "name": "黄狮精",
+    "type": "lion",
+    "biome": "forest",
+    "accent": "#d7b577",
+    "phase_one": [
+      "summon",
+      "charge"
+    ],
+    "phase_two": [
+      "summon",
+      "ward",
+      "charge"
+    ],
+    "warning": 0.95,
+    "recovery": 1.8,
+    "summons": "ranged",
+    "story": "黄狮摆下钉钯宴，夺回兵器须先破寨门。",
+    "intro": "钉钯宴已摆好，你们来得正是时候！",
+    "phase_three": [
+      "summon",
+      "ward",
+      "charge",
+      "roar"
+    ],
+    "opening": "躲过主招后抓住收招间隙",
+    "signature": [
+      "summon",
+      "charge"
+    ]
+  },
+  {
+    "id": "boss_23",
+    "name": "九灵元圣",
+    "type": "lion",
+    "biome": "forest",
+    "accent": "#eccb89",
+    "phase_one": [
+      "roar",
+      "summon"
+    ],
+    "phase_two": [
+      "roar",
+      "roar",
+      "summon"
+    ],
+    "warning": 1.05,
+    "recovery": 1.95,
+    "summons": "guard",
+    "story": "九灵元圣九口齐啸，必须看准分段吼势。",
+    "intro": "老夫九口一张，任你有几般变化！",
+    "phase_three": [
+      "roar",
+      "summon"
+    ],
+    "opening": "躲过主招后抓住收招间隙",
+    "signature": [
+      "roar",
+      "summon"
+    ]
+  },
+  {
+    "id": "boss_24",
+    "name": "辟寒大王",
+    "type": "rhino",
+    "biome": "forest",
+    "accent": "#9dc8cd",
+    "phase_one": [
+      "ice",
+      "roar"
+    ],
+    "phase_two": [
+      "ice",
+      "wave",
+      "roar"
+    ],
+    "warning": 0.85,
+    "recovery": 1.5,
+    "summons": "chaser",
+    "story": "辟寒辟暑辟尘三怪守洞，寒潮与尘风交替。",
+    "intro": "金平府香油，原是我等要的供奉。",
+    "phase_three": [
+      "ice",
+      "wave",
+      "roar"
+    ],
+    "opening": "躲过主招后抓住收招间隙",
+    "signature": [
+      "ice",
+      "roar"
+    ]
+  },
+  {
+    "id": "boss_25",
+    "name": "玉兔精",
+    "type": "rabbit",
+    "biome": "moon",
+    "accent": "#e0c5dd",
+    "phase_one": [
+      "illusion",
+      "wave"
+    ],
+    "phase_two": [
+      "blink",
+      "illusion",
+      "wave"
+    ],
+    "warning": 0.95,
+    "recovery": 1.65,
+    "summons": "ranged",
+    "story": "假公主抛绣球招亲，月宫玉兔的真身将现。",
+    "intro": "一枚绣球，便把你们的路改了方向。",
+    "phase_three": [
+      "blink",
+      "illusion",
+      "wave"
+    ],
+    "opening": "躲过主招后抓住收招间隙",
+    "signature": [
+      "blink",
+      "wave"
+    ]
+  }
+]

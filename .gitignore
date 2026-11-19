@@ -25,3 +25,14 @@ Thumbs.db
 .pnpm-store/
 *私用*
 *认领*
+
+# Godot generated state and export binaries
+.godot/
+*.import
+exports/
+build/
+*.exe
+*.pck
+*.mp4
+*.avi
+__pycache__/

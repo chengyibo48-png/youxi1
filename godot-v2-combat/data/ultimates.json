@@ -1,0 +1,122 @@
+[
+  {
+    "id": "wukong_u0",
+    "hero": "wukong",
+    "name": "巨棍镇场",
+    "effect": "giant",
+    "cost": 80,
+    "description": "沿前方长直线造成重击与高破势"
+  },
+  {
+    "id": "wukong_u1",
+    "hero": "wukong",
+    "name": "群分身接力",
+    "effect": "avatars",
+    "cost": 80,
+    "description": "六个分身依次复现上一招"
+  },
+  {
+    "id": "tangseng_u0",
+    "hero": "tangseng",
+    "name": "多层净土",
+    "effect": "purification",
+    "cost": 80,
+    "description": "落下三枚大法印并展开回复领域"
+  },
+  {
+    "id": "tangseng_u1",
+    "hero": "tangseng",
+    "name": "经文洪流",
+    "effect": "chant",
+    "cost": 80,
+    "description": "沿前方逐段爆发经文法印"
+  },
+  {
+    "id": "bajie_u0",
+    "hero": "bajie",
+    "name": "天蓬重砸",
+    "effect": "marshal",
+    "cost": 80,
+    "description": "范围重砸、护盾与短暂格挡"
+  },
+  {
+    "id": "bajie_u1",
+    "hero": "bajie",
+    "name": "战意狂攻",
+    "effect": "quakes",
+    "cost": 80,
+    "description": "进入强化状态并返还部分战意"
+  },
+  {
+    "id": "shaseng_u0",
+    "hero": "shaseng",
+    "name": "流沙葬阵",
+    "effect": "sandstorm",
+    "cost": 80,
+    "description": "大范围流沙持续布印"
+  },
+  {
+    "id": "shaseng_u1",
+    "hero": "shaseng",
+    "name": "月刃绞击",
+    "effect": "sandburst",
+    "cost": 80,
+    "description": "六枚往返月刃搬运印记"
+  },
+  {
+    "id": "bailongma_u0",
+    "hero": "bailongma",
+    "name": "龙形贯穿",
+    "effect": "dragonflight",
+    "cost": 80,
+    "description": "高速化龙贯穿，沿途每目标命中一次"
+  },
+  {
+    "id": "bailongma_u1",
+    "hero": "bailongma",
+    "name": "御剑归潮",
+    "effect": "tide",
+    "cost": 80,
+    "description": "八枚御剑往返，并强化回收追击"
+  },
+  {
+    "id": "wukong_u2",
+    "hero": "wukong",
+    "name": "乾坤环阵",
+    "effect": "ring_storm",
+    "cost": 80,
+    "description": "十二枚金环向外扩张，再回收穿透"
+  },
+  {
+    "id": "tangseng_u2",
+    "hero": "tangseng",
+    "name": "万字金城",
+    "effect": "golden_city",
+    "cost": 80,
+    "description": "四角法印建立金城，阻弹并回复，需守在阵内"
+  },
+  {
+    "id": "bajie_u2",
+    "hero": "bajie",
+    "name": "山河倒耙",
+    "effect": "mountain_rake",
+    "cost": 80,
+    "description": "三列九点地脉依次翻起，预判敌人位置"
+  },
+  {
+    "id": "shaseng_u2",
+    "hero": "shaseng",
+    "name": "百印归墟",
+    "effect": "mark_collapse",
+    "cost": 80,
+    "description": "消耗附近流沙印逐一引爆；无印时只布印，必须先布置"
+  },
+  {
+    "id": "bailongma_u2",
+    "hero": "bailongma",
+    "name": "潮汐天弓",
+    "effect": "sky_bow",
+    "cost": 80,
+    "description": "九箭扇形穿透后归潮，获得短暂回收强化"
+  }
+]

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="BossRigDefinition" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/boss_rig_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+stable_id = "boss_10"
+title = "青牛精"
+atlas_index = 10
+body_row = 6
+shoulder_width = 40
+torso_height = 49
+thigh_length = 25
+shin_length = 26
+arm_length = 24
+arm_pairs = 1
+tail_segments = 0
+wing_pairs = 0
+head_count = 1
+crouch = 0
+weapon_id = "bajie_w0"
+stance = "brute"
+head_size = Vector2(61, 48)

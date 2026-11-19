@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "t_combo_lotus"
+title = "落印生莲"
+description = "第三段在脚下留下1.8秒小莲阵；站在阵内每0.6秒回复2生命"
+category = "hero"
+effect = "t_combo_lotus"
+amount = 1
+max_level = 1
+tags = Array[String]([])
+requires_any = Array[String]([])

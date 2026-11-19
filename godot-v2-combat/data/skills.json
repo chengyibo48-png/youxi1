@@ -1,0 +1,457 @@
+[
+  {
+    "id": "wukong_s0",
+    "hero": "wukong",
+    "name": "身外身",
+    "effect": "summon",
+    "cooldown": 9,
+    "cost": 8,
+    "description": "两个分身依次复现上一招，不重复产生命中触发 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：分身复招伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "wukong_s1",
+    "hero": "wukong",
+    "name": "筋斗云",
+    "effect": "dash",
+    "cooldown": 10,
+    "cost": 10,
+    "description": "腾跃前进，落点预示后追加落棍 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "wukong_s2",
+    "hero": "wukong",
+    "name": "定身术",
+    "effect": "freeze",
+    "cooldown": 11,
+    "cost": 12,
+    "description": "控制附近小妖；首领减速并积累破势 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "wukong_s3",
+    "hero": "wukong",
+    "name": "棍击突进",
+    "effect": "lunge",
+    "cooldown": 12,
+    "cost": 14,
+    "description": "棍撑突进，沿途每目标命中一次 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "wukong_s4",
+    "hero": "wukong",
+    "name": "火眼金睛",
+    "effect": "mark",
+    "cooldown": 13,
+    "cost": 16,
+    "description": "识破前方敌人的弱点，强化后续攻击 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：弱点标记持续时间提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "wukong_s5",
+    "hero": "wukong",
+    "name": "护身棍阵",
+    "effect": "orbit",
+    "cooldown": 14,
+    "cost": 18,
+    "description": "短暂格棍反击，随后护棍绕身 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：格挡与环绕持续时间提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "tangseng_s0",
+    "hero": "tangseng",
+    "name": "佛光普照",
+    "effect": "heal",
+    "cooldown": 9,
+    "cost": 8,
+    "description": "连续念诵五次，回复生命并净化身边妖氛 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：念诵伤害与治疗提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "tangseng_s1",
+    "hero": "tangseng",
+    "name": "度化真言",
+    "effect": "convert",
+    "cooldown": 10,
+    "cost": 10,
+    "description": "暂时束缚小妖，化出短暂护法；首领仅受破势 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：度化伤害与控制时间提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "tangseng_s2",
+    "hero": "tangseng",
+    "name": "金光破障",
+    "effect": "beam",
+    "cooldown": 11,
+    "cost": 12,
+    "description": "连接法印形成光束；不足两印时先补印 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "tangseng_s3",
+    "hero": "tangseng",
+    "name": "净土结界",
+    "effect": "sanctuary",
+    "cooldown": 12,
+    "cost": 14,
+    "description": "落下净土法印与回复领域，重击可以引爆法印 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "tangseng_s4",
+    "hero": "tangseng",
+    "name": "驱邪反击",
+    "effect": "counter",
+    "cooldown": 13,
+    "cost": 16,
+    "description": "结印反制一次攻击，并在脚下落印 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：反制窗口提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "tangseng_s5",
+    "hero": "tangseng",
+    "name": "念珠牵引",
+    "effect": "pull",
+    "cooldown": 14,
+    "cost": 18,
+    "description": "念珠连线牵引前方敌人；首领牵引减弱 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "bajie_s0",
+    "hero": "bajie",
+    "name": "天蓬护体",
+    "effect": "shield",
+    "cooldown": 9,
+    "cost": 8,
+    "description": "架耙格挡一次攻击，积累战意并反击 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：获得护盾提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "bajie_s1",
+    "hero": "bajie",
+    "name": "倒打一耙",
+    "effect": "slam",
+    "cooldown": 10,
+    "cost": 10,
+    "description": "后撤后朝反方向重耙，适合追兵近身时使用 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "bajie_s2",
+    "hero": "bajie",
+    "name": "九齿震地",
+    "effect": "quake",
+    "cooldown": 11,
+    "cost": 12,
+    "description": "前方三处依次震地，预示对应实际爆发 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "bajie_s3",
+    "hero": "bajie",
+    "name": "横冲直撞",
+    "effect": "charge",
+    "cooldown": 12,
+    "cost": 14,
+    "description": "持续冲撞前进，沿途聚怪并造成伤害 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "bajie_s4",
+    "hero": "bajie",
+    "name": "锁链拉拽",
+    "effect": "pull",
+    "cooldown": 13,
+    "cost": 16,
+    "description": "以窄长勾耙拉回前方敌人，首领只轻微位移 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "bajie_s5",
+    "hero": "bajie",
+    "name": "食气养身",
+    "effect": "resource",
+    "cooldown": 14,
+    "cost": 18,
+    "description": "消费技能战意回复生命并获得少量护盾 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "shaseng_s0",
+    "hero": "shaseng",
+    "name": "流沙结界",
+    "effect": "sand",
+    "cooldown": 9,
+    "cost": 8,
+    "description": "释放缓慢向前移动的流沙领域，持续布印 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "shaseng_s1",
+    "hero": "shaseng",
+    "name": "沧浪一击",
+    "effect": "wave",
+    "cooldown": 10,
+    "cost": 10,
+    "description": "月牙刃往返，去程取印、回程搬印 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "shaseng_s2",
+    "hero": "shaseng",
+    "name": "水月木刃",
+    "effect": "fan",
+    "cooldown": 11,
+    "cost": 12,
+    "description": "扇形沙刃命中布印，子弹不递归触发 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "shaseng_s3",
+    "hero": "shaseng",
+    "name": "流沙束缚",
+    "effect": "root",
+    "cooldown": 12,
+    "cost": 14,
+    "description": "束缚附近有印记的敌人，首领转为减速破势 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：束缚持续时间提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "shaseng_s4",
+    "hero": "shaseng",
+    "name": "移形换位",
+    "effect": "blink",
+    "cooldown": 13,
+    "cost": 16,
+    "description": "与上一处沙影换位；初次使用建立沙影 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：闪避追击有效时间提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "shaseng_s5",
+    "hero": "shaseng",
+    "name": "印记引爆",
+    "effect": "detonate",
+    "cooldown": 14,
+    "cost": 18,
+    "description": "消费附近敌人的印记，按层数逐次引爆 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "bailongma_s0",
+    "hero": "bailongma",
+    "name": "龙吟潮生",
+    "effect": "wave",
+    "cooldown": 9,
+    "cost": 8,
+    "description": "沿前进路线掀起移动浪潮 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "bailongma_s1",
+    "hero": "bailongma",
+    "name": "化龙逐日",
+    "effect": "dragon",
+    "cooldown": 10,
+    "cost": 10,
+    "description": "化龙高速穿行，命中沿途目标并短暂强化 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "bailongma_s2",
+    "hero": "bailongma",
+    "name": "龙息吐纳",
+    "effect": "breath",
+    "cooldown": 11,
+    "cost": 12,
+    "description": "转向龙息由前方五条水流覆盖区域 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "bailongma_s3",
+    "hero": "bailongma",
+    "name": "踏浪回避",
+    "effect": "evade",
+    "cooldown": 12,
+    "cost": 14,
+    "description": "侧闪召回御剑，强化下一次追击 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "bailongma_s4",
+    "hero": "bailongma",
+    "name": "水幕天华",
+    "effect": "waterwall",
+    "cooldown": 13,
+    "cost": 16,
+    "description": "沿剑路展开三段水幕，拦截敌方投射物 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：获得护盾提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "bailongma_s5",
+    "hero": "bailongma",
+    "name": "潮势追击",
+    "effect": "pursue",
+    "cooldown": 14,
+    "cost": 18,
+    "description": "追击附近被穿身标记的目标；无标记时发射追踪剑 兵器共鸣按当前兵器附加，切换不重置冷却。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "wukong_s6",
+    "hero": "wukong",
+    "name": "风轮掠棍",
+    "effect": "windwheel",
+    "cooldown": 12,
+    "cost": 16,
+    "description": "三枚风轮往返贯穿，回程可再次命中；附加当前兵器共鸣。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "tangseng_s6",
+    "hero": "tangseng",
+    "name": "梵钟醒世",
+    "effect": "wake_bell",
+    "cooldown": 13,
+    "cost": 16,
+    "description": "清除近身敌弹，震荡小妖；首领转为破势；附加当前兵器共鸣。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "bajie_s6",
+    "hero": "bajie",
+    "name": "耙阵拦关",
+    "effect": "rake_wall",
+    "cooldown": 14,
+    "cost": 16,
+    "description": "身前布下三面耙阵，阻挡敌弹并提供12护盾；附加当前兵器共鸣。",
+    "branches": [
+      "凝势：获得护盾提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "shaseng_s6",
+    "hero": "shaseng",
+    "name": "聚沙成傀",
+    "effect": "sand_guardian",
+    "cooldown": 15,
+    "cost": 16,
+    "description": "原地召唤5秒沙傀，发射布印沙刃，不能再触发召唤；附加当前兵器共鸣。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  },
+  {
+    "id": "bailongma_s6",
+    "hero": "bailongma",
+    "name": "回潮箭阵",
+    "effect": "arrow_rain",
+    "cooldown": 16,
+    "cost": 16,
+    "description": "四道穿透潮箭从两侧交错，回程产生第二次命中；附加当前兵器共鸣。",
+    "branches": [
+      "凝势：伤害提升35%，冷却增加20%",
+      "流转：冷却降低20%；效果强度保持原值"
+    ]
+  }
+]

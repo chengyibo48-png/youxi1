@@ -1,0 +1,632 @@
+[
+  {
+    "id": "wukong_w0",
+    "hero": "wukong",
+    "name": "如意金箍棒",
+    "mode": "slash",
+    "range": 160.0,
+    "damage": 23.0,
+    "interval": 0.34,
+    "description": "横扫 → 挑棍 → 踏步穿刺；踏步横扫，第三击伸棍；重击贯穿长线",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "extend",
+    "combo": [
+      "横扫",
+      "挑棍",
+      "踏步穿刺"
+    ]
+  },
+  {
+    "id": "wukong_w1",
+    "hero": "wukong",
+    "name": "定海神针",
+    "mode": "field",
+    "range": 320.0,
+    "damage": 19.0,
+    "interval": 0.48,
+    "description": "落钉 → 交错双钉 → 纵列三钉；连点三道金钉；重击沿瞄准线逐段落柱",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "pin",
+    "combo": [
+      "落钉",
+      "交错双钉",
+      "纵列三钉"
+    ]
+  },
+  {
+    "id": "wukong_w2",
+    "hero": "wukong",
+    "name": "火云棍",
+    "mode": "field",
+    "range": 230.0,
+    "damage": 15.0,
+    "interval": 0.47,
+    "description": "火云推出 → 双翼火浪 → 聚焰直冲；推出火云；重击铺设三道持续火路",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "flame",
+    "combo": [
+      "火云推出",
+      "双翼火浪",
+      "聚焰直冲"
+    ]
+  },
+  {
+    "id": "wukong_w3",
+    "hero": "wukong",
+    "name": "双短棍",
+    "mode": "slash",
+    "range": 110.0,
+    "damage": 12.0,
+    "interval": 0.32,
+    "description": "右棍短打 → 左棍反挑 → 双棍交叉；左右短棍交织，第三击补交叉棍影；重击绕身旋击",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "dual",
+    "combo": [
+      "右棍短打",
+      "左棍反挑",
+      "双棍交叉"
+    ]
+  },
+  {
+    "id": "wukong_w4",
+    "hero": "wukong",
+    "name": "如意飞棍",
+    "mode": "field",
+    "range": 210.0,
+    "damage": 20.0,
+    "interval": 0.43,
+    "description": "双影探路 → 侧影夹击 → 三影接力；远处棍影延迟接力；重击三影合击",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "phantom",
+    "combo": [
+      "双影探路",
+      "侧影夹击",
+      "三影接力"
+    ]
+  },
+  {
+    "id": "tangseng_w0",
+    "hero": "tangseng",
+    "name": "九环锡杖",
+    "mode": "bolt",
+    "range": 230.0,
+    "damage": 20.2,
+    "interval": 0.4,
+    "description": "念珠点射 → 交错结印 → 远处落印；念珠点射，后两击落印；重击引爆已布法印",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "stamp",
+    "combo": [
+      "念珠点射",
+      "交错结印",
+      "远处落印"
+    ]
+  },
+  {
+    "id": "tangseng_w1",
+    "hero": "tangseng",
+    "name": "诵经法卷",
+    "mode": "field",
+    "range": 270.0,
+    "damage": 16.2,
+    "interval": 0.5,
+    "description": "横轮 → 纵轮 → 十字成阵；法轮横向切线；重击纵横交织法轮阵",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "mandala",
+    "combo": [
+      "横轮",
+      "纵轮",
+      "十字成阵"
+    ]
+  },
+  {
+    "id": "tangseng_w2",
+    "hero": "tangseng",
+    "name": "回音金铙",
+    "mode": "return",
+    "range": 220.0,
+    "damage": 13.2,
+    "interval": 0.34,
+    "description": "抛铙 → 双铙交织 → 归铙回震；金铙飞旋返回，重击召回并绕身护持。",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "rosary",
+    "combo": [
+      "抛铙",
+      "双铙交织",
+      "归铙回震"
+    ]
+  },
+  {
+    "id": "tangseng_w3",
+    "hero": "tangseng",
+    "name": "念珠",
+    "mode": "bolt",
+    "range": 220.0,
+    "damage": 21.2,
+    "interval": 0.45,
+    "description": "念珠布印 → 双串结印 → 印间经爆；以念珠结印，重击沿法印引发经文连爆。",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "scripture",
+    "combo": [
+      "念珠布印",
+      "双串结印",
+      "印间经爆"
+    ]
+  },
+  {
+    "id": "tangseng_w4",
+    "hero": "tangseng",
+    "name": "伏魔禅杖",
+    "mode": "field",
+    "range": 175.0,
+    "damage": 24.2,
+    "interval": 0.5800000000000001,
+    "description": "近鸣 → 侧钟回声 → 三层远鸣；钟鸣从身前扩散；重击三次相隔共振",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "bell",
+    "combo": [
+      "近鸣",
+      "侧钟回声",
+      "三层远鸣"
+    ]
+  },
+  {
+    "id": "bajie_w0",
+    "hero": "bajie",
+    "name": "九齿钉耙",
+    "mode": "slash",
+    "range": 125.0,
+    "damage": 17.4,
+    "interval": 0.61,
+    "description": "直耙 → 拖耙反扫 → 踏地九齿；耙击后横拖；第三击踏地，重击勾摔",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "rake",
+    "combo": [
+      "直耙",
+      "拖耙反扫",
+      "踏地九齿"
+    ]
+  },
+  {
+    "id": "bajie_w1",
+    "hero": "bajie",
+    "name": "旋风耙",
+    "mode": "return",
+    "range": 260.0,
+    "damage": 14.4,
+    "interval": 0.44,
+    "description": "飞耙 → 侧翼双钩 → 收钩反震；飞耙往返牵引；重击双向勾回",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "hook",
+    "combo": [
+      "飞耙",
+      "侧翼双钩",
+      "收钩反震"
+    ]
+  },
+  {
+    "id": "bajie_w2",
+    "hero": "bajie",
+    "name": "裂地耙",
+    "mode": "field",
+    "range": 260.0,
+    "damage": 22.4,
+    "interval": 0.5599999999999999,
+    "description": "直犁 → 横沟 → 三叉翻土；沿地面逐段翻土；重击三叉犁沟",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "furrow",
+    "combo": [
+      "直犁",
+      "横沟",
+      "三叉翻土"
+    ]
+  },
+  {
+    "id": "bajie_w3",
+    "hero": "bajie",
+    "name": "霜齿战耙",
+    "mode": "field",
+    "range": 150.0,
+    "damage": 25.4,
+    "interval": 0.59,
+    "description": "前砸 → 左右冰裂 → 递进冰柱；锤落身前冰圈；重击依次升起冰柱",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "ice_hammer",
+    "combo": [
+      "前砸",
+      "左右冰裂",
+      "递进冰柱"
+    ]
+  },
+  {
+    "id": "bajie_w4",
+    "hero": "bajie",
+    "name": "天蓬链耙",
+    "mode": "orbit",
+    "range": 130.0,
+    "damage": 21.4,
+    "interval": 0.63,
+    "description": "链球横扫 → 反向投球 → 回球震地；链球绕身扫击；重击投掷回旋流星",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "meteor",
+    "combo": [
+      "链球横扫",
+      "反向投球",
+      "回球震地"
+    ]
+  },
+  {
+    "id": "shaseng_w0",
+    "hero": "shaseng",
+    "name": "降妖宝杖",
+    "mode": "slash",
+    "range": 165.0,
+    "damage": 15.6,
+    "interval": 0.4,
+    "description": "直刺 → 月牙反切 → 双刃封路；直刺与月牙切割交替；重击定向消耗流沙印",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "sand_edge",
+    "attack_style": "crescent_staff",
+    "combo": [
+      "直刺",
+      "月牙反切",
+      "双刃封路"
+    ]
+  },
+  {
+    "id": "shaseng_w1",
+    "hero": "shaseng",
+    "name": "流沙飞刃",
+    "mode": "return",
+    "range": 300.0,
+    "damage": 23.6,
+    "interval": 0.38,
+    "description": "出月搬印 → 交叉双月 → 回月印裂；月刃飞出收印、回来转印；重击双月交错",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "sand_edge",
+    "attack_style": "crescent",
+    "combo": [
+      "出月搬印",
+      "交叉双月",
+      "回月印裂"
+    ]
+  },
+  {
+    "id": "shaseng_w2",
+    "hero": "shaseng",
+    "name": "沧浪杖",
+    "mode": "bolt",
+    "range": 240.0,
+    "damage": 26.6,
+    "interval": 0.31000000000000005,
+    "description": "碎砂点射 → 左右错刃 → 交叉砂瀑；碎砂交叉飞射并布印；重击散射沙刃",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "sand_edge",
+    "attack_style": "shards",
+    "combo": [
+      "碎砂点射",
+      "左右错刃",
+      "交叉砂瀑"
+    ]
+  },
+  {
+    "id": "shaseng_w3",
+    "hero": "shaseng",
+    "name": "镇沙法印",
+    "mode": "field",
+    "range": 210.0,
+    "damage": 22.6,
+    "interval": 0.5,
+    "description": "身前沙印 → 两翼布阵 → 聚印沙爆；逐招铺沙阵；重击消耗印记并连爆沙阵",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "sand_edge",
+    "attack_style": "sand_seal",
+    "combo": [
+      "身前沙印",
+      "两翼布阵",
+      "聚印沙爆"
+    ]
+  },
+  {
+    "id": "shaseng_w4",
+    "hero": "shaseng",
+    "name": "双月刃",
+    "mode": "return",
+    "range": 240.0,
+    "damage": 18.6,
+    "interval": 0.45,
+    "description": "双月展开 → 左右交错 → 四月归心；双月从两侧回返；重击四月绕身封锁",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "sand_edge",
+    "attack_style": "twin_moon",
+    "combo": [
+      "双月展开",
+      "左右交错",
+      "四月归心"
+    ]
+  },
+  {
+    "id": "bailongma_w0",
+    "hero": "bailongma",
+    "name": "龙角水枪",
+    "mode": "slash",
+    "range": 170.0,
+    "damage": 24.8,
+    "interval": 0.295,
+    "description": "挺枪 → 侧步反刺 → 穿身突进；连续挺枪穿身；重击踏浪突进",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "lance",
+    "combo": [
+      "挺枪",
+      "侧步反刺",
+      "穿身突进"
+    ]
+  },
+  {
+    "id": "bailongma_w1",
+    "hero": "bailongma",
+    "name": "踏浪剑",
+    "mode": "return",
+    "range": 280.0,
+    "damage": 27.8,
+    "interval": 0.32,
+    "description": "水剑出鞘 → 双浪交织 → 归剑推浪；水剑外放返回；重击召回并推出宽浪",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "wave_sword",
+    "combo": [
+      "水剑出鞘",
+      "双浪交织",
+      "归剑推浪"
+    ]
+  },
+  {
+    "id": "bailongma_w2",
+    "hero": "bailongma",
+    "name": "龙脊",
+    "mode": "slash",
+    "range": 140.0,
+    "damage": 23.8,
+    "interval": 0.38,
+    "description": "寒刃切入 → 反手冰锥 → 冻结冰扇；短切伴随冰刃；重击五刃冻结扇面",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "frost_edge",
+    "attack_style": "frost_sword",
+    "combo": [
+      "寒刃切入",
+      "反手冰锥",
+      "冻结冰扇"
+    ]
+  },
+  {
+    "id": "bailongma_w3",
+    "hero": "bailongma",
+    "name": "潮汐珠",
+    "mode": "bolt",
+    "range": 240.0,
+    "damage": 19.8,
+    "interval": 0.34,
+    "description": "雷矢 → 双线雷刺 → 追身落雷；雷光定向刺；第三击追身，重击多点落雷",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "thunder",
+    "combo": [
+      "雷矢",
+      "双线雷刺",
+      "追身落雷"
+    ]
+  },
+  {
+    "id": "bailongma_w4",
+    "hero": "bailongma",
+    "name": "龙鳞刃",
+    "mode": "return",
+    "range": 300.0,
+    "damage": 16.8,
+    "interval": 0.44,
+    "description": "双星起 → 四星织路 → 七星合流；七星按连段逐步放出；重击七剑合流",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "stars",
+    "combo": [
+      "双星起",
+      "四星织路",
+      "七星合流"
+    ]
+  },
+  {
+    "id": "wukong_w5",
+    "hero": "wukong",
+    "name": "金刚飞环",
+    "mode": "bolt",
+    "range": 280,
+    "damage": 22,
+    "interval": 0.42000000000000004,
+    "description": "抛环 → 双环交错 → 收环震击；金环往返贯穿；重击三环分向回收，管理回程命中",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "disc",
+    "combo": [
+      "抛环",
+      "双环交错",
+      "收环震击"
+    ]
+  },
+  {
+    "id": "tangseng_w5",
+    "hero": "tangseng",
+    "name": "照夜莲灯",
+    "mode": "field",
+    "range": 240,
+    "damage": 20,
+    "interval": 0.58,
+    "description": "点灯 → 双莲开路 → 灯阵续明；在瞄准点点亮莲灯，靠近灯阵回复；重击三灯成列",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "lotus_lantern",
+    "combo": [
+      "点灯",
+      "双莲开路",
+      "灯阵续明"
+    ]
+  },
+  {
+    "id": "bajie_w5",
+    "hero": "bajie",
+    "name": "山门巨盾",
+    "mode": "slash",
+    "range": 125,
+    "damage": 27,
+    "interval": 0.64,
+    "description": "举盾顶撞 → 侧盾反推 → 进步盾震；举盾顶撞获得短格挡；重击消耗最多8护盾转为震击",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "gate_shield",
+    "combo": [
+      "举盾顶撞",
+      "侧盾反推",
+      "进步盾震"
+    ]
+  },
+  {
+    "id": "shaseng_w5",
+    "hero": "shaseng",
+    "name": "缚妖沙索",
+    "mode": "bolt",
+    "range": 300,
+    "damage": 21,
+    "interval": 0.48,
+    "description": "掷索 → 双索牵引 → 缚印回裂；飞索缚敌布印并牵引；重击定向引爆流沙印",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "sand_edge",
+    "attack_style": "tether",
+    "combo": [
+      "掷索",
+      "双索牵引",
+      "缚印回裂"
+    ]
+  },
+  {
+    "id": "bailongma_w5",
+    "hero": "bailongma",
+    "name": "潮汐长弓",
+    "mode": "bolt",
+    "range": 350,
+    "damage": 25,
+    "interval": 0.53,
+    "description": "后撤单箭 → 侧步双箭 → 蓄势穿云箭；后撤放出穿透水箭；重击五箭扇射，需要保持射距",
+    "evolutions": [
+      "疾势：起手、命中与收招时间缩短12%；伤害降低10%。",
+      "破阵：攻击覆盖范围增加20%，伤害增加12%；动作时间延长12%。"
+    ],
+    "trait": "combo",
+    "attack_style": "tide_bow",
+    "combo": [
+      "后撤单箭",
+      "侧步双箭",
+      "蓄势穿云箭"
+    ]
+  }
+]

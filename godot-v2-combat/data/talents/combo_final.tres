@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "combo_final"
+title = "收式破阵"
+description = "第三段消耗10资源，伤害增加25%、距离增加15%；资源不足时不强化"
+category = "trigger"
+effect = "combo_final"
+amount = 1
+max_level = 1
+tags = Array[String](["melee", "journey_mid"])
+requires_any = Array[String]([])

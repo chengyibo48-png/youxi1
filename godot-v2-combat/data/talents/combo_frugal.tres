@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "combo_frugal"
+title = "吐纳换息"
+description = "第一段回复2资源；第三段消耗4资源使两项神通冷却各减少0.25秒"
+category = "trigger"
+effect = "combo_frugal"
+amount = 1
+max_level = 1
+tags = Array[String]([])
+requires_any = Array[String]([])

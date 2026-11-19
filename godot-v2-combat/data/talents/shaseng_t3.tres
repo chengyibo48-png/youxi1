@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"shaseng_t3"
+title = "沙印噬身"
+description = "逐次引爆后飞出两枚碎沙刃，碎刃不再次触发自身。角色专属：印记引爆伤害提高20%"
+category = &"hero"
+effect = &"hero_sand_damage"
+amount = 0.2
+max_level = 3
+tags = Array[String]([])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String](["detonate_source"])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

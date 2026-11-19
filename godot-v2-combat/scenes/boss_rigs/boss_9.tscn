@@ -1,0 +1,77 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Resource" path="res://data/boss_rigs/boss_9.tres" id="1"]
+[node name="boss_9" type="Node2D"]
+metadata/rig = ExtResource("1")
+[node name="Skeleton2D" type="Skeleton2D" parent="."]
+[node name="root" type="Bone2D" parent="Skeleton2D"]
+position = Vector2(0, 0)
+length = 24.0
+autocalculate_length_and_angle = false
+[node name="pelvis" type="Bone2D" parent="Skeleton2D/root"]
+position = Vector2(0, -36)
+length = 24.0
+autocalculate_length_and_angle = false
+[node name="spine" type="Bone2D" parent="Skeleton2D/root/pelvis"]
+position = Vector2(0, -52)
+length = 24.0
+autocalculate_length_and_angle = false
+[node name="neck" type="Bone2D" parent="Skeleton2D/root/pelvis/spine"]
+position = Vector2(0, -18)
+length = 24.0
+autocalculate_length_and_angle = false
+[node name="head" type="Bone2D" parent="Skeleton2D/root/pelvis/spine/neck"]
+position = Vector2(0, 0)
+length = 24.0
+autocalculate_length_and_angle = false
+[node name="left_thigh" type="Bone2D" parent="Skeleton2D/root/pelvis"]
+position = Vector2(0, 0)
+length = 24.0
+autocalculate_length_and_angle = false
+[node name="left_shin" type="Bone2D" parent="Skeleton2D/root/pelvis/left_thigh"]
+position = Vector2(0, 24)
+length = 24.0
+autocalculate_length_and_angle = false
+[node name="left_arm_0" type="Bone2D" parent="Skeleton2D/root/pelvis/spine"]
+position = Vector2(-30, 8)
+length = 24.0
+autocalculate_length_and_angle = false
+[node name="left_forearm_0" type="Bone2D" parent="Skeleton2D/root/pelvis/spine/left_arm_0"]
+position = Vector2(0, 28)
+length = 24.0
+autocalculate_length_and_angle = false
+[node name="right_thigh" type="Bone2D" parent="Skeleton2D/root/pelvis"]
+position = Vector2(0, 0)
+length = 24.0
+autocalculate_length_and_angle = false
+[node name="right_shin" type="Bone2D" parent="Skeleton2D/root/pelvis/right_thigh"]
+position = Vector2(0, 24)
+length = 24.0
+autocalculate_length_and_angle = false
+[node name="right_arm_0" type="Bone2D" parent="Skeleton2D/root/pelvis/spine"]
+position = Vector2(30, 8)
+length = 24.0
+autocalculate_length_and_angle = false
+[node name="right_forearm_0" type="Bone2D" parent="Skeleton2D/root/pelvis/spine/right_arm_0"]
+position = Vector2(0, 28)
+length = 24.0
+autocalculate_length_and_angle = false
+[node name="tail_0" type="Bone2D" parent="Skeleton2D/root/pelvis"]
+position = Vector2(0, 0)
+length = 24.0
+autocalculate_length_and_angle = false
+[node name="tail_1" type="Bone2D" parent="Skeleton2D/root/pelvis/tail_0"]
+position = Vector2(0, 0)
+length = 24.0
+autocalculate_length_and_angle = false
+[node name="tail_2" type="Bone2D" parent="Skeleton2D/root/pelvis/tail_0/tail_1"]
+position = Vector2(0, 0)
+length = 24.0
+autocalculate_length_and_angle = false
+[node name="tail_3" type="Bone2D" parent="Skeleton2D/root/pelvis/tail_0/tail_1/tail_2"]
+position = Vector2(0, 0)
+length = 24.0
+autocalculate_length_and_angle = false
+[node name="weapon_socket" type="Bone2D" parent="Skeleton2D/root/pelvis/spine/right_arm_0/right_forearm_0"]
+position = Vector2(0, 0)
+length = 24.0
+autocalculate_length_and_angle = false

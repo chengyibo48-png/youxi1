@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "s_combo_transfer"
+title = "流印牵线"
+description = "第二段把附近第一个目标的一枚印搬到另一目标，需至少两敌"
+category = "hero"
+effect = "s_combo_transfer"
+amount = 1
+max_level = 1
+tags = Array[String]([])
+requires_any = Array[String]([])

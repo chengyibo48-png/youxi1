@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"wukong_t1"
+title = "分身同心"
+description = "第三段普攻追加迟影分身，分身不能再次产生分身。角色专属：召唤伤害提高20%"
+category = &"hero"
+effect = &"hero_summon_power"
+amount = 0.2
+max_level = 3
+tags = Array[String]([])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String](["summon_source"])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"shield_burst"
+title = "护盾震击"
+description = "敌人击破护盾时反震90/100/110半径，造成14/20/26基础伤害；自损不触发"
+category = &"trigger"
+effect = &"shield_burst"
+amount = 1
+max_level = 3
+tags = Array[String]([])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String]([])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = true

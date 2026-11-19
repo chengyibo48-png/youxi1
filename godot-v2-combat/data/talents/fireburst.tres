@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"fireburst"
+title = "焰尽归尘"
+description = "灼烧目标死亡时产生65/80/95半径爆炸，造成22/28/34基础伤害，不触发命中联动"
+category = &"element"
+effect = &"fireburst"
+amount = 1
+max_level = 3
+tags = Array[String]([])
+requires = Array[String]([])
+requires_any = Array[String](["burn"])
+source_tags_any = Array[String]([])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

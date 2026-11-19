@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "combo_lateral"
+title = "侧翼星芒"
+description = "第二段主攻击伤害降低10%，附加两枚15%伤害侧翼星芒；派生不触发命中联动"
+category = "shape"
+effect = "combo_lateral"
+amount = 1
+max_level = 1
+tags = Array[String](["projectile"])
+requires_any = Array[String]([])

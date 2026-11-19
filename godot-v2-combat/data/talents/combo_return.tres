@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "combo_return"
+title = "归器收式"
+description = "第三段主动召回返程兵器，本段基础伤害降低20%"
+category = "shape"
+effect = "combo_return"
+amount = 1
+max_level = 1
+tags = Array[String](["projectile"])
+requires_any = Array[String]([])
+
+source_tags_any = Array[String](["return_source"])

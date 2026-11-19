@@ -1,0 +1,500 @@
+[
+  {
+    "chapter": 0,
+    "place": "双叉岭",
+    "biome": "wild",
+    "biomes": [
+      "wild"
+    ],
+    "grade": "fff0d9",
+    "edge": "283527",
+    "edge_alpha": 0.055,
+    "note": "岭口暮光",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 1,
+    "place": "两界山",
+    "biome": "wild",
+    "biomes": [
+      "wild"
+    ],
+    "grade": "f3eedb",
+    "edge": "364239",
+    "edge_alpha": 0.045,
+    "note": "两界山斜照",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 2,
+    "place": "鹰愁涧",
+    "biome": "wild",
+    "biomes": [
+      "wild",
+      "river"
+    ],
+    "grade": "e6f1ef",
+    "edge": "284145",
+    "edge_alpha": 0.055,
+    "note": "鹰愁涧水光",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 3,
+    "place": "观音禅院与黑风山",
+    "biome": "forest",
+    "biomes": [
+      "forest"
+    ],
+    "grade": "e3eacb",
+    "edge": "213324",
+    "edge_alpha": 0.085,
+    "note": "火后林荫",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 4,
+    "place": "高老庄",
+    "biome": "forest",
+    "biomes": [
+      "forest"
+    ],
+    "grade": "f8edda",
+    "edge": "35422a",
+    "edge_alpha": 0.035,
+    "note": "高老庄春暮",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 5,
+    "place": "黄风岭",
+    "biome": "desert",
+    "biomes": [
+      "desert"
+    ],
+    "grade": "fff0cf",
+    "edge": "665133",
+    "edge_alpha": 0.04,
+    "note": "黄沙散射",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 6,
+    "place": "流沙河",
+    "biome": "river",
+    "biomes": [
+      "river"
+    ],
+    "grade": "dfe9e4",
+    "edge": "293f43",
+    "edge_alpha": 0.065,
+    "note": "流沙冷光",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 7,
+    "place": "万寿山五庄观",
+    "biome": "desert",
+    "biomes": [
+      "desert"
+    ],
+    "grade": "f6f0d8",
+    "edge": "334b39",
+    "edge_alpha": 0.04,
+    "note": "观院叶影",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 8,
+    "place": "白虎岭",
+    "biome": "grave",
+    "biomes": [
+      "grave"
+    ],
+    "grade": "d9e2e6",
+    "edge": "27333e",
+    "edge_alpha": 0.095,
+    "note": "白虎岭阴霾",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 9,
+    "place": "黑松林与宝象国",
+    "biome": "night",
+    "biomes": [
+      "night",
+      "forest"
+    ],
+    "grade": "e1e2f2",
+    "edge": "25273e",
+    "edge_alpha": 0.09,
+    "note": "宝象国夜色",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 10,
+    "place": "平顶山莲花洞",
+    "biome": "cave",
+    "biomes": [
+      "cave"
+    ],
+    "grade": "e8ddce",
+    "edge": "3c3028",
+    "edge_alpha": 0.085,
+    "note": "莲花洞岩光",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 11,
+    "place": "乌鸡国",
+    "biome": "city",
+    "biomes": [
+      "city"
+    ],
+    "grade": "f2e9d8",
+    "edge": "394038",
+    "edge_alpha": 0.035,
+    "note": "乌鸡古城",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 12,
+    "place": "枯松涧火云洞",
+    "biome": "ember",
+    "biomes": [
+      "ember"
+    ],
+    "grade": "ffe0c5",
+    "edge": "542f26",
+    "edge_alpha": 0.05,
+    "note": "火云余烬",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 13,
+    "place": "黑水河",
+    "biome": "river",
+    "biomes": [
+      "river"
+    ],
+    "grade": "e2f2e9",
+    "edge": "314640",
+    "edge_alpha": 0.05,
+    "note": "黑水幽光",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 14,
+    "place": "车迟国",
+    "biome": "city",
+    "biomes": [
+      "city",
+      "temple"
+    ],
+    "grade": "f3eadd",
+    "edge": "3f3b30",
+    "edge_alpha": 0.04,
+    "note": "车迟祭坛",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 15,
+    "place": "通天河",
+    "biome": "river",
+    "biomes": [
+      "river",
+      "snow"
+    ],
+    "grade": "dceff4",
+    "edge": "27464d",
+    "edge_alpha": 0.07,
+    "note": "通天河寒意",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 16,
+    "place": "金兜山",
+    "biome": "cave",
+    "biomes": [
+      "cave"
+    ],
+    "grade": "e5e1d5",
+    "edge": "343b35",
+    "edge_alpha": 0.085,
+    "note": "金兜岩壁",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 17,
+    "place": "子母河与西梁国",
+    "biome": "web",
+    "biomes": [
+      "web",
+      "city"
+    ],
+    "grade": "e5eacb",
+    "edge": "3f4530",
+    "edge_alpha": 0.06,
+    "note": "子母河草影",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 18,
+    "place": "真假美猴王",
+    "biome": "night",
+    "biomes": [
+      "night",
+      "temple"
+    ],
+    "grade": "e9ddeb",
+    "edge": "3c2e45",
+    "edge_alpha": 0.085,
+    "note": "毒敌山月色",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 19,
+    "place": "火焰山",
+    "biome": "ember",
+    "biomes": [
+      "ember"
+    ],
+    "grade": "ffe5c9",
+    "edge": "593929",
+    "edge_alpha": 0.045,
+    "note": "火焰热光",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 20,
+    "place": "祭赛国与碧波潭",
+    "biome": "river",
+    "biomes": [
+      "river"
+    ],
+    "grade": "e7f0d4",
+    "edge": "354a3c",
+    "edge_alpha": 0.045,
+    "note": "碧波潭反照",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 21,
+    "place": "荆棘岭",
+    "biome": "forest",
+    "biomes": [
+      "forest"
+    ],
+    "grade": "e4e7d4",
+    "edge": "34422c",
+    "edge_alpha": 0.07,
+    "note": "荆棘岭密荫",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 22,
+    "place": "小雷音寺",
+    "biome": "temple",
+    "biomes": [
+      "temple"
+    ],
+    "grade": "f4e3bb",
+    "edge": "4d4229",
+    "edge_alpha": 0.06,
+    "note": "小雷音金光",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 23,
+    "place": "驼罗庄",
+    "biome": "temple",
+    "biomes": [
+      "temple",
+      "forest"
+    ],
+    "grade": "ede8d7",
+    "edge": "3e4336",
+    "edge_alpha": 0.035,
+    "note": "七绝岭石路",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 24,
+    "place": "朱紫国与麒麟山",
+    "biome": "forest",
+    "biomes": [
+      "forest",
+      "city"
+    ],
+    "grade": "f1e8d1",
+    "edge": "45442e",
+    "edge_alpha": 0.05,
+    "note": "麒麟山余照",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 25,
+    "place": "盘丝岭",
+    "biome": "forest",
+    "biomes": [
+      "forest",
+      "web"
+    ],
+    "grade": "e6e1db",
+    "edge": "3f3b40",
+    "edge_alpha": 0.08,
+    "note": "盘丝林暗影",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 26,
+    "place": "黄花观",
+    "biome": "forest",
+    "biomes": [
+      "forest",
+      "temple"
+    ],
+    "grade": "e8edd7",
+    "edge": "344637",
+    "edge_alpha": 0.05,
+    "note": "黄花观药圃",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 27,
+    "place": "狮驼岭与狮驼国",
+    "biome": "wild",
+    "biomes": [
+      "wild",
+      "desert"
+    ],
+    "grade": "eadbc7",
+    "edge": "503a2c",
+    "edge_alpha": 0.07,
+    "note": "狮驼岭尘光",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 28,
+    "place": "比丘国",
+    "biome": "city",
+    "biomes": [
+      "city"
+    ],
+    "grade": "f1e7d5",
+    "edge": "404238",
+    "edge_alpha": 0.035,
+    "note": "比丘街巷",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 29,
+    "place": "镇海禅林寺与无底洞",
+    "biome": "night",
+    "biomes": [
+      "night",
+      "cave"
+    ],
+    "grade": "e2dded",
+    "edge": "332b40",
+    "edge_alpha": 0.09,
+    "note": "无底洞幽辉",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 30,
+    "place": "灭法国",
+    "biome": "city",
+    "biomes": [
+      "city"
+    ],
+    "grade": "f8eddf",
+    "edge": "3f3d34",
+    "edge_alpha": 0.03,
+    "note": "灭法国街光",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 31,
+    "place": "隐雾山",
+    "biome": "night",
+    "biomes": [
+      "night",
+      "forest"
+    ],
+    "grade": "dfdee7",
+    "edge": "302c3c",
+    "edge_alpha": 0.09,
+    "note": "隐雾山冷雾",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 32,
+    "place": "凤仙郡",
+    "biome": "city",
+    "biomes": [
+      "city",
+      "desert"
+    ],
+    "grade": "f0eadc",
+    "edge": "3d4437",
+    "edge_alpha": 0.045,
+    "note": "凤仙旱土",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 33,
+    "place": "玉华州与竹节山",
+    "biome": "forest",
+    "biomes": [
+      "forest"
+    ],
+    "grade": "e9efd9",
+    "edge": "364c37",
+    "edge_alpha": 0.04,
+    "note": "玉华山秋荫",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 34,
+    "place": "金平府与玄英洞",
+    "biome": "river",
+    "biomes": [
+      "river",
+      "snow"
+    ],
+    "grade": "dee9eb",
+    "edge": "2f444b",
+    "edge_alpha": 0.07,
+    "note": "玄英洞冰光",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 35,
+    "place": "天竺国",
+    "biome": "moon",
+    "biomes": [
+      "moon",
+      "city"
+    ],
+    "grade": "f1eaf2",
+    "edge": "453b53",
+    "edge_alpha": 0.045,
+    "note": "天竺月华",
+    "background_hand_painting": "pending"
+  },
+  {
+    "chapter": 36,
+    "place": "凌云渡与归途",
+    "biome": "moon",
+    "biomes": [
+      "moon",
+      "temple"
+    ],
+    "grade": "f6eedc",
+    "edge": "45472f",
+    "edge_alpha": 0.025,
+    "note": "西行归途晨光",
+    "background_hand_painting": "pending"
+  }
+]

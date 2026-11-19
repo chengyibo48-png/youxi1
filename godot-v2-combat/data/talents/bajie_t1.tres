@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"bajie_t1"
+title = "天蓬铁衣"
+description = "成功格挡反弹160范围内的敌弹，反弹不触发派生。角色专属：护盾收益提高20%"
+category = &"hero"
+effect = &"hero_shield_gain"
+amount = 0.2
+max_level = 3
+tags = Array[String]([])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String]([])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = true

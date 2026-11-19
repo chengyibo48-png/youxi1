@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="BossRigDefinition" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/boss_rig_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+stable_id = "boss_9"
+title = "灵感大王"
+atlas_index = 9
+body_row = 1
+shoulder_width = 30
+torso_height = 52
+thigh_length = 24
+shin_length = 25
+arm_length = 28
+arm_pairs = 1
+tail_segments = 4
+wing_pairs = 0
+head_count = 1
+crouch = 0
+weapon_id = "shaseng_w1"
+stance = "brute"
+head_size = Vector2(58, 60)

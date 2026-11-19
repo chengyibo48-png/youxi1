@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"heavy_line"
+title = "破阵长锋"
+description = "扩大专属重击轨迹或法印爆破范围35%；起手延长0.06秒"
+category = &"shape"
+effect = &"heavy_line"
+amount = 1
+max_level = 1
+tags = Array[String](["melee"])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String]([])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

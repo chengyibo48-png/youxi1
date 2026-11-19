@@ -1,0 +1,186 @@
+[
+  {
+    "id": "relic_0",
+    "name": "照妖镜",
+    "effect": "crit",
+    "cooldown": 22,
+    "description": "暴击强化10秒",
+    "passive_description": "重击为附近目标留下2秒照妖印，后续攻击获得印记增益"
+  },
+  {
+    "id": "relic_1",
+    "name": "莲华灯",
+    "effect": "regen",
+    "cooldown": 23,
+    "description": "持续回复",
+    "passive_description": "第三连击回复2生命，至少间隔1秒"
+  },
+  {
+    "id": "relic_2",
+    "name": "避水珠",
+    "effect": "waterguard",
+    "cooldown": 24,
+    "description": "护盾与净化",
+    "passive_description": "闪避净化灼烧与毒，并获得4护盾，至少间隔2秒"
+  },
+  {
+    "id": "relic_3",
+    "name": "定风丹",
+    "effect": "slow",
+    "cooldown": 25,
+    "description": "全场减速",
+    "passive_description": "闪避时减速120范围敌人1.5秒，至少间隔2秒"
+  },
+  {
+    "id": "relic_4",
+    "name": "人参果",
+    "effect": "maxhp",
+    "cooldown": 26,
+    "description": "提升生命上限并回复",
+    "passive_description": "击败敌人回复2生命，至少间隔1秒"
+  },
+  {
+    "id": "relic_5",
+    "name": "紫金红葫芦",
+    "effect": "gourd",
+    "cooldown": 22,
+    "description": "吸引与范围攻击",
+    "passive_description": "重击轻摄180范围敌人，首领受拉扯较弱，至少间隔1秒"
+  },
+  {
+    "id": "relic_6",
+    "name": "羊脂玉净瓶",
+    "effect": "heal",
+    "cooldown": 23,
+    "description": "回血并净化",
+    "passive_description": "施术时净化异常并回复2生命，至少间隔3秒"
+  },
+  {
+    "id": "relic_7",
+    "name": "金刚琢",
+    "effect": "barrier",
+    "cooldown": 24,
+    "description": "敌弹屏障",
+    "passive_description": "护盾受击反震14基础伤害，至少间隔2秒"
+  },
+  {
+    "id": "relic_8",
+    "name": "生死簿残页",
+    "effect": "reset",
+    "cooldown": 25,
+    "description": "以生命代价重置技能",
+    "passive_description": "击败敌人使两个神通冷却各减少0.3秒，至少间隔1秒"
+  },
+  {
+    "id": "relic_9",
+    "name": "芭蕉扇",
+    "effect": "wind",
+    "cooldown": 26,
+    "description": "持续风刃",
+    "passive_description": "重击追加三道低伤风刃，至少间隔1秒"
+  },
+  {
+    "id": "relic_10",
+    "name": "玲珑宝塔",
+    "effect": "pagoda",
+    "cooldown": 22,
+    "description": "持续近场攻击",
+    "passive_description": "施术留下持续2.4秒的近场镇妖阵，至少间隔4秒"
+  },
+  {
+    "id": "relic_11",
+    "name": "绣花金针",
+    "effect": "needles",
+    "cooldown": 23,
+    "description": "快速追踪飞针",
+    "passive_description": "第三连击追加一枚追踪飞针，至少间隔1秒"
+  },
+  {
+    "id": "relic_12",
+    "name": "缚妖索",
+    "effect": "root",
+    "cooldown": 24,
+    "description": "束缚小妖",
+    "passive_description": "重击束缚最近小妖0.5秒；对首领追加破势，至少间隔2秒"
+  },
+  {
+    "id": "relic_13",
+    "name": "遁地符",
+    "effect": "blink",
+    "cooldown": 25,
+    "description": "短距换位",
+    "passive_description": "闪避蓄势2秒，下一次重击追加两段直线攻击"
+  },
+  {
+    "id": "relic_14",
+    "name": "雷公令",
+    "effect": "thunder",
+    "cooldown": 26,
+    "description": "连续落雷",
+    "passive_description": "第三连击向附近目标释放一次雷链，至少间隔1秒"
+  },
+  {
+    "id": "relic_15",
+    "name": "清心铃",
+    "effect": "purify",
+    "cooldown": 22,
+    "description": "清除异常并破势",
+    "passive_description": "施术后0.3秒阻挡敌方飞弹，至少间隔3秒"
+  },
+  {
+    "id": "relic_16",
+    "name": "聚灵钵",
+    "effect": "resource",
+    "cooldown": 23,
+    "description": "恢复角色资源",
+    "passive_description": "第三连击回复4角色资源，至少间隔1秒"
+  },
+  {
+    "id": "relic_17",
+    "name": "护经幡",
+    "effect": "shield",
+    "cooldown": 24,
+    "description": "给予护盾",
+    "passive_description": "释放绝技额外获得12护盾，至少间隔2秒"
+  },
+  {
+    "id": "relic_18",
+    "name": "回风轮",
+    "effect": "relic_recall",
+    "cooldown": 22,
+    "description": "召回在场的返程兵器，资源回复8；无返程兵器不能使用",
+    "passive_description": "第三连击追加一枚回旋环，至少间隔1秒"
+  },
+  {
+    "id": "relic_19",
+    "name": "照心莲座",
+    "effect": "relic_lotus",
+    "cooldown": 23,
+    "description": "在脚下布置回复莲阵并清除灼烧与毒",
+    "passive_description": "施术额外回复2生命，至少间隔1秒"
+  },
+  {
+    "id": "relic_20",
+    "name": "镇山铜钟",
+    "effect": "relic_bell",
+    "cooldown": 24,
+    "description": "震开180范围敌人并清除范围内敌弹",
+    "passive_description": "护盾受击产生小范围反震，至少间隔2秒"
+  },
+  {
+    "id": "relic_21",
+    "name": "缚妖沙漏",
+    "effect": "relic_hourglass",
+    "cooldown": 25,
+    "description": "为240范围敌人布两枚流沙印并减速",
+    "passive_description": "重击为附近敌人追加一枚流沙印，至少间隔1秒"
+  },
+  {
+    "id": "relic_22",
+    "name": "星河箭匣",
+    "effect": "relic_quiver",
+    "cooldown": 26,
+    "description": "释放六道穿透回潮箭",
+    "passive_description": "闪避追加一枚穿透水箭，至少间隔1秒"
+  }
+]

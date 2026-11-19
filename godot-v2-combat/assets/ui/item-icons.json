@@ -1,0 +1,2356 @@
+{
+  "wukong_w0": {
+    "rect": [
+      0,
+      0,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "如意金箍棒",
+    "glyph": "sword"
+  },
+  "wukong_w1": {
+    "rect": [
+      32,
+      0,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "定海神针",
+    "glyph": "beam"
+  },
+  "wukong_w2": {
+    "rect": [
+      64,
+      0,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "火云棍",
+    "glyph": "field"
+  },
+  "wukong_w3": {
+    "rect": [
+      96,
+      0,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "双短棍",
+    "glyph": "orbit"
+  },
+  "wukong_w4": {
+    "rect": [
+      128,
+      0,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "如意飞棍",
+    "glyph": "return"
+  },
+  "tangseng_w0": {
+    "rect": [
+      160,
+      0,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "九环锡杖",
+    "glyph": "beam"
+  },
+  "tangseng_w1": {
+    "rect": [
+      192,
+      0,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "诵经法卷",
+    "glyph": "field"
+  },
+  "tangseng_w2": {
+    "rect": [
+      224,
+      0,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "金铙",
+    "glyph": "orbit"
+  },
+  "tangseng_w3": {
+    "rect": [
+      256,
+      0,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "念珠",
+    "glyph": "return"
+  },
+  "tangseng_w4": {
+    "rect": [
+      288,
+      0,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "伏魔禅杖",
+    "glyph": "sword"
+  },
+  "bajie_w0": {
+    "rect": [
+      320,
+      0,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "九齿钉耙",
+    "glyph": "field"
+  },
+  "bajie_w1": {
+    "rect": [
+      352,
+      0,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "旋风耙",
+    "glyph": "orbit"
+  },
+  "bajie_w2": {
+    "rect": [
+      384,
+      0,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "裂地耙",
+    "glyph": "return"
+  },
+  "bajie_w3": {
+    "rect": [
+      416,
+      0,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "短柄战耙",
+    "glyph": "sword"
+  },
+  "bajie_w4": {
+    "rect": [
+      448,
+      0,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "锁链耙",
+    "glyph": "beam"
+  },
+  "shaseng_w0": {
+    "rect": [
+      480,
+      0,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "降妖宝杖",
+    "glyph": "orbit"
+  },
+  "shaseng_w1": {
+    "rect": [
+      0,
+      32,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "流沙飞刃",
+    "glyph": "return"
+  },
+  "shaseng_w2": {
+    "rect": [
+      32,
+      32,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "沧浪杖",
+    "glyph": "sword"
+  },
+  "shaseng_w3": {
+    "rect": [
+      64,
+      32,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "月牙铲",
+    "glyph": "beam"
+  },
+  "shaseng_w4": {
+    "rect": [
+      96,
+      32,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "流沙索",
+    "glyph": "field"
+  },
+  "bailongma_w0": {
+    "rect": [
+      128,
+      32,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "龙角水枪",
+    "glyph": "return"
+  },
+  "bailongma_w1": {
+    "rect": [
+      160,
+      32,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "踏浪蹄",
+    "glyph": "sword"
+  },
+  "bailongma_w2": {
+    "rect": [
+      192,
+      32,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "龙脊",
+    "glyph": "beam"
+  },
+  "bailongma_w3": {
+    "rect": [
+      224,
+      32,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "潮汐珠",
+    "glyph": "field"
+  },
+  "bailongma_w4": {
+    "rect": [
+      256,
+      32,
+      32,
+      32
+    ],
+    "category": "weapons",
+    "name": "龙鳞刃",
+    "glyph": "orbit"
+  },
+  "wukong_s0": {
+    "rect": [
+      288,
+      32,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "身外身",
+    "glyph": "summon"
+  },
+  "wukong_s1": {
+    "rect": [
+      320,
+      32,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "筋斗云",
+    "glyph": "dash"
+  },
+  "wukong_s2": {
+    "rect": [
+      352,
+      32,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "定身术",
+    "glyph": "frost"
+  },
+  "wukong_s3": {
+    "rect": [
+      384,
+      32,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "棍击突进",
+    "glyph": "dash"
+  },
+  "wukong_s4": {
+    "rect": [
+      416,
+      32,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "火眼金睛",
+    "glyph": "mark"
+  },
+  "wukong_s5": {
+    "rect": [
+      448,
+      32,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "护身棍阵",
+    "glyph": "rune"
+  },
+  "tangseng_s0": {
+    "rect": [
+      480,
+      32,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "佛光普照",
+    "glyph": "heal"
+  },
+  "tangseng_s1": {
+    "rect": [
+      0,
+      64,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "度化真言",
+    "glyph": "summon"
+  },
+  "tangseng_s2": {
+    "rect": [
+      32,
+      64,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "金光破障",
+    "glyph": "beam"
+  },
+  "tangseng_s3": {
+    "rect": [
+      64,
+      64,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "净土结界",
+    "glyph": "field"
+  },
+  "tangseng_s4": {
+    "rect": [
+      96,
+      64,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "驱邪反击",
+    "glyph": "shield"
+  },
+  "tangseng_s5": {
+    "rect": [
+      128,
+      64,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "念珠牵引",
+    "glyph": "rope"
+  },
+  "bajie_s0": {
+    "rect": [
+      160,
+      64,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "天蓬护体",
+    "glyph": "shield"
+  },
+  "bajie_s1": {
+    "rect": [
+      192,
+      64,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "倒打一耙",
+    "glyph": "sword"
+  },
+  "bajie_s2": {
+    "rect": [
+      224,
+      64,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "九齿震地",
+    "glyph": "field"
+  },
+  "bajie_s3": {
+    "rect": [
+      256,
+      64,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "横冲直撞",
+    "glyph": "dash"
+  },
+  "bajie_s4": {
+    "rect": [
+      288,
+      64,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "锁链拉拽",
+    "glyph": "rope"
+  },
+  "bajie_s5": {
+    "rect": [
+      320,
+      64,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "食气养身",
+    "glyph": "coin"
+  },
+  "shaseng_s0": {
+    "rect": [
+      352,
+      64,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "流沙结界",
+    "glyph": "field"
+  },
+  "shaseng_s1": {
+    "rect": [
+      384,
+      64,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "沧浪一击",
+    "glyph": "wave"
+  },
+  "shaseng_s2": {
+    "rect": [
+      416,
+      64,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "水月木刃",
+    "glyph": "split"
+  },
+  "shaseng_s3": {
+    "rect": [
+      448,
+      64,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "流沙束缚",
+    "glyph": "rope"
+  },
+  "shaseng_s4": {
+    "rect": [
+      480,
+      64,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "移形换位",
+    "glyph": "scroll"
+  },
+  "shaseng_s5": {
+    "rect": [
+      0,
+      96,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "印记引爆",
+    "glyph": "burn"
+  },
+  "bailongma_s0": {
+    "rect": [
+      32,
+      96,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "龙吟潮生",
+    "glyph": "wave"
+  },
+  "bailongma_s1": {
+    "rect": [
+      64,
+      96,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "化龙逐日",
+    "glyph": "wave"
+  },
+  "bailongma_s2": {
+    "rect": [
+      96,
+      96,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "龙息吐纳",
+    "glyph": "rune"
+  },
+  "bailongma_s3": {
+    "rect": [
+      128,
+      96,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "踏浪回避",
+    "glyph": "dash"
+  },
+  "bailongma_s4": {
+    "rect": [
+      160,
+      96,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "水幕天华",
+    "glyph": "wave"
+  },
+  "bailongma_s5": {
+    "rect": [
+      192,
+      96,
+      32,
+      32
+    ],
+    "category": "skills",
+    "name": "潮势追击",
+    "glyph": "dash"
+  },
+  "wukong_u0": {
+    "rect": [
+      224,
+      96,
+      32,
+      32
+    ],
+    "category": "ultimates",
+    "name": "如意巨棍",
+    "glyph": "sword"
+  },
+  "wukong_u1": {
+    "rect": [
+      256,
+      96,
+      32,
+      32
+    ],
+    "category": "ultimates",
+    "name": "群身破阵",
+    "glyph": "summon"
+  },
+  "tangseng_u0": {
+    "rect": [
+      288,
+      96,
+      32,
+      32
+    ],
+    "category": "ultimates",
+    "name": "普渡金光",
+    "glyph": "heal"
+  },
+  "tangseng_u1": {
+    "rect": [
+      320,
+      96,
+      32,
+      32
+    ],
+    "category": "ultimates",
+    "name": "镇魔梵音",
+    "glyph": "bell"
+  },
+  "bajie_u0": {
+    "rect": [
+      352,
+      96,
+      32,
+      32
+    ],
+    "category": "ultimates",
+    "name": "天蓬降临",
+    "glyph": "shield"
+  },
+  "bajie_u1": {
+    "rect": [
+      384,
+      96,
+      32,
+      32
+    ],
+    "category": "ultimates",
+    "name": "裂地连震",
+    "glyph": "field"
+  },
+  "shaseng_u0": {
+    "rect": [
+      416,
+      96,
+      32,
+      32
+    ],
+    "category": "ultimates",
+    "name": "流沙葬阵",
+    "glyph": "field"
+  },
+  "shaseng_u1": {
+    "rect": [
+      448,
+      96,
+      32,
+      32
+    ],
+    "category": "ultimates",
+    "name": "沧浪潮涌",
+    "glyph": "wave"
+  },
+  "bailongma_u0": {
+    "rect": [
+      480,
+      96,
+      32,
+      32
+    ],
+    "category": "ultimates",
+    "name": "龙腾四海",
+    "glyph": "wave"
+  },
+  "bailongma_u1": {
+    "rect": [
+      0,
+      128,
+      32,
+      32
+    ],
+    "category": "ultimates",
+    "name": "万流归宗",
+    "glyph": "wave"
+  },
+  "relic_0": {
+    "rect": [
+      32,
+      128,
+      32,
+      32
+    ],
+    "category": "relics",
+    "name": "照妖镜",
+    "glyph": "mirror"
+  },
+  "relic_1": {
+    "rect": [
+      64,
+      128,
+      32,
+      32
+    ],
+    "category": "relics",
+    "name": "莲华灯",
+    "glyph": "lamp"
+  },
+  "relic_2": {
+    "rect": [
+      96,
+      128,
+      32,
+      32
+    ],
+    "category": "relics",
+    "name": "避水珠",
+    "glyph": "bead"
+  },
+  "relic_3": {
+    "rect": [
+      128,
+      128,
+      32,
+      32
+    ],
+    "category": "relics",
+    "name": "定风丹",
+    "glyph": "pill"
+  },
+  "relic_4": {
+    "rect": [
+      160,
+      128,
+      32,
+      32
+    ],
+    "category": "relics",
+    "name": "人参果",
+    "glyph": "fruit"
+  },
+  "relic_5": {
+    "rect": [
+      192,
+      128,
+      32,
+      32
+    ],
+    "category": "relics",
+    "name": "紫金红葫芦",
+    "glyph": "gourd"
+  },
+  "relic_6": {
+    "rect": [
+      224,
+      128,
+      32,
+      32
+    ],
+    "category": "relics",
+    "name": "羊脂玉净瓶",
+    "glyph": "bottle"
+  },
+  "relic_7": {
+    "rect": [
+      256,
+      128,
+      32,
+      32
+    ],
+    "category": "relics",
+    "name": "金刚琢",
+    "glyph": "ring"
+  },
+  "relic_8": {
+    "rect": [
+      288,
+      128,
+      32,
+      32
+    ],
+    "category": "relics",
+    "name": "生死簿残页",
+    "glyph": "book"
+  },
+  "relic_9": {
+    "rect": [
+      320,
+      128,
+      32,
+      32
+    ],
+    "category": "relics",
+    "name": "芭蕉扇",
+    "glyph": "fan"
+  },
+  "relic_10": {
+    "rect": [
+      352,
+      128,
+      32,
+      32
+    ],
+    "category": "relics",
+    "name": "玲珑宝塔",
+    "glyph": "pagoda"
+  },
+  "relic_11": {
+    "rect": [
+      384,
+      128,
+      32,
+      32
+    ],
+    "category": "relics",
+    "name": "绣花金针",
+    "glyph": "needles"
+  },
+  "relic_12": {
+    "rect": [
+      416,
+      128,
+      32,
+      32
+    ],
+    "category": "relics",
+    "name": "缚妖索",
+    "glyph": "rope"
+  },
+  "relic_13": {
+    "rect": [
+      448,
+      128,
+      32,
+      32
+    ],
+    "category": "relics",
+    "name": "遁地符",
+    "glyph": "scroll"
+  },
+  "relic_14": {
+    "rect": [
+      480,
+      128,
+      32,
+      32
+    ],
+    "category": "relics",
+    "name": "雷公令",
+    "glyph": "chain"
+  },
+  "relic_15": {
+    "rect": [
+      0,
+      160,
+      32,
+      32
+    ],
+    "category": "relics",
+    "name": "清心铃",
+    "glyph": "bell"
+  },
+  "relic_16": {
+    "rect": [
+      32,
+      160,
+      32,
+      32
+    ],
+    "category": "relics",
+    "name": "聚灵钵",
+    "glyph": "bowl"
+  },
+  "relic_17": {
+    "rect": [
+      64,
+      160,
+      32,
+      32
+    ],
+    "category": "relics",
+    "name": "护经幡",
+    "glyph": "banner"
+  },
+  "return": {
+    "rect": [
+      96,
+      160,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "回旋兵器",
+    "glyph": "return"
+  },
+  "split": {
+    "rect": [
+      128,
+      160,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "分裂法印",
+    "glyph": "split"
+  },
+  "echo": {
+    "rect": [
+      160,
+      160,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "延迟棍影",
+    "glyph": "dash"
+  },
+  "orbit": {
+    "rect": [
+      192,
+      160,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "环绕护兵",
+    "glyph": "rune"
+  },
+  "pierce": {
+    "rect": [
+      224,
+      160,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "贯穿真意",
+    "glyph": "rune"
+  },
+  "fan": {
+    "rect": [
+      256,
+      160,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "三花散射",
+    "glyph": "split"
+  },
+  "rear": {
+    "rect": [
+      288,
+      160,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "背水一击",
+    "glyph": "rune"
+  },
+  "wide": {
+    "rect": [
+      320,
+      160,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "横扫千军",
+    "glyph": "rune"
+  },
+  "reach": {
+    "rect": [
+      352,
+      160,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "一寸长强",
+    "glyph": "rune"
+  },
+  "bounce": {
+    "rect": [
+      384,
+      160,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "折返飞锋",
+    "glyph": "return"
+  },
+  "homing": {
+    "rect": [
+      416,
+      160,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "追魂法印",
+    "glyph": "rune"
+  },
+  "nova": {
+    "rect": [
+      448,
+      160,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "落点震波",
+    "glyph": "rune"
+  },
+  "fork": {
+    "rect": [
+      480,
+      160,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "双路齐发",
+    "glyph": "split"
+  },
+  "spin": {
+    "rect": [
+      0,
+      192,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "回身破阵",
+    "glyph": "rune"
+  },
+  "sweep": {
+    "rect": [
+      32,
+      192,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "踏前追击",
+    "glyph": "rune"
+  },
+  "heavy_line": {
+    "rect": [
+      64,
+      192,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "破阵长锋",
+    "glyph": "burn"
+  },
+  "heavy_ring": {
+    "rect": [
+      96,
+      192,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "震地重击",
+    "glyph": "burn"
+  },
+  "mine": {
+    "rect": [
+      128,
+      192,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "伏墨留印",
+    "glyph": "rune"
+  },
+  "orbit_speed": {
+    "rect": [
+      160,
+      192,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "御兵急转",
+    "glyph": "dash"
+  },
+  "orbit_count": {
+    "rect": [
+      192,
+      192,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "双环护身",
+    "glyph": "rune"
+  },
+  "field_size": {
+    "rect": [
+      224,
+      192,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "阵域扩张",
+    "glyph": "field"
+  },
+  "field_time": {
+    "rect": [
+      256,
+      192,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "墨迹长留",
+    "glyph": "field"
+  },
+  "converge": {
+    "rect": [
+      288,
+      192,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "收束法诀",
+    "glyph": "rune"
+  },
+  "pulse": {
+    "rect": [
+      320,
+      192,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "脉冲阵法",
+    "glyph": "rune"
+  },
+  "burn": {
+    "rect": [
+      352,
+      192,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "朱焰附兵",
+    "glyph": "burn"
+  },
+  "frost": {
+    "rect": [
+      384,
+      192,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "寒霜刻印",
+    "glyph": "frost"
+  },
+  "chain": {
+    "rect": [
+      416,
+      192,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "雷引连环",
+    "glyph": "chain"
+  },
+  "poison": {
+    "rect": [
+      448,
+      192,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "青毒蚀骨",
+    "glyph": "poison"
+  },
+  "sand": {
+    "rect": [
+      480,
+      192,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "流沙侵身",
+    "glyph": "field"
+  },
+  "purify": {
+    "rect": [
+      0,
+      224,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "净心佛纹",
+    "glyph": "bell"
+  },
+  "iceburst": {
+    "rect": [
+      32,
+      224,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "碎冰飞锋",
+    "glyph": "frost"
+  },
+  "fireburst": {
+    "rect": [
+      64,
+      224,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "焰尽归尘",
+    "glyph": "burn"
+  },
+  "venomspread": {
+    "rect": [
+      96,
+      224,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "毒雾蔓延",
+    "glyph": "rune"
+  },
+  "shock": {
+    "rect": [
+      128,
+      224,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "惊雷破势",
+    "glyph": "rune"
+  },
+  "burn_time": {
+    "rect": [
+      160,
+      224,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "薪火不息",
+    "glyph": "burn"
+  },
+  "burn_power": {
+    "rect": [
+      192,
+      224,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "三昧余焰",
+    "glyph": "burn"
+  },
+  "frost_time": {
+    "rect": [
+      224,
+      224,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "凝霜成锁",
+    "glyph": "frost"
+  },
+  "frost_break": {
+    "rect": [
+      256,
+      224,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "寒锋破甲",
+    "glyph": "frost"
+  },
+  "chain_range": {
+    "rect": [
+      288,
+      224,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "雷路拓展",
+    "glyph": "chain"
+  },
+  "chain_count": {
+    "rect": [
+      320,
+      224,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "五雷牵引",
+    "glyph": "chain"
+  },
+  "poison_power": {
+    "rect": [
+      352,
+      224,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "蚀毒深种",
+    "glyph": "poison"
+  },
+  "sand_damage": {
+    "rect": [
+      384,
+      224,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "积沙成刃",
+    "glyph": "field"
+  },
+  "element_guard": {
+    "rect": [
+      416,
+      224,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "五行护体",
+    "glyph": "shield"
+  },
+  "steam": {
+    "rect": [
+      448,
+      224,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "水火蒸腾",
+    "glyph": "rune"
+  },
+  "dash_trail": {
+    "rect": [
+      480,
+      224,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "闪避留痕",
+    "glyph": "dash"
+  },
+  "crit_chain": {
+    "rect": [
+      0,
+      256,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "火眼惊雷",
+    "glyph": "chain"
+  },
+  "combo_charge": {
+    "rect": [
+      32,
+      256,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "蓄力破阵",
+    "glyph": "rune"
+  },
+  "shield_burst": {
+    "rect": [
+      64,
+      256,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "护盾震击",
+    "glyph": "shield"
+  },
+  "break_reward": {
+    "rect": [
+      96,
+      256,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "破势纳气",
+    "glyph": "rune"
+  },
+  "kill_resource": {
+    "rect": [
+      128,
+      256,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "斩妖聚势",
+    "glyph": "coin"
+  },
+  "dodge_resource": {
+    "rect": [
+      160,
+      256,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "险中取势",
+    "glyph": "coin"
+  },
+  "cast_echo": {
+    "rect": [
+      192,
+      256,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "余音回响",
+    "glyph": "dash"
+  },
+  "kill_heal": {
+    "rect": [
+      224,
+      256,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "以毒养身",
+    "glyph": "heal"
+  },
+  "crit_resource": {
+    "rect": [
+      256,
+      256,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "灵光一现",
+    "glyph": "coin"
+  },
+  "heavy_shield": {
+    "rect": [
+      288,
+      256,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "重击护心",
+    "glyph": "burn"
+  },
+  "dash_attack": {
+    "rect": [
+      320,
+      256,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "疾步追锋",
+    "glyph": "dash"
+  },
+  "low_power": {
+    "rect": [
+      352,
+      256,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "绝境怒意",
+    "glyph": "rune"
+  },
+  "full_power": {
+    "rect": [
+      384,
+      256,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "无伤禅心",
+    "glyph": "rune"
+  },
+  "resource_damage": {
+    "rect": [
+      416,
+      256,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "聚气成锋",
+    "glyph": "coin"
+  },
+  "cast_haste": {
+    "rect": [
+      448,
+      256,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "神通连携",
+    "glyph": "dash"
+  },
+  "max_hp": {
+    "rect": [
+      480,
+      256,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "厚土养身",
+    "glyph": "heal"
+  },
+  "armor": {
+    "rect": [
+      0,
+      288,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "护身真诀",
+    "glyph": "shield"
+  },
+  "speed": {
+    "rect": [
+      32,
+      288,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "踏风步",
+    "glyph": "dash"
+  },
+  "damage": {
+    "rect": [
+      64,
+      288,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "锻锋",
+    "glyph": "rune"
+  },
+  "crit": {
+    "rect": [
+      96,
+      288,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "火眼",
+    "glyph": "mark"
+  },
+  "crit_power": {
+    "rect": [
+      128,
+      288,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "致命一击",
+    "glyph": "mark"
+  },
+  "haste": {
+    "rect": [
+      160,
+      288,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "疾手",
+    "glyph": "dash"
+  },
+  "cooldown": {
+    "rect": [
+      192,
+      288,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "调息",
+    "glyph": "rune"
+  },
+  "dash_cd": {
+    "rect": [
+      224,
+      288,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "轻身",
+    "glyph": "dash"
+  },
+  "shield": {
+    "rect": [
+      256,
+      288,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "佛衣护体",
+    "glyph": "shield"
+  },
+  "regen": {
+    "rect": [
+      288,
+      288,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "灵泉润脉",
+    "glyph": "heal"
+  },
+  "pickup": {
+    "rect": [
+      320,
+      288,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "聚灵",
+    "glyph": "rune"
+  },
+  "coins": {
+    "rect": [
+      352,
+      288,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "招财",
+    "glyph": "coin"
+  },
+  "discount": {
+    "rect": [
+      384,
+      288,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "善缘",
+    "glyph": "rune"
+  },
+  "xp": {
+    "rect": [
+      416,
+      288,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "讲经",
+    "glyph": "rune"
+  },
+  "relic_cd": {
+    "rect": [
+      448,
+      288,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "御宝",
+    "glyph": "rune"
+  },
+  "heal_power": {
+    "rect": [
+      480,
+      288,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "药理",
+    "glyph": "heal"
+  },
+  "reward_shield": {
+    "rect": [
+      0,
+      320,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "清场护佑",
+    "glyph": "shield"
+  },
+  "salvage": {
+    "rect": [
+      32,
+      320,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "拾遗",
+    "glyph": "coin"
+  },
+  "fortune": {
+    "rect": [
+      64,
+      320,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "福缘",
+    "glyph": "rune"
+  },
+  "wukong_t0": {
+    "rect": [
+      96,
+      320,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "棍势长留",
+    "glyph": "coin"
+  },
+  "wukong_t1": {
+    "rect": [
+      128,
+      320,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "分身同心",
+    "glyph": "summon"
+  },
+  "wukong_t2": {
+    "rect": [
+      160,
+      320,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "定身破势",
+    "glyph": "rune"
+  },
+  "wukong_t3": {
+    "rect": [
+      192,
+      320,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "筋斗余锋",
+    "glyph": "dash"
+  },
+  "wukong_t4": {
+    "rect": [
+      224,
+      320,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "火眼洞穿",
+    "glyph": "mark"
+  },
+  "wukong_t5": {
+    "rect": [
+      256,
+      320,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "棍势回流",
+    "glyph": "heal"
+  },
+  "tangseng_t0": {
+    "rect": [
+      288,
+      320,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "禅意护持",
+    "glyph": "shield"
+  },
+  "tangseng_t1": {
+    "rect": [
+      320,
+      320,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "度化延时",
+    "glyph": "summon"
+  },
+  "tangseng_t2": {
+    "rect": [
+      352,
+      320,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "佛印灼心",
+    "glyph": "rune"
+  },
+  "tangseng_t3": {
+    "rect": [
+      384,
+      320,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "慈悲回响",
+    "glyph": "heal"
+  },
+  "tangseng_t4": {
+    "rect": [
+      416,
+      320,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "禅心净域",
+    "glyph": "field"
+  },
+  "tangseng_t5": {
+    "rect": [
+      448,
+      320,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "金光蓄势",
+    "glyph": "heal"
+  },
+  "bajie_t0": {
+    "rect": [
+      480,
+      320,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "战意承伤",
+    "glyph": "coin"
+  },
+  "bajie_t1": {
+    "rect": [
+      0,
+      352,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "天蓬铁衣",
+    "glyph": "shield"
+  },
+  "bajie_t2": {
+    "rect": [
+      32,
+      352,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "裂地余震",
+    "glyph": "burn"
+  },
+  "bajie_t3": {
+    "rect": [
+      64,
+      352,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "饕餮养身",
+    "glyph": "heal"
+  },
+  "bajie_t4": {
+    "rect": [
+      96,
+      352,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "牵耙聚敌",
+    "glyph": "rune"
+  },
+  "bajie_t5": {
+    "rect": [
+      128,
+      352,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "怒意贯体",
+    "glyph": "coin"
+  },
+  "shaseng_t0": {
+    "rect": [
+      160,
+      352,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "藤沙叠印",
+    "glyph": "field"
+  },
+  "shaseng_t1": {
+    "rect": [
+      192,
+      352,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "流沙深域",
+    "glyph": "field"
+  },
+  "shaseng_t2": {
+    "rect": [
+      224,
+      352,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "月刃分光",
+    "glyph": "rune"
+  },
+  "shaseng_t3": {
+    "rect": [
+      256,
+      352,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "沙印噬身",
+    "glyph": "field"
+  },
+  "shaseng_t4": {
+    "rect": [
+      288,
+      352,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "束缚延时",
+    "glyph": "rune"
+  },
+  "shaseng_t5": {
+    "rect": [
+      320,
+      352,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "引爆回流",
+    "glyph": "coin"
+  },
+  "bailongma_t0": {
+    "rect": [
+      352,
+      352,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "潮势疾驰",
+    "glyph": "coin"
+  },
+  "bailongma_t1": {
+    "rect": [
+      384,
+      352,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "龙鳞护身",
+    "glyph": "shield"
+  },
+  "bailongma_t2": {
+    "rect": [
+      416,
+      352,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "水枪急流",
+    "glyph": "rune"
+  },
+  "bailongma_t3": {
+    "rect": [
+      448,
+      352,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "踏浪留潮",
+    "glyph": "dash"
+  },
+  "bailongma_t4": {
+    "rect": [
+      480,
+      352,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "化龙长息",
+    "glyph": "rune"
+  },
+  "bailongma_t5": {
+    "rect": [
+      0,
+      384,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "潮起聚气",
+    "glyph": "heal"
+  },
+  "glass": {
+    "rect": [
+      32,
+      384,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "舍身成锋",
+    "glyph": "rune"
+  },
+  "goldbody": {
+    "rect": [
+      64,
+      384,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "金身换势",
+    "glyph": "shield"
+  },
+  "storm": {
+    "rect": [
+      96,
+      384,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "万雷归宗",
+    "glyph": "rune"
+  },
+  "swarm": {
+    "rect": [
+      128,
+      384,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "百兵齐鸣",
+    "glyph": "rune"
+  },
+  "immovable": {
+    "rect": [
+      160,
+      384,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "不动如山",
+    "glyph": "rune"
+  },
+  "blood": {
+    "rect": [
+      192,
+      384,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "血换神通",
+    "glyph": "rune"
+  },
+  "summoner": {
+    "rect": [
+      224,
+      384,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "身外法身",
+    "glyph": "summon"
+  },
+  "domain": {
+    "rect": [
+      256,
+      384,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "阵法宗师",
+    "glyph": "field"
+  },
+  "duelist": {
+    "rect": [
+      288,
+      384,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "一线诛魔",
+    "glyph": "rune"
+  },
+  "relicmaster": {
+    "rect": [
+      320,
+      384,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "御宝真仙",
+    "glyph": "rune"
+  },
+  "lotus_steps": {
+    "rect": [
+      352,
+      384,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "步步生莲",
+    "glyph": "rune"
+  },
+  "third_crescent": {
+    "rect": [
+      384,
+      384,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "双弦月影",
+    "glyph": "rune"
+  },
+  "seal_wheel": {
+    "rect": [
+      416,
+      384,
+      32,
+      32
+    ],
+    "category": "talents",
+    "name": "法印回轮",
+    "glyph": "rune"
+  },
+  "ui_coin": {
+    "rect": [
+      448,
+      384,
+      32,
+      32
+    ],
+    "category": "ui",
+    "name": "coin",
+    "glyph": "coin"
+  },
+  "ui_health": {
+    "rect": [
+      480,
+      384,
+      32,
+      32
+    ],
+    "category": "ui",
+    "name": "health",
+    "glyph": "heal"
+  },
+  "ui_resource": {
+    "rect": [
+      0,
+      416,
+      32,
+      32
+    ],
+    "category": "ui",
+    "name": "resource",
+    "glyph": "coin"
+  },
+  "ui_dash": {
+    "rect": [
+      32,
+      416,
+      32,
+      32
+    ],
+    "category": "ui",
+    "name": "dash",
+    "glyph": "dash"
+  },
+  "ui_weapon": {
+    "rect": [
+      64,
+      416,
+      32,
+      32
+    ],
+    "category": "ui",
+    "name": "weapon",
+    "glyph": "sword"
+  },
+  "ui_skill": {
+    "rect": [
+      96,
+      416,
+      32,
+      32
+    ],
+    "category": "ui",
+    "name": "skill",
+    "glyph": "beam"
+  },
+  "ui_relic": {
+    "rect": [
+      128,
+      416,
+      32,
+      32
+    ],
+    "category": "ui",
+    "name": "relic",
+    "glyph": "bottle"
+  },
+  "ui_talent": {
+    "rect": [
+      160,
+      416,
+      32,
+      32
+    ],
+    "category": "ui",
+    "name": "talent",
+    "glyph": "scroll"
+  }
+}

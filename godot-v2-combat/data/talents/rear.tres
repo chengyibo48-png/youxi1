@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"rear"
+title = "背水一击"
+description = "普攻同时向后方追加低伤攻击"
+category = &"shape"
+effect = &"rear"
+amount = 1
+max_level = 1
+tags = Array[String](["melee"])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String]([])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

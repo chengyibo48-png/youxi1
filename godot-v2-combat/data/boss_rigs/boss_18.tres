@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="BossRigDefinition" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/boss_rig_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+stable_id = "boss_18"
+title = "大鹏金翅雕"
+atlas_index = 18
+body_row = 1
+shoulder_width = 31
+torso_height = 53
+thigh_length = 25
+shin_length = 25
+arm_length = 27
+arm_pairs = 1
+tail_segments = 0
+wing_pairs = 1
+head_count = 1
+crouch = 0
+weapon_id = "bailongma_w0"
+stance = "winged"
+head_size = Vector2(61, 57)

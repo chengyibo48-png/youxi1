@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"shaseng_t2"
+title = "月刃分光"
+description = "飞刃散印神通每级增加2发沙刃（2/4/6），额外沙刃伤害、布印和轨迹与主沙刃一致；其他神通不受影响"
+category = &"hero"
+effect = &"hero_extra_skill_shots"
+amount = 0.2
+max_level = 3
+tags = Array[String]([])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String](["effect_fan"])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

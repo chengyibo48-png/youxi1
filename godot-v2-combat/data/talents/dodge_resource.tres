@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"dodge_resource"
+title = "险中取势"
+description = "闪避无敌期间躲过命中，恢复8/16/24资源；独立冷却1秒，不缩短闪避、不延长无敌，同次闪避多次命中不会重复获益"
+category = &"trigger"
+effect = &"dodge_resource"
+amount = 8
+max_level = 3
+tags = Array[String]([])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String]([])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

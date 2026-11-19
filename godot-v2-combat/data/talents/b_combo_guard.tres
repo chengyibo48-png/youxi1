@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "b_combo_guard"
+title = "回耙架势"
+description = "第二段命中阶段获得0.15秒格挡窗口，只能挡一次"
+category = "hero"
+effect = "b_combo_guard"
+amount = 1
+max_level = 1
+tags = Array[String](["journey_mid"])
+requires_any = Array[String]([])

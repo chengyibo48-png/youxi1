@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "combo_aegis"
+title = "三式护身"
+description = "第三段消耗6资源换8护盾，护盾上限100"
+category = "trigger"
+effect = "combo_aegis"
+amount = 1
+max_level = 1
+tags = Array[String]([])
+requires_any = Array[String]([])

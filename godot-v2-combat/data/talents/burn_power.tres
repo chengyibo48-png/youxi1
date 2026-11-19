@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"burn_power"
+title = "三昧余焰"
+description = "灼烧伤害增加50%"
+category = &"element"
+effect = &"burn_power"
+amount = 0.5
+max_level = 3
+tags = Array[String]([])
+requires = Array[String]([])
+requires_any = Array[String](["burn"])
+source_tags_any = Array[String]([])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

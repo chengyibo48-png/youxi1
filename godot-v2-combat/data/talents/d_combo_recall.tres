@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "d_combo_recall"
+title = "三式归潮"
+description = "第三段召回兵器并积一层回收势，最多三层，保持2秒"
+category = "hero"
+effect = "d_combo_recall"
+amount = 1
+max_level = 1
+tags = Array[String](["projectile"])
+requires_any = Array[String]([])
+
+source_tags_any = Array[String](["return_source"])

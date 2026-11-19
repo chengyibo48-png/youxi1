@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="JourneyTalent" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/talent_resource.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"fan"
+title = "三花散射"
+description = "每次出手附加两枚35%伤害扇形副弹，本体投射伤害降低15%；每招只追加一次"
+category = &"shape"
+effect = &"fan"
+amount = 2
+max_level = 1
+tags = Array[String](["projectile"])
+requires = Array[String]([])
+requires_any = Array[String]([])
+source_tags_any = Array[String]([])
+blocked_by = Array[String]([])
+exclusive = ""
+needs_shield = false

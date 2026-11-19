@@ -1,0 +1,30 @@
+extends RefCounted
+# Existing attacks only. Different third-phase sequences, pauses and recovery windows.
+const PLANS={
+ "boss_0":[["charge","slam","roar"],.72,1.35,"侧躲扑阵，在震地收招后近身"],
+ "boss_1":[["ward","slam","roar"],.85,1.50,"用重击破护身，重砸后反击"],
+ "boss_2":[["gust","fan","burst"],.78,1.05,"逆风侧移，扇射间隙穿过弹道"],
+ "boss_3":[["illusion","blink","laser"],.90,1.30,"辨认真身，金光锁向后侧移"],
+ "boss_4":[["laser","charge","burst"],.70,1.20,"避开锁向金光，冲锋后追击"],
+ "boss_5":[["gourd","laser","fire"],.95,1.35,"先离开摄魂范围，再从侧面反击"],
+ "boss_6":[["ice","burst","gourd"],.90,1.25,"保留冰阵外通路，绕开八方弹"],
+ "boss_7":[["fire","charge","burst"],.85,1.20,"沿火域间隙移动，突进结束后攻击"],
+ "boss_8":[["summon","laser","roar"],.95,1.40,"先清援兵，绕过金光后近身"],
+ "boss_9":[["wave","ice","gourd"],.90,1.20,"横移越过寒潮，不在冰岸停留"],
+ "boss_10":[["ward","charge","roar"],.80,1.50,"重击破护身，侧躲冲锋再反击"],
+ "boss_11":[["poison","charge","laser"],.95,1.35,"留出无毒撤退线，尾针收势时反击"],
+ "boss_12":[["mirror","blink","charge"],.85,1.30,"先观察夹攻方向，躲过穿身后追击"],
+ "boss_13":[["gust","wave","burst"],.95,1.10,"顺场地横移，风停后接近"],
+ "boss_14":[["charge","fire","roar"],.90,1.45,"避开火域，冲锋尽头留有重击窗口"],
+ "boss_15":[["gourd","summon","ward"],1.00,1.35,"出摄魂阵清援兵，破护身后输出"],
+ "boss_16":[["fire","gust","poison"],1.05,1.30,"避开烟火与毒雾交界，风后追击"],
+ "boss_17":[["web","illusion","laser"],.95,1.40,"沿蛛网空隙移动，金光结束后反击"],
+ "boss_18":[["gust","charge","burst"],.75,1.20,"躲过掠地冲锋，借弹幕间隙追击"],
+ "boss_19":[["illusion","web","summon"],1.00,1.35,"清除幻身援兵，绕开封路区域"],
+ "boss_20":[["blink","gourd","poison"],1.05,1.40,"移形落点锁定后退开，再绕毒区接近"],
+ "boss_21":[["fog","illusion","charge"],1.00,1.30,"守住可见撤退线，扑击结束后反击"],
+ "boss_22":[["summon","ward","charge"],.95,1.45,"先清援兵，冲锋后破盾追击"],
+ "boss_23":[["roar","summon","roar"],1.10,1.55,"穿过声浪间隔，清援兵后抓收招"],
+ "boss_24":[["ice","wave","roar"],1.00,1.35,"在冰阵外侧横移，声浪结束后输出"],
+ "boss_25":[["blink","illusion","wave"],.90,1.25,"观察移形落点，避过寒潮再追击"]}
+static func plan(id: String) -> Array:return PLANS.get(id,[[],.75,1.25,"观察预警，收招反击"])

@@ -1,0 +1,167 @@
+{
+  "characters": [
+    {
+      "file": "heroes.png",
+      "kind": "AI-assisted concept sprite atlas",
+      "animation": "continuous mesh skin: feet, robe, shoulders; not hand-drawn frames"
+    }
+  ],
+  "enemies": [
+    {
+      "file": "enemies.png",
+      "kind": "eight concept silhouettes",
+      "boss_profiles": "../data/bosses.json",
+      "dedicated_boss_art": false
+    },
+    {
+      "file": "bosses-premium.png",
+      "kind": "four AI-assisted original creature portraits",
+      "used_for": [
+        "红孩儿",
+        "牛魔王",
+        "青牛精",
+        "白骨精",
+        "variant summoner"
+      ],
+      "full_26_unique_animations": false
+    }
+  ],
+  "scenes": [
+    "courtyard.png",
+    "forest.png",
+    "river.png",
+    {
+      "file": "props-ink.png",
+      "kind": "AI-assisted hand-painted transparent rock / pine / pillar atlas",
+      "collision": "../scripts/room_geometry.gd",
+      "prompt": "PROP_PROMPT.md"
+    },
+    {
+      "file": "environment-atlas.png",
+      "regions": [
+        "grave",
+        "ember",
+        "web",
+        "temple"
+      ],
+      "kind": "four AI-assisted original scenery cells"
+    }
+  ],
+  "effects": [
+    {
+      "source": "../scripts/main.gd",
+      "kind": "original code-drawn attack and warning effects"
+    }
+  ],
+  "ui": [
+    {
+      "file": "chinese.ttf",
+      "license": "FONT-LICENSE.txt",
+      "source": "Google Fonts Noto Sans SC"
+    },
+    {
+      "file": "ui/item-icons.png",
+      "stable_ids": 214,
+      "semantic_shapes": 35,
+      "source": "../tools/generate_pixel_icons.py"
+    }
+  ],
+  "audio": [
+    {
+      "files": "audio/*.wav",
+      "source": "../tools/compose_audio.py",
+      "kind": "original synthesized music and layered SFX, no third-party samples",
+      "native_voice_limit": 16
+    }
+  ],
+  "role_rebuild": {
+    "character_atlas": "characters/role-rig-atlas.png",
+    "ability_icons": "ui/role-abilities.png",
+    "icon_count": 40,
+    "art_origin": "AI-assisted original artwork; no Warm Snow game assets used",
+    "animation": "Layered joint hierarchy and procedural authored action poses, not a finished professionally animated sprite set",
+    "audio_origin": "Original synthesized waveforms, tools/compose_role_audio.py",
+    "audio_count": 64
+  },
+  "painterly_2026_10_09": {
+    "source": "Original built-in image generation; no reference images from third-party games",
+    "files": [
+      "painterly/weapons.png",
+      "painterly/relics.png",
+      "painterly/effects.png",
+      "painterly/rooms.png"
+    ],
+    "runtime": "AtlasTexture, transparent bitmap sprites",
+    "notes": "AI-assisted artwork; sprite illustrations, not 3D meshes"
+  },
+  "painterly_2026_10_10": {
+    "source": "Original built-in AI-assisted generation; no commercial game reference images",
+    "files": [
+      "painterly/weapons.png",
+      "painterly/relics.png",
+      "painterly/effects.png",
+      "painterly/rooms.png",
+      "painterly/enemy-rig.png",
+      "painterly/hero-rig.png",
+      "painterly/terrain.png"
+    ],
+    "region_metadata": "painterly/regions.json",
+    "design_brief": "painterly/PROMPTS.md",
+    "runtime": "Cached AtlasTexture regions, layered 2D bone constraints; original PNGs unchanged",
+    "effects": "Original material particles and independent convex trajectory strips driven by actual actions",
+    "limitations": "2D illustrations, not 3D models. Eight monster rigs reused by bosses. Human art and playtest acceptance pending."
+  },
+  "rig_chapter_iteration": {
+    "source": "Original built-in image generation, no third-party reference images",
+    "files": [
+      "painterly/chapter-props-v2.png",
+      "painterly/boss-heads-v2.png",
+      "painterly/boss-heads-v3.png",
+      "painterly/boss-parts-v2.png",
+      "painterly/terrain-v2.png",
+      "painterly/boss-lion-head.png"
+    ],
+    "prompts": "painterly/ITERATION_PROMPTS.md",
+    "runtime": "26 boss resource definitions, bespoke appendage chains, 50 additive keyframed clips, chapter scenery with saved collision placement",
+    "limitations": "Shared limb materials and four torso families remain. Keyframed skeletal animation is not individually hand-drawn frame animation. Human review and playtests pending."
+  },
+  "painted_production_iteration": {
+    "generator": "Built-in image_gen; original transparent PNGs",
+    "files": [
+      "walk-wukong-v2.png",
+      "walk-tangseng-v2.png",
+      "walk-bajie-v2.png",
+      "walk-shaseng-v2.png",
+      "walk-bailongma-v2.png",
+      "hero-facing-v2.png",
+      "boss-body-v3-0.png",
+      "boss-body-v3-1.png",
+      "boss-body-v3-2.png",
+      "boss-body-v3-3.png",
+      "boss-body-v3-4.png",
+      "chapter-landmarks-v3.png"
+    ],
+    "prompt_record": "assets/painterly/PAINTED_PRODUCTION_PROMPTS.md",
+    "runtime": "Fixed-cell SpriteFrames with sole anchors, upper-body and weapon IK; 26 dedicated boss material sets; 8 authored chapter compositions",
+    "limitations": "AI-assisted layered/frame artwork, not complete professional hand-drawn animation; repeated gait poses need repair; 29 chapters remain to refine",
+    "commercial_reference_inputs": []
+  },
+  "remaining_polish_iteration": {
+    "generator": "Built-in image_gen; original transparent PNGs; no commercial reference images",
+    "files": [
+      "painterly/action-wukong-v3.png",
+      "painterly/action-tangseng-v3.png",
+      "painterly/action-bajie-v3.png",
+      "painterly/action-shaseng-v3.png",
+      "painterly/action-bailongma-v3.png",
+      "painterly/chapter-landmarks-v4-0.png",
+      "painterly/chapter-landmarks-v4-1.png",
+      "painterly/chapter-landmarks-v4-2.png",
+      "painterly/chapter-landmarks-v4-3.png"
+    ],
+    "prompt_record": "assets/painterly/REMAINING_PRODUCTION_PROMPTS.md",
+    "runtime": "120 lower-body attack stance frames; 37 story landmark compositions; shared combat-clock boss phase, hurt and death poses",
+    "limitations": "AI-assisted lower-body frame sheets and skeletal upper body, not complete professional human-drawn animation. Whole chapter art, full boss directional/action frames and human playtests remain unfinished.",
+    "commercial_reference_inputs": []
+  }
+}
